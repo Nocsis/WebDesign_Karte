@@ -1,0 +1,56 @@
+body{
+    background-image: url("nav.png");
+    background-size:   100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 79px auto 30px auto 30px auto 30px auto 97px;
+    grid-template-rows: 31px 12px 26px 65px 665px;
+    
+   
+    
+  }
+  
+  .grid-container > div {
+    
+    text-align: left;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+   
+    font-size: 10px;
+    
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+   
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  img{
+      height: 150px;
+      width: 200px;
+  }
