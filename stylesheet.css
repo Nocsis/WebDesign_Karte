@@ -3,27 +3,27 @@ body{
     background-size:   100%;
     background-repeat: no-repeat;
     margin: 0px;
-    
+
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: 79px auto 30px auto 30px auto 30px auto 97px;
+    grid-template-columns: 100px 400px 30px 400px 30px 400px 30px 400px 130px;
     grid-template-rows: 31px 12px 26px 65px 665px;
-    
-   
-    
+
+
+
   }
-  
+
   .grid-container > div {
-    
+
     text-align: left;
     border-color: black;
     border-width: 1px;
     border-style: solid;
-   
+
     font-size: 10px;
-    
+
   }
 
   ul {
@@ -33,19 +33,19 @@ body{
     overflow: hidden;
     background-color: #333;
   }
-  
+
   li {
     float: left;
   }
-  
+
   li a {
     display: block;
     color: white;
     text-align: center;
-   
+
     text-decoration: none;
   }
-  
+
   li a:hover {
     background-color: #111;
   }
