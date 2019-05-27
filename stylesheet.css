@@ -13,6 +13,19 @@ body{
     display: grid;
     grid-template-columns: 100px 400px 30px 400px 30px 400px 30px 400px 100px;
     grid-template-rows: 36px 18px 33px 73px 440px 50px 30px auto 30px 30px auto;
+    grid-template-areas:
+    'leer leer leer leer leer leer leer leer leer'
+    'leer ueberleben leer leer leer leer leer leer leer'
+    'leer ueberleben leer navigation leer navigation leer navigation leer'
+    'leer leer leer leer leer leer leer leer leer'
+    'leer name leer bild leer text text text leer'
+    'leer leer leer leer leer leer leer leer leer'
+    'leer leer leer leer leer leer leer leer leer'
+    'leer leer leer jahr jahr leer leer leer leer'
+    'leer leer leer leer leer leer leer leer leer'
+    'leer leer leer leer leer leer leer leer leer'
+    'leer leer leer leer pfeil leer leer leer leer'
+
   }
 
   .grid-container > div {
@@ -75,21 +88,10 @@ font-size: 30px;
       }
 
 
-.navigation1
+.navigation
 {
   background-image: url("Material/Bilder/hintergrund-test.jpg");
   
-}
-
-.navigation2
-{
-  background-image: url("Material/Bilder/hintergrund-test.jpg");
-}
-
-.navigation3
-{
-  background-image: url("Material/Bilder/hintergrund-test.jpg");
- 
 }
 
 .img{
