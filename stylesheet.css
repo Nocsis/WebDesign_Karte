@@ -3,58 +3,37 @@ body{
     background-size:   100%;
     background-repeat: no-repeat;
     margin: 0px;
-
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: 100px 400px 30px 400px 30px 400px 30px 400px 130px;
-    grid-template-rows: 36px 18px 33px 73px 920px;
-
-
-
+    grid-template-rows: 36px 18px 33px 73px 440px 50px 30px auto 30px 30px auto;
   }
 
   .grid-container > div {
-
     text-align: left;
     border-color: black;
     border-width: 1px;
     border-style: solid;
-
     font-size: 10px;
-
   }
 
-  img{
-    width: 400px;
-    
-}
 
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
-.bg-img {
 
-
-/* Needed to position the navbar */
-position: relative;
-}
 
 /* Position the navbar container inside the image */
 .container {
 position: absolute;
 width: 400px;
-
-
-
 }
 
 /* The navbar */
 .topnav {
 overflow: hidden;
-
-
 }
 
 /* Navbar links */
@@ -65,29 +44,27 @@ text-align: center;
 padding: 14px ;
 text-decoration: none;
 font-size: 15px;
-background-image: url("Paper_Ripped_Ver_2.psd");
-background-size: cover;
-}
-
-
-
-/* Navbar links */
-.navigationsbar3 {
-float: left;
-color: black;
-text-align: center;
-padding: 14px ;
-text-decoration: none;
-font-size: 10px;
 }
 
 .topnav a:hover {
-background-color:#375f79;
-color: white;
+  background-color:#375f79;
+  color: white;
+  }
+
+.navigation1
+{
+  background-image: url("hintergrund-test.jpg");
+}
+
+.navigation2
+{
+  background-image: url("hintergrund-test.jpg");
+}
+
+.navigation3
+{
+  background-image: url("hintergrund-test.jpg");
 }
 
 
-p{
-font-size: 20px;
-}
 
