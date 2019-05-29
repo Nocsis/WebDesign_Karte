@@ -1,103 +1,117 @@
 body{
-    background-image: url("Material/Bilder/nav_bg.png");
-    background-size:   100%;
-    background-repeat: no-repeat;
-    margin: 0px;
-    font-family: sans-serif;
-    width: 1vw;
+  background-image: url("Material/Bilder/nav_bg.png");
+  background-size:   100%;
+  background-repeat: no-repeat;
+  margin: 0px;
+  font-family: sans-serif;
+  width: 1vw;
 }
 
 * {box-sizing: border-box;}
 
 .grid-container {
-    display: grid;
-    grid-template-columns: 100px 400px 30px 400px 30px 400px 30px 400px 100px;
-    grid-template-rows: 36px 18px 33px 73px 440px 50px 30px auto 30px 30px auto;
-    grid-template-areas:
-    '. . . . . . . . .'
-    '. ueberleben . . . . . . .'
-    '. ueberleben . navigation . navigation . navigation .'
-    '. . . . . . . . .'
-    '. name . bild . text text text .'
-    '. . . . . . . . .'
-    '. . . . . . . . .'
-    '. . . jahr jahr . . . .'
-    '. . . . . . . . .'
-    '. . . . . . . . .'
-    '. . . . pfeil . . . .'
+  display: grid;
+  grid-template-columns: 100px 400px 30px 400px 30px 400px 30px 400px 100px;
+  grid-template-rows: 36px 18px 33px 73px 440px 50px 30px auto 30px 30px auto;
+  grid-template-areas:
+  '. . . . . . . . .'
+  '. ueberleben . . . . . . .'
+  '. ueberleben . navigation . navigation . navigation .'
+  '. . . . . . . . .'
+  '. name . bild . text text text .'
+  '. . . . . . . . .'
+  '. . . . . . . . .'
+  '. . . jahr jahr . . . .'
+  '. . . . . . . . .'
+  '. . . . . . . . .'
+  '. . . . pfeil . . . .'
+}
 
-  }
+.grid-container > div {
+  text-align: left;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  font-size: 10px;
+  text-align: center;
+}
 
-  .grid-container > div {
-    text-align: left;
-    border-color: black;
-    border-width: 1px;
-    border-style: solid;
-    font-size: 10px;
-    text-align: center;
-  }
+nav {
+  position: absolute;
+  width: 400px;
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 0px ;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+nav a:hover {
+  background-color:#375f79;
+  color: white;
+}
 
 /* Position der Navigation auf dem Hintergrundbild */
 .container {
-position: absolute;
-width: 400px;
-
+  position: absolute;
+  width: 400px;
 }
 
 /* die Navigation 1 und 2*/
 .topnav {
-overflow: hidden;
-
+  overflow: hidden;
 }
 
 .topnav a {
-float: left;
-color: black;
-text-align: center;
-padding: 0px ;
-text-decoration: none;
-font-size: 30px;
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 0px ;
+  text-decoration: none;
+  font-size: 30px;
 }
 
 .topnav a:hover {
   background-color:#375f79;
   color: white;
-  
-  }
+}
 
 
-  /*Navigation 3*/
-  .nav {
-    overflow: hidden;
+/*Navigation 3*/
+.nav {
+  overflow: hidden;
+}
+
+.sidenav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 10px ;
+  text-decoration: none;
+  font-size: 15px;
+}
     
-    }
-
-    .nav a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 10px ;
-    text-decoration: none;
-    font-size: 15px;
-    }
-    
-    .nav a:hover {
-      background-color:#375f79;
-      color: white;
-      
-      }
+.sidenav a:hover {
+  background-color:#375f79;
+  color: white;
+}
 
 
 .navigation
 {
   background-image: url("Material/Bilder/hintergrund-test.jpg");
-  
 }
 
 .img{
   height: 30px;
   width: 30px;
 }
+
 /*#section1 {
   height: auto;
   
@@ -107,4 +121,3 @@ font-size: 30px;
   height: 1080px;
   background-image: url("Nathan-Karte.jpg");
 }*/
-
