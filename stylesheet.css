@@ -4,15 +4,16 @@
   
 }
 
-body{
-    background-image: url("Material/Bilder/nav_bg_notext.png");
-    background-size:   100%;
-    background-repeat: no-repeat;
-    margin: 0px;
-    width: 1vw;
-}
-
 * {box-sizing: border-box;}
+
+body{
+  background-image: url("Material/Bilder/nav_bg_notext_small.png");
+  background-size:   100%;
+  background-repeat: no-repeat;
+  margin: 0px;
+  font-family: sans-serif;
+  width: 1vw;
+}
 
 .grid-container {
     display: grid;
@@ -89,15 +90,13 @@ nav a:hover {
   width: 30px;
 }
 
-/*#section1 {
+#section1 {
   height: auto;
-  
 }
 
 #section2 {
   height: 1080px;
-  background-image: url("Nathan-Karte.jpg");
-}*/
+}
 
 #ueberleben {
   text-align: left ;
@@ -106,8 +105,6 @@ nav a:hover {
   outline: 5px solid red;
   grid-area: ueberleben;
   align-self: end;
- 
-  
 }
 
 #navigation1 nav{
