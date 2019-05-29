@@ -10,3 +10,8 @@ Kleines Handbuch zum Nutzen von Git: https://docs.google.com/document/d/1956RBiq
 ---
 
 Link zu den Materialien: https://drive.google.com/drive/folders/16tA7qmiUtgT-srST94RHHfOXPwjAuPwY?usp=sharing
+
+---
+
+Erklärung HTML Map:
+https://www.w3schools.com/tags/tag_map.asp
