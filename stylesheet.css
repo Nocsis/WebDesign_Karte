@@ -1,9 +1,15 @@
+@font-face{
+  font-family: 'BebasNeue';
+  src: url("Material/bebas_neue/BebasNeue Thin.otf") format("opentype");
+  
+}
+
 body{
-    background-image: url("Material/Bilder/nav_bg.png");
+    background-image: url("Material/Bilder/nav_bg_notext.png");
     background-size:   100%;
     background-repeat: no-repeat;
     margin: 0px;
-    font-family: sans-serif;
+   font-family: sans-serif;
     width: 1vw;
 }
 
@@ -14,9 +20,9 @@ body{
     grid-template-columns: 100px 400px 30px 400px 30px 400px 30px 400px 100px;
     grid-template-rows: 36px 18px 33px 73px 440px 50px 30px auto 30px 30px auto;
     grid-template-areas:
-    '. . . . . . . . .'
     '. ueberleben . . . . . . .'
-    '. ueberleben . navigation . navigation . navigation .'
+    '. ueberleben . . . . . . .'
+    '. ueberleben . navigation navigation navigation . navigatio .'
     '. . . . . . . . .'
     '. name . bild . text text text .'
     '. . . . . . . . .'
@@ -98,7 +104,7 @@ font-size: 30px;
   height: 30px;
   width: 30px;
 }
-/*#section1 {
+#section1 {
   height: auto;
   
 }
@@ -106,5 +112,19 @@ font-size: 30px;
 #section2 {
   height: 1080px;
   background-image: url("Nathan-Karte.jpg");
-}*/
+}
 
+#ueberleben {
+  text-align: left ;
+  font-size: 52px;
+  font-family: 'BebasNeue';
+  outline: 5px solid red;
+  grid-column: 2;
+  grid-row: 1/ span 3;
+}
+
+#navigation {
+  /* grid-column: 4/span 3;
+  grid-row: 3; */
+  grid-area: navigation;
+}
