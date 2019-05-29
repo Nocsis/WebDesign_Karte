@@ -36,6 +36,7 @@ body{
   text-align: center;
 }
 
+/*Personen-nav*/
 nav {
   position: absolute;
   width: 400px;
@@ -56,37 +57,7 @@ nav a:hover {
   color: white;
 }
 
-/* Position der Navigation auf dem Hintergrundbild */
-.container {
-  position: absolute;
-  width: 400px;
-}
-
-/* die Navigation 1 und 2*/
-.topnav {
-  overflow: hidden;
-}
-
-.topnav a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 0px ;
-  text-decoration: none;
-  font-size: 30px;
-}
-
-.topnav a:hover {
-  background-color:#375f79;
-  color: white;
-}
-
-
-/*Navigation 3*/
-.nav {
-  overflow: hidden;
-}
-
+/*mini-Nav rechts*/
 .sidenav a {
   float: left;
   color: black;
