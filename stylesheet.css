@@ -27,6 +27,7 @@ body{
   margin: 0px;
   font-family: 'BebasNeueRegular';
   width: 1vw;
+  overflow-x: hidden;
 }
 
 .grid-container {
@@ -44,7 +45,7 @@ body{
     '. . . jahr jahr . . . .'
     '. . . . . . . . .'
     '. . . . . . . . .'
-    '. . . . pfeil . . . .'
+    '. . . . . . . . .'
 }
 
 .grid-container > div {
@@ -103,12 +104,8 @@ nav a:hover {
   width: 30px;
 }
 
-#section1 {
-  height: auto;
-}
-
 #section2 {
-  height: 1080px;
+  height: 100vh;
 }
 
 #ueberleben {
@@ -131,3 +128,26 @@ strong{
   
 }
 
+.scrollButton {
+  width: 3vw;
+  height: 3vw;
+  position: fixed;
+  bottom: 5vh;
+  right: 50vw;
+  z-index: 99;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+#downButton {
+  display: none;
+  /*TODO: Add background: url(down arrow);*/
+}
+
+#upButton {
+  display: none;
+  /*TODO: Add background: url(up arrow);*/
+}
