@@ -27,6 +27,7 @@ body{
   margin: 0px;
   font-family: 'BebasNeueRegular';
   width: 1vw;
+  overflow-x: hidden;
 }
 
 .grid-container {
@@ -44,7 +45,7 @@ body{
     '. . . jahr jahr . . . .'
     '. . . . . . . . .'
     '. . . . . . . . .'
-    '. . . . pfeil . . . .'
+    '. . . . . . . . .'
 }
 
 .grid-container > div {
@@ -98,12 +99,13 @@ nav a:hover {
   background-image: url("Material/Bilder/hintergrund-test.jpg");
 }
 
-#section1 {
-  height: auto;
+.img{
+  height: 30px;
+  width: 30px;
 }
 
 #section2 {
-  height: 1080px;
+  height: 100vh;
 }
 
 #ueberleben {
@@ -131,6 +133,19 @@ nav a:hover {
   font-size: 52px;
   text-align: center;
 }
+.scrollButton {
+  width: 3vw;
+  height: 3vw;
+  position: fixed;
+  bottom: 5vh;
+  right: 50vw;
+  z-index: 99;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 50%;
+}
 
 #text{
   grid-area: text;
@@ -141,3 +156,13 @@ nav a:hover {
 
 
 
+
+#downButton {
+  display: none;
+  /*TODO: Add background: url(down arrow);*/
+}
+
+#upButton {
+  display: none;
+  /*TODO: Add background: url(up arrow);*/
+}
