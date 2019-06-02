@@ -127,12 +127,12 @@ nav a:hover {
   grid-area: navigationRechts;
 }
 
-#nameHintergrund{
+#nameHintergrund{ 
   background-color: black;
   color: white;
   font-size: 52px;
-  text-align: center;
 }
+
 .scrollButton {
   width: 3vw;
   height: 3vw;
@@ -148,21 +148,27 @@ nav a:hover {
 }
 
 #text{
+  margin-top: 90px; 
   grid-area: text;
   text-align: left;
   font-size: 25px;
+  vertical-align: text-bottom; 
 
 }
 
-
-
-
 #downButton {
   display: none;
+  background-color: green;
   /*TODO: Add background: url(down arrow);*/
 }
 
 #upButton {
   display: none;
+  background-color: green; 
   /*TODO: Add background: url(up arrow);*/
+}
+
+#name{
+  margin-top: 235px;
+  text-align: right;
 }
