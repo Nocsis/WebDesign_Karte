@@ -49,9 +49,9 @@ body{
 
 .grid-container > div {
   text-align: left;
-  /*border-color: black;
+  border-color: black;
   border-width: 1px;
-  border-style: solid;*/
+  border-style: solid;
   font-size: 10px;
   text-align: center;
 }
@@ -98,11 +98,6 @@ nav a:hover {
   background-image: url("Material/Bilder/hintergrund-test.jpg");
 }
 
-.img{
-  height: 30px;
-  width: 30px;
-}
-
 #section1 {
   height: auto;
 }
@@ -118,8 +113,8 @@ nav a:hover {
   grid-area: ueberleben;
   padding-top: 26px;
 }
-strong{
-  font-family: 'BebasNeueRegular';
+#ueberlebenUeberschrift{
+  font-family: 'BebasNeueRegular'; 
 }
 
 #navigation{
@@ -128,6 +123,21 @@ strong{
 
 #navigationRechts{
   grid-area: navigationRechts;
-  
 }
+
+#nameHintergrund{
+  background-color: black;
+  color: white;
+  font-size: 52px;
+  text-align: center;
+}
+
+#text{
+  grid-area: text;
+  text-align: left;
+  font-size: 25px;
+
+}
+
+
 
