@@ -16,8 +16,6 @@ function checkScroll() {
 
 function scrollToTop() {
     window.scroll({top: 0, behavior: 'smooth'});
-    /*document.body.scrollTop = 0; //Safari
-    document.documentElement.scrollTop = 0; //Chrome, Firefox, IE and Opera*/
 }
 
 function scrollToBottom() {
