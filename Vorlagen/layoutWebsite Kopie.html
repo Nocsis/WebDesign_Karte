@@ -14,12 +14,12 @@
 
   <body>
     <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <strong>upgrade your browser</strong> to improve your experience.</p>
     <![endif]-->
     
     <div class="grid-container" >
 
-      <div id="ueberleben">Über<strong id="ueberlebenUeberschrift">leben</strong> </div>
+      <div id="ueberleben">Über<strong>leben</strong> </div>
 
       <div id="navigation">
         <nav>
@@ -34,29 +34,36 @@
       
       <div id="navigationRechts">
         <nav class="sidenav">
-          <a href="#">&emsp;&emsp;&emsp;&nbsp;FILM&nbsp;&nbsp;//</a>
+          <a href="#"><!--&emsp;&emsp;&emsp;&nbsp;-->FILM&nbsp;&nbsp;//</a>
           <a href="#">&nbsp;&nbsp;VEREIN&nbsp;&nbsp;//</a>
           <a href="#">&nbsp;&nbsp;KONTAKT&nbsp;&nbsp;//</a>
           <a href="#">&nbsp;&nbsp;IMPRESSUM </a>
         </nav>
       </div>
-      
+
+      <!--Das &nbsp; vor den Zeilen ist wichtig
+          um das Layout der schwarzen Boxen zu erhalten!-->
       <div id="name">
-        <span id="nameHintergrund">Dummy <br>Dum</span>
+        <span id="vorname">
+          &nbsp;Dummy
+        </span>
+        <span id="nachname">
+          &nbsp;Dum
+        </span>
       </div>
       
       <div id="bild">
         <img src="../Material/Bilder/portrait-dummy.jpg" alt="portrait-dummy" height="100%" width="90.91%">
       </div>
       
-      <div id="text" >
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+      <div id="text">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
         sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
         sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
         no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
         sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
         accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor 
-        sit amet.</p>
+        sit amet.
       </div>
 
       <div id="jahr">text here</div>

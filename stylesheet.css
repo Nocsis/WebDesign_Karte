@@ -32,21 +32,21 @@ body{
 
 .grid-container {
   height: 100vh;
-    display: grid;
-    grid-template-columns: 5.2vw 20.8vw 2.3vw 20.8vw 2.3vw 20.8vw 2.3vw 20.8vw 4.7vw;
+  display: grid;
+  grid-template-columns: 5.2vw 20.8vw 2.3vw 20.8vw 2.3vw 20.8vw 2.3vw 20.8vw 4.7vw;
   grid-template-rows: 3vh 2vh 3.1vh 9vh 41vh 5vh 3vh 20.5vh 3vh 3vh 7.4vh;
-    grid-template-areas:
-    '. ueberleben . . . . . . .'
-    '. ueberleben . . . . . . .'
-    '. ueberleben . navigation navigation navigation . navigationRechts .'
-    '. . . . . . . . .'
-    '. name . bild . text text text .'
-    '. . . . . . . . .'
-    '. . . . . . . . .'
-    '. . . jahr jahr . . . .'
-    '. . . . . . . . .'
-    '. . . . . . . . .'
-    '. . . . . . . . .'
+  grid-template-areas:
+  '. ueberleben . . . . . . .'
+  '. ueberleben . . . . . . .'
+  '. ueberleben . navigation navigation navigation . navigationRechts .'
+  '. . . . . . . . .'
+  '. name . bild . text text text .'
+  '. . . . . . . . .'
+  '. . . . . . . . .'
+  '. . . . . jahr jahr jahr .'
+  '. . . . . . . . .'
+  '. . . . . . . . .'
+  '. . . . . . . . .';
 }
 
 .grid-container > div {
@@ -58,7 +58,23 @@ body{
   text-align: center;
 }
 
+/*Logo*/
+#ueberleben {
+  text-align: left ;
+  font-size: 52px;
+  font-family: 'BebasNeueLight';
+  grid-area: ueberleben;
+  padding-top: 26px;
+}
+#ueberleben strong{
+  font-family: 'BebasNeueRegular'; 
+}
+
 /*Personen-nav*/
+#navigation{
+  grid-area: navigation;
+}
+
 nav {
   position: absolute;
   overflow: hidden;
@@ -67,8 +83,6 @@ nav {
 nav a {
   float: left;
   color: black;
-  text-align: center;
-  padding: 0px ;
   text-decoration: none;
   font-size: 33px;
 }
@@ -79,61 +93,58 @@ nav a:hover {
 }
 
 /*mini-Nav rechts*/
-.sidenav a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding-top: 9px;
-  text-decoration: none;
-  font-size: 18px;
-  
-}
-    
-.sidenav a:hover {
-  background-color:#375f79;
-  color: white;
-}
-
-
-.navigation
-{
-  background-image: url("Material/Bilder/hintergrund-test.jpg");
-}
-
-.img{
-  height: 30px;
-  width: 30px;
-}
-
-#section2 {
-  height: 100vh;
-}
-
-#ueberleben {
-  text-align: left ;
-  font-size: 52px;
-  font-family: 'BebasNeueLight';
-  grid-area: ueberleben;
-  padding-top: 26px;
-}
-#ueberlebenUeberschrift{
-  font-family: 'BebasNeueRegular'; 
-}
-
-#navigation{
-  grid-area: navigation;
-}
-
 #navigationRechts{
   grid-area: navigationRechts;
 }
 
-#nameHintergrund{ 
+.sidenav {
+  outline: 5px solid darkorange;
+}
+
+.sidenav a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px; 
+}
+
+/*Name*/
+#name{
+  grid-area: name;
+  text-align: right;
+  align-self: end;
+}
+
+#vorname, #nachname{ 
   background-color: black;
   color: white;
   font-size: 52px;
+  float: right;
+  clear: both;
 }
 
+#nachname {
+  margin-top: 1vh;
+}
+
+/*Portrait*/
+#bild {
+  grid-area: bild;
+}
+
+/*Zitat*/
+#text{
+  grid-area: text;
+  text-align: left;
+  font-size: 25px;
+  align-self: end;
+}
+
+/*Stationen*/
+#jahr {
+  grid-area: jahr;
+}
+
+/*Scroll Buttons*/
 .scrollButton {
   width: 3vw;
   height: 3vw;
@@ -148,13 +159,9 @@ nav a:hover {
   border-radius: 50%;
 }
 
-#text{
-  margin-top: 90px; 
-  grid-area: text;
-  text-align: left;
-  font-size: 25px;
-  vertical-align: text-bottom; 
-
+.scrollButton:hover {
+  width: 3.5vw;
+  height: 3.5vw;
 }
 
 #downButton {
@@ -165,11 +172,12 @@ nav a:hover {
 
 #upButton {
   display: none;
-  background-color: green; 
+  background-color: red; 
   /*TODO: Add background: url(up arrow);*/
 }
 
-#name{
-  text-align: right;
-  align-self: end;
+
+/*Karten-screen*/
+#section2 {
+  height: 100vh;
 }
