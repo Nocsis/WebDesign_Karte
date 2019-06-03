@@ -181,3 +181,11 @@ nav a:hover {
 #section2 {
   height: 100vh;
 }
+
+#bild{
+  grid-area: bild;
+}
+
+..{
+  grid-area: .;
+}
