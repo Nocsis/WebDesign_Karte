@@ -64,7 +64,9 @@ body{
   font-size: 52px;
   font-family: 'BebasNeueLight';
   grid-area: ueberleben;
-  padding-top: 26px;
+  align-self: end;
+  
+ 
 }
 #ueberleben strong{
   font-family: 'BebasNeueRegular'; 
@@ -99,6 +101,8 @@ nav a:hover {
 
 .sidenav {
   outline: 5px solid darkorange;
+  position: absolute;
+  right: 8.5vh;
 }
 
 .sidenav a {
