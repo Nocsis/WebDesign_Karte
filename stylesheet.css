@@ -189,7 +189,3 @@ nav a:hover {
 #bild{
   grid-area: bild;
 }
-
-..{
-  grid-area: .;
-}
