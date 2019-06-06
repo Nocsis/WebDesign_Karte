@@ -18,7 +18,9 @@
   src: url("Material/bebas_neue/BebasNeue Light.otf") format("opentype");
 }
 
-* {box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 
 body{
   background-image: url("Material/Bilder/nav_bg_notext_small.png");
@@ -50,7 +52,6 @@ body{
 }
 
 .grid-container > div {
-  text-align: left;
   border-color: black;
   border-width: 1px;
   border-style: solid;
@@ -60,14 +61,13 @@ body{
 
 /*Logo*/
 #ueberleben {
-  text-align: left ;
   font-size: 52px;
   font-family: 'BebasNeueLight';
   grid-area: ueberleben;
-  align-self: end;
-  
- 
+  text-align: left;
+  align-self: end; 
 }
+
 #ueberleben strong{
   font-family: 'BebasNeueRegular'; 
 }
