@@ -32,15 +32,16 @@ body{
   overflow-x: hidden;
 }
 
+header {
+  height: 8.1vh;
+}
+
 .grid-container {
   height: 100vh;
   display: grid;
   grid-template-columns: 5.2vw 20.8vw 2.3vw 20.8vw 2.3vw 20.8vw 2.3vw 20.8vw 4.7vw;
-  grid-template-rows: 3vh 2vh 3.1vh 9vh 41vh 5vh 3vh 20.5vh 3vh 3vh 7.4vh;
+  grid-template-rows: 9vh 41vh 5vh 3vh 20.5vh 3vh 3vh 7.4vh;
   grid-template-areas:
-  '. ueberleben . . . . . . .'
-  '. ueberleben . . . . . . .'
-  '. ueberleben . navigation navigation navigation . navigationRechts .'
   '. . . . . . . . .'
   '. name . bild . text text text .'
   '. . . . . . . . .'

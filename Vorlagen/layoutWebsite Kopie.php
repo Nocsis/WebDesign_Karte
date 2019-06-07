@@ -10,32 +10,10 @@
   </head>
 
   <body>
+    <?php include ("../html/header.php"); ?>
     
     <div class="grid-container" >
-
-      <div id=super>
-      <div id="ueberleben">Über<strong>leben</strong> </div> </div>
-
-      <div id="navigation">
-        <nav>
-          <a href="#">BELLA&nbsp; //</a>
-          <a href="#">&nbsp;&nbsp;JOSEPH &nbsp;//</a>
-          <a href="#">&nbsp;&nbsp;NATHAN&nbsp; //</a>
-          <a href="#">&nbsp;&nbsp;STEFFI &nbsp;//</a>
-          <a href="#">&nbsp;&nbsp;AVISHAI &nbsp;//</a>
-          <a href="#">&nbsp;&nbsp;CARLA &nbsp; //</a>
-        </nav>
-      </div>
-      
-      <div id="navigationRechts">
-        <nav class="sidenav">
-          <a href="#"><!--&emsp;&emsp;&emsp;&nbsp;-->FILM&nbsp;&nbsp;//</a>
-          <a href="#">&nbsp;&nbsp;VEREIN&nbsp;&nbsp;//</a>
-          <a href="#">&nbsp;&nbsp;KONTAKT&nbsp;&nbsp;//</a>
-          <a href="#">&nbsp;&nbsp;IMPRESSUM </a>
-        </nav>
-      </div>
-
+    
       <!--Das &nbsp; vor den Zeilen ist wichtig
           um das Layout der schwarzen Boxen zu erhalten!-->
       <div id="name">
