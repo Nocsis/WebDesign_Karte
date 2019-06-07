@@ -42,7 +42,9 @@
       <div id="jahr">year here</div>
     </div>
 
-    <div id="section2"><img src="../Material/Bilder/dummy-map.jpg"> </div>
+    <div id="section2">
+      <img src="../Material/Bilder/dummy-map.jpg">
+    </div>
 
     <button class="scrollButton" id="downButton" onclick="scrollToBottom()"></button>
     <button class="scrollButton" id="upButton" onclick="scrollToTop()"></button>
