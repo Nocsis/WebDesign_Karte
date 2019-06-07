@@ -60,6 +60,11 @@ body{
 }
 
 /*Logo*/
+#super{
+  grid-area: ueberleben;
+  margin-top:8.5%;
+}
+
 #ueberleben {
   font-size: 52px;
   font-family: 'BebasNeueLight';
@@ -100,9 +105,9 @@ nav a:hover {
 }
 
 .sidenav {
-  outline: 5px solid darkorange;
   position: absolute;
-  right: 8.5vh;
+  right: 4vw;
+  top:6.25vh
 }
 
 .sidenav a {
@@ -188,4 +193,8 @@ nav a:hover {
 
 #bild{
   grid-area: bild;
+}
+
+..{
+  grid-area: .;
 }
