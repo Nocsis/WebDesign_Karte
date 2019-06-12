@@ -1,5 +1,7 @@
 "use strict";
 
+init();
+
 window.onload = function() {checkScroll()};
 window.onscroll = function() {checkScroll()};
 
@@ -22,3 +24,52 @@ function scrollToBottom() {
     window.scroll({top: document.body.scrollHeight, behavior: 'smooth'});
     window.scroll({top: document.documentElement.scrollHeight, behavior: 'smooth'});
 }
+
+var deutsch = document.getElementById('de_click'),
+        english = document.getElementById('en_click'),
+        de_txt = document.querySelectorAll('#de'),
+        en_txt = document.querySelectorAll('#en'),
+        nb_de = de_txt.length,
+        nb_en = en_txt.length;
+
+        deutsch.addEventListener('click', function() {
+        language(deutsch,english);
+        }, false);
+
+        english.addEventListener('click', function() {
+        language(english,deutsch);
+        }, false);
+
+        function language(languageOn,languageOff){
+             if (!languageOn.classList.contains('current_lang')) {
+                languageOn.classList.toggle('current_lang');
+                languageOff.classList.toggle('current_lang');
+                }
+
+                if(languageOn.innerHTML == 'De'){
+                display(de_txt, nb_de);
+                hide(en_txt, nb_en);
+                }
+
+                else if(languageOn.innerHTML == 'En'){
+                display(en_txt, nb_en);
+                 hide(de_txt, nb_de);
+                 }   
+            }
+
+        function display(txt,nb){
+            for(var i=0; i < nb; i++){
+                txt[i].style.display = 'block';
+            }
+        }
+
+        function hide(txt,nb){
+            for(var i=0; i < nb; i++){
+                txt[i].style.display = 'none';
+            }
+        }
+
+        function init(){
+            language(deutsch,english);
+        }
+        

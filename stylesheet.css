@@ -40,7 +40,7 @@ header {
   height: 100vh;
   display: grid;
   grid-template-columns: 5.2vw 20.8vw 2.3vw 20.8vw 2.3vw 20.8vw 2.3vw 20.8vw 4.7vw;
-  grid-template-rows: 9vh 41vh 5vh 3vh 20.5vh 3vh 3vh 7.4vh;
+  grid-template-rows:  9vh 41vh 5vh 3vh 20.5vh 3vh 3vh 7.4vh;
   grid-template-areas:
   '. . . . . . . . .'
   '. name . bild . text text text .'
@@ -52,6 +52,18 @@ header {
   '. . . . . . . . .';
 }
 
+.flex-container {
+  display: flex;
+  width: 100vw;
+  height: 8.1vh;
+}
+
+.flex-container > div {
+  width: 100vw;
+  font-size: 30px;
+  border: solid 1px green;
+}
+
 .grid-container > div {
   border-color: black;
   border-width: 1px;
@@ -60,18 +72,44 @@ header {
   text-align: center;
 }
 
-/*Logo*/
-#super{
-  grid-area: ueberleben;
-  margin-top:8.5%;
+#RandLinks{
+  flex: 0 0 5.2vw;
 }
 
-#ueberleben {
-  font-size: 52px;
-  font-family: 'BebasNeueLight';
-  grid-area: ueberleben;
+#RandRechts{
+  flex: 0 0 4.7vw;
+}
+
+/* Language-switcher*/
+#en {
+  display: none;
+}
+
+.button_lang {
+  color:black;
+  font-size: 15px;
+}
+
+.button_lang:hover, .current_lang {
+  background-color: #777;   
+}
+
+ul li {
+  display: inline;
+}
+
+.social{
   text-align: left;
-  align-self: end; 
+  margin-top: 50%;
+  padding: 0%;
+}
+
+/*Logo*/
+#ueberleben {
+  flex: 0 0 23.1vw;
+  font-size: 52px;
+  font-family: 'BebasNeueLight'; 
+  align-self: flex-end;
 }
 
 #ueberleben strong{
@@ -80,7 +118,8 @@ header {
 
 /*Personen-nav*/
 #navigation{
-  grid-area: navigation;
+  text-align: center;
+  margin-top: 2.4%;
 }
 
 nav {
@@ -102,13 +141,12 @@ nav a:hover {
 
 /*mini-Nav rechts*/
 #navigationRechts{
-  grid-area: navigationRechts;
+  flex: 0 0 20.8vw;
 }
 
 .sidenav {
   position: absolute;
-  right: 4vw;
-  top:6.25vh
+  margin-top: 3%;
 }
 
 .sidenav a {
@@ -196,6 +234,4 @@ nav a:hover {
   grid-area: bild;
 }
 
-..{
-  grid-area: .;
-}
+
