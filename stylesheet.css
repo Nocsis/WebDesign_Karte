@@ -22,14 +22,14 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   background-image: url("Material/Bilder/nav_bg_notext_small.png");
   background-size:   100%;
   background-repeat: no-repeat;
   margin: 0px;
   font-family: 'BebasNeueRegular';
-  width: 1vw;
-  overflow-x: hidden;
+  width: 100vw;
+  /*overflow-x: hidden;*/
 }
 
 header {
@@ -54,12 +54,12 @@ header {
 
 .flex-container {
   display: flex;
-  width: 100vw;
   height: 8.1vh;
+  border: solid 1px red;
+  align-items: center;
 }
 
 .flex-container > div {
-  width: 100vw;
   font-size: 30px;
   border: solid 1px green;
 }
@@ -72,36 +72,31 @@ header {
   text-align: center;
 }
 
-#RandLinks{
+#randLinks{
   flex: 0 0 5.2vw;
 }
 
-#RandRechts{
+#randRechts{
   flex: 0 0 4.7vw;
 }
 
 /* Language-switcher*/
-#en {
+.en {
   display: none;
 }
 
 .button_lang {
+  width: 2vw;
+  height: 2vw;
+  float: right;
   color:black;
-  font-size: 15px;
+  border-style: none;
+  cursor: pointer;
+  border-radius: 50%;
 }
 
 .button_lang:hover, .current_lang {
   background-color: #777;   
-}
-
-ul li {
-  display: inline;
-}
-
-.social{
-  text-align: left;
-  margin-top: 50%;
-  padding: 0%;
 }
 
 /*Logo*/
@@ -109,7 +104,6 @@ ul li {
   flex: 0 0 23.1vw;
   font-size: 52px;
   font-family: 'BebasNeueLight'; 
-  align-self: flex-end;
 }
 
 #ueberleben strong{
@@ -119,12 +113,6 @@ ul li {
 /*Personen-nav*/
 #navigation{
   text-align: center;
-  margin-top: 2.4%;
-}
-
-nav {
-  position: absolute;
-  overflow: hidden;
 }
 
 nav a {
@@ -142,11 +130,6 @@ nav a:hover {
 /*mini-Nav rechts*/
 #navigationRechts{
   flex: 0 0 20.8vw;
-}
-
-.sidenav {
-  position: absolute;
-  margin-top: 3%;
 }
 
 .sidenav a {
@@ -180,7 +163,7 @@ nav a:hover {
 }
 
 /*Zitat*/
-#text{
+.text{
   grid-area: text;
   text-align: left;
   font-size: 25px;
