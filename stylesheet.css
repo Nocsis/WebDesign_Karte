@@ -23,17 +23,19 @@
 }
 
 body {
-  background-image: url("Material/Bilder/nav_bg_notext_small.png");
-  background-size:   100%;
-  background-repeat: no-repeat;
   margin: 0px;
   font-family: 'BebasNeueRegular';
   width: 100vw;
-  /*overflow-x: hidden;*/
+  overflow-x: hidden;
 }
 
 header {
-  height: 8.1vh;
+  height: 150px;
+  background-image: url("Material/Bilder/nav_bg_notext_small.png");
+  background-size:   100%;
+  background-repeat: no-repeat;
+  position: relative;
+  border: solid 1px blue;
 }
 
 .grid-container {
@@ -54,14 +56,14 @@ header {
 
 .flex-container {
   display: flex;
-  height: 8.1vh;
-  border: solid 1px red;
-  align-items: center;
+  position: absolute;
+  bottom: 50px;
+  width: 99vw;
+  align-items: baseline;
 }
 
 .flex-container > div {
   font-size: 30px;
-  border: solid 1px green;
 }
 
 .grid-container > div {
@@ -86,9 +88,9 @@ header {
 }
 
 .button_lang {
-  width: 2vw;
-  height: 2vw;
-  float: right;
+  width: 1.5vw;
+  height: 1.5vw;
+  float: left;
   color:black;
   border-style: none;
   cursor: pointer;
@@ -103,7 +105,7 @@ header {
 #ueberleben {
   flex: 0 0 23.1vw;
   font-size: 52px;
-  font-family: 'BebasNeueLight'; 
+  font-family: 'BebasNeueLight';
 }
 
 #ueberleben strong{
@@ -112,6 +114,7 @@ header {
 
 /*Personen-nav*/
 #navigation{
+  flex: 0 0 45.2vw;
   text-align: center;
 }
 
