@@ -10,37 +10,42 @@
 
   <body>
     <?php include ("../html/header.php"); ?>
-    
+
     <div class="grid-container" >
-    
+
       <!--Das &nbsp; vor den Zeilen ist wichtig
           um das Layout der schwarzen Boxen zu erhalten!-->
       <div id="name">
-        <span id="vorname">
+        <span id="name1">
           &nbsp;Dummy
         </span>
-        <span id="nachname">
+        <span id="name2">
           &nbsp;Dum
         </span>
       </div>
-      
+
       <div id="bild">
         <img src="../Material/Bilder/portrait-dummy.jpg" alt="portrait-dummy" height="100%" width="90.91%">
       </div>
-      
-      <div class="text de">
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
-        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
-        no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+
+      <div id="text" class="de">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+        no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
         sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-        accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor 
+        accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
         sit amet.
       </div>
 
-      <div class="text en">
+      <div id="text" class="en">
         English blind text here.
       </div>
+
+      <div class="s"></div>
+      <div class="s2"></div>
+      <div class="s3"></div>
+      <div class="s4"></div>
 
       <div id="jahr">year here</div>
     </div>
@@ -54,5 +59,4 @@
 
     <script src="../scripts.js"></script>
   </body>
-
 </html>
