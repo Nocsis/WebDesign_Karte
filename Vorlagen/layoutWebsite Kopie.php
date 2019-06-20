@@ -51,7 +51,9 @@
     </div>
 
     <div id="section2">
-      <img src="../Material/Bilder/dummy-map.jpg">
+      <!--TODO: Fck this. Make it a scrolling container instead. But not today...-->
+      <img id="mapBG" src="../Material/Bilder/map.jpg">
+      <div class="mapButtonBG" id="dummyStation1"></div>
     </div>
 
     <button class="scrollButton" id="downButton" onclick="scrollToBottom()"></button>

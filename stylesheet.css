@@ -18,6 +18,8 @@
   src: url("Material/bebas_neue/BebasNeue Light.otf") format("opentype");
 }
 
+/*GENERELLES*/
+
 * {
   box-sizing: border-box;
 }
@@ -247,4 +249,42 @@ nav a:hover {
 /*Karten-screen*/
 #section2 {
   height: 100vh;
+  width: 100vw;
+  position: absolute;
+  /*background-image: url(Material/Bilder/map.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;*/
 }
+
+#mapBG {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
+.mapButtonBG {
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+  background-color: orangered;
+  opacity: 0.5;
+  position: relative;
+}
+
+/*SEITEN-SPEZIFISCHES*/
+
+/*Dummy*/
+#dummyStation1 { 
+  top: 26%;
+  left: 28%;
+}
+
+/*Avishay*/
+/*
+#avishayStation1 {
+
+}
+...und so weiter. Ist klar, ne?
+*/
+
+/*...*/
