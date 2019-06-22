@@ -13,5 +13,7 @@ Link zu den Materialien: https://drive.google.com/drive/folders/16tA7qmiUtgT-srS
 
 ---
 
-Erklärung HTML Map:
-https://www.w3schools.com/tags/tag_map.asp
+Maps:
+Größe Button-Hintergrund-Kreise: 46px Durchmesser
+Farbe: somethingsomething
+Opacity: 30% denke ich?

@@ -90,6 +90,7 @@ header {
 .button_lang {
   width: 1.5vw;
   height: 1.5vw;
+  margin-left: 0.3vw;
   float: left;
   color:black;
   border-style: none;
@@ -249,40 +250,65 @@ nav a:hover {
 /*Karten-screen*/
 #section2 {
   height: 100vh;
-  width: 100vw;
+  width: 99vw;
   position: absolute;
+  overflow: scroll;
   /*background-image: url(Material/Bilder/map.jpg);
   background-size: 100%;
   background-repeat: no-repeat;*/
 }
 
-#mapBG {
-  width: 100vw;
-  height: 100vh;
+.mapBG {
+  width: 1920px;
+  height: 1080px;
   position: absolute;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
-.mapButtonBG {
-  width: 4vw;
-  height: 4vw;
-  border-radius: 50%;
-  background-color: orangered;
-  opacity: 0.5;
+.mapButton {
   position: relative;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin-left: -10px;
+  margin-top: -10px;
+  border-radius: 50%;
+  background-image: url(Material/Bilder/PlayOrange.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
+
 
 /*SEITEN-SPEZIFISCHES*/
 
 /*Dummy*/
-#dummyStation1 { 
-  top: 26%;
-  left: 28%;
+#dummyMap {
+  background-image: url(Material/Bilder/maps/map_dummy.jpg)
+}
+
+#dummyStation1-1 { 
+  top: 368px;
+  left: 327px;
+}
+
+#dummyStation1-2 { 
+  top: 390px;
+  left: 315px;
+}
+
+#dummyStation2-1 {
+  top: 412px;
+  left: 497px;
 }
 
 /*Avishay*/
 /*
-#avishayStation1 {
-
+#avishayStation1-1 {
+  top: ;
+  left: ;
 }
 ...und so weiter. Ist klar, ne?
 */
