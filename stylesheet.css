@@ -28,6 +28,11 @@
   to {opacity: 1;}
 }
 
+@font-face{
+  font-family: 'MuliRegular';
+  src: url("Material/Muli/Muli-Regular.ttf") format("opentype");
+}
+
 /*GENERELLES*/
 
 * {
@@ -58,8 +63,8 @@ header {
   '. name . bild . text text text .'
   '. . . . . . . . .'
   '. s s s . s2 s2 s2 .'
-  '. . . . . jahr jahr jahr .'
-  '. . . . . . . . .'
+  '. erk erk erk . jahr jahr jahr .'
+  '. . . . . . . t .'
   '. s3 s3 s3 . s4 s4 s4 .'
   '. . . . . . . . .';
 }
@@ -339,7 +344,100 @@ nav a:hover {
   top: ;
   left: ;
 }
-...und so weiter. Ist klar, ne?
-*/
+...und so weiter. Ist klar, ne? -sehen wir dann ... ;)- 
 
 /*...*/
+
+/*Impressum*/
+
+.Impressum{
+grid-area: bild;
+font-size: 30px !important;
+font-family: 'BebasNeueLight';
+border-bottom: solid 1px #c6c6c6;
+grid-column: 4/ span 3;
+text-align: left !important;
+height: 50px;
+}
+
+.Angaben{
+  grid-area: bild;
+  margin-top:75px;
+  text-align: left !important;
+  grid-column: 4/ span 2;
+  border-bottom: solid 1px #c6c6c6;
+  font-family: 'MuliRegular';
+  font-size: 14px !important;
+  height: 155px;
+}
+
+.Angaben2{
+  grid-area: text;
+  grid-column: 6/ span 1;
+  margin-top:75px;
+  text-align: left !important;
+  border-bottom: solid 1px #c6c6c6;
+  font-family: 'MuliRegular';
+  font-size: 14px !important;
+  height: 155px;
+}
+
+.Datenschutz{
+  grid-area: bild;
+  margin-top:260px;
+  text-align: left !important;
+  grid-column: 4/ span 3;
+  border-bottom: solid 1px #c6c6c6;
+  font-family: 'MuliRegular';
+  font-size: 14px !important;
+  height: 290px;
+}
+
+/*Verein*/
+
+.Verein{
+  grid-area: name;
+  grid-column: 2/ span 3;
+  text-align: left !important;
+  font-family: 'MuliRegular';
+  font-size: 14px !important;
+  align-self: end;
+}
+
+.Daten{
+  grid-area: jahr;
+  font-family: 'MuliRegular';
+  font-size: 14px !important;
+  text-align: left !important;
+  height: 115px;
+  border-bottom: solid 1px #c6c6c6;
+}
+
+.Erklärung{
+  grid-area: erk;
+  font-family: 'MuliRegular';
+  font-size: 14px !important;
+  text-align: left !important;
+  height: 115px;
+  border-bottom: solid 1px #c6c6c6;
+}
+
+.Studenten{
+  margin-top: 135px;
+  grid-area: jahr;
+  font-family: 'MuliRegular';
+  font-size: 14px !important;
+  text-align: left !important;
+  border-bottom: solid 1px #c6c6c6;
+  height: 220px;
+}
+
+.FHD{
+  grid-area: erk;
+  margin-top: 135px;
+  border-bottom: solid 1px #c6c6c6;
+  height: 50px;
+  grid-column: 2/ span 3;
+  height: 220px;
+  text-align: right !important;
+}
