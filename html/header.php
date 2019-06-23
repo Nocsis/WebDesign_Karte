@@ -1,11 +1,13 @@
 <header>
 <div class="flex-container">
   <div id="randLinks"></div>
-  <div id="ueberleben">Über<strong>leben</strong> </div>
+  <div id="ueberleben">
+    <a href="../html/index.php">Über<strong>leben</strong></a> 
+  </div>
 
   <div id="navigation">
     <nav>
-      <a href="#">BELLA&nbsp; //</a>
+      <a href="../vorlagen/layoutWebsite Kopie.php">BELLA&nbsp; //</a>
       <a href="#">&nbsp;&nbsp;JOSEPH &nbsp;//</a>
       <a href="#">&nbsp;&nbsp;NATHAN&nbsp; //</a>
       <a href="#">&nbsp;&nbsp;STEFFI &nbsp;//</a>
