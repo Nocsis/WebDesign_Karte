@@ -1,21 +1,31 @@
 @font-face{
   font-family: 'BebasNeueThin';
-  src: url("Material/bebas_neue/BebasNeue Thin.otf") format("opentype");
+  src: url("material/bebas_neue/BebasNeue Thin.otf") format("opentype");
 }
 
 @font-face{
   font-family: 'BebasNeueRegular';
-  src: url("Material/bebas_neue/BebasNeue Regular.otf") format("opentype");
+  src: url("material/bebas_neue/BebasNeue Regular.otf") format("opentype");
 }
 
 @font-face{
   font-family: 'BebasNeueBold';
-  src: url("Material/bebas_neue/BebasNeue Bold.otf") format("opentype");
+  src: url("material/bebas_neue/BebasNeue Bold.otf") format("opentype");
 }
 
 @font-face{
   font-family: 'BebasNeueLight';
-  src: url("Material/bebas_neue/BebasNeue Light.otf") format("opentype");
+  src: url("material/bebas_neue/BebasNeue Light.otf") format("opentype");
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
 
 /*GENERELLES*/
@@ -33,7 +43,7 @@ body {
 
 header {
   height: 150px;
-  background-image: url("Material/Bilder/nav_bg_notext_small.png");
+  background-image: url("material/bilder/nav_bg_notext_small.png");
   background-size:   100%;
   background-repeat: no-repeat;
   position: relative;
@@ -210,7 +220,7 @@ nav a:hover {
   bottom: 5vh;
   left: 50vw;
   margin-left: -1.5vw;
-  z-index: 99;
+  z-index: 98;
   border: none;
   outline: none;
   cursor: pointer;
@@ -227,23 +237,23 @@ nav a:hover {
 
 #downButton {
   display: none;
-  background: url(Material/Bilder/PfeilDownOrange.png);
+  background: url(material/bilder/PfeilDownOrange.png);
   background-size: 100%;
 }
 
 #downButton:hover {
-  background: url(Material/Bilder/PfeilDownBlue.png);
+  background: url(material/bilder/PfeilDownBlue.png);
   background-size: 100%;
 }
 
 #upButton {
   display: none;
-  background: url(Material/Bilder/PfeilUpOrange.png);
+  background: url(material/bilder/PfeilUpOrange.png);
   background-size: 100%;
 }
 
 #upButton:hover {
-  background: url(Material/Bilder/PfeilUpBlue.png);
+  background: url(material/bilder/PfeilUpBlue.png);
   background-size: 100%;
 }
 
@@ -253,9 +263,6 @@ nav a:hover {
   width: 99vw;
   position: absolute;
   overflow: scroll;
-  /*background-image: url(Material/Bilder/map.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;*/
 }
 
 .mapBG {
@@ -266,8 +273,30 @@ nav a:hover {
   background-repeat: no-repeat;
 }
 
+#videoPopup {
+  visibility: hidden;
+  position: fixed;
+  top: 3vh;
+  left: 3vw;
+  height: 93vh;
+  width: 93vw;
+  background-color: #555555;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  z-index: 99;
+
+}
+
+#section2 .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
 .mapButton {
   position: relative;
+  z-index: 2;
   border: none;
   outline: none;
   cursor: pointer;
@@ -276,7 +305,7 @@ nav a:hover {
   margin-left: -10px;
   margin-top: -10px;
   border-radius: 50%;
-  background-image: url(Material/Bilder/PlayOrange.png);
+  background-image: url(material/bilder/PlayOrange.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -286,7 +315,7 @@ nav a:hover {
 
 /*Dummy*/
 #dummyMap {
-  background-image: url(Material/Bilder/maps/map_dummy.jpg)
+  background-image: url(material/bilder/maps/map_dummy.jpg)
 }
 
 #dummyStation1-1 { 

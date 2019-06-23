@@ -25,7 +25,7 @@
       </div>
 
       <div id="bild">
-        <img src="../Material/Bilder/portrait-dummy.jpg" alt="portrait-dummy" height="100%" width="90.91%">
+        <img src="../material/bilder/portrait-dummy.jpg" alt="portrait-dummy" height="100%" width="90.91%">
       </div>
 
       <div id="text" class="de">
@@ -52,7 +52,10 @@
 
     <div id="section2">
       <div class="mapBG" id="dummyMap">
-        <button class="mapButton" id="dummyStation1-1"></button>
+        <video id="videoPopup">
+          <source id="videoSource" type="video/mp4">
+        </video>
+        <button class="mapButton" id="dummyStation1-1" onclick="popupVideo('../material/videos/dummy01.mp4')"></button>
         <button class="mapButton" id="dummyStation1-2"></button>
         <button class="mapButton" id="dummyStation2-1"></button>
       </div>
