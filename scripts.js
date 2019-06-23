@@ -19,8 +19,9 @@ english.addEventListener('click', function() {
 });
 
 //Video Buttons
-var popup = document.getElementById("videoPopup"),
-    source = document.getElementById("videoSource");
+var videoPopup = document.getElementById("videoPopup"),
+    videoContainer = document.getElementById("videoContainer"),
+    videoClose = document.getElementById("videoClose");
 
 //----Funktionsaufrufe----
 init();
@@ -28,6 +29,7 @@ init();
 window.onload = function() {checkScroll()};
 window.onscroll = function() {checkScroll()};
 window.onkeydown = function(ev) {checkKeyPress(ev)};
+videoClose.onclick = function() {hideVideo()};
 
 
 //----Funktionen----
@@ -95,15 +97,13 @@ function hide(txt,nb){
 
 //Video Buttons
 function popupVideo(src) {
-  source.setAttribute("src", src);
-  popup.classList.toggle("show");
+  videoContainer.innerHTML = "<video controls autoplay id=\"videoPlayer\"> <source src=\""+src+"\" type=\"video/mp4\"> </video>";
+  videoPopup.classList.toggle("show");
 }
 
 function hideVideo() {
-  if(popup.classList.contains("show")) {
-    if(!popup.paused) {
-      popup.pause();
-    }
-    popup.classList.toggle(("show"));
+  if(videoPopup.classList.contains("show")) {
+    videoPopup.classList.toggle(("show"));
+    videoContainer.innerHTML = "";
   }
 }

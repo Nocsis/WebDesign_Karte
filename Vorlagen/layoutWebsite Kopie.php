@@ -52,12 +52,17 @@
 
     <div id="section2">
       <div class="mapBG" id="dummyMap">
-        <video id="videoPopup">
-          <source id="videoSource" type="video/mp4">
-        </video>
-        <button class="mapButton" id="dummyStation1-1" onclick="popupVideo('../material/videos/dummy01.mp4')"></button>
-        <button class="mapButton" id="dummyStation1-2"></button>
-        <button class="mapButton" id="dummyStation2-1"></button>
+        <div id="videoPopup">
+          <div id="videoContainer"></div>
+          <button id="videoClose"></button>
+        </div>
+        <button class="mapButton de" id="dummyStation1-1" onclick="popupVideo('../material/videos/avishay01_sd.mp4')"></button>
+        <button class="mapButton de" id="dummyStation1-2"></button>
+        <button class="mapButton de" id="dummyStation2-1"></button>
+
+        <button class="mapButton en" id="dummyStation1-1" onclick="popupVideo('../material/videos/avishay01_sd_en.mp4')"></button>
+        <button class="mapButton en" id="dummyStation1-2"></button>
+        <button class="mapButton en" id="dummyStation2-1"></button>
       </div>
     </div>
 
