@@ -9,9 +9,7 @@
   </head>
 
   <body>
-    
-    <header></header>
-    <?php include ("html/header.php"); ?>
+    <?php include ("../html/header.php"); ?>
 
     <div class="grid-container" >
 
