@@ -15,5 +15,5 @@ Link zu den Materialien: https://drive.google.com/drive/folders/16tA7qmiUtgT-srS
 
 Maps:
 Größe Button-Hintergrund-Kreise: 46px Durchmesser
-Farbe: somethingsomething
+Farbe: #BF7833
 Opacity: 30% denke ich?
