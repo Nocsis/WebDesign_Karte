@@ -2,16 +2,16 @@
 <div class="flex-container">
   <div id="randLinks"></div>
   <div id="ueberleben">
-    <a href="../html/index.php">Über<strong>leben</strong></a> 
+    <a href="/html/index.php">Über<strong>leben</strong></a> 
   </div>
 
   <div id="navigation">
     <nav>
-      <a href="../vorlagen/layoutWebsite Kopie.php">BELLA&nbsp; //</a>
+      <a href="/vorlagen/layoutWebsite Kopie.php">BELLA&nbsp; //</a>
       <a href="#">&nbsp;&nbsp;JOSEPH &nbsp;//</a>
       <a href="#">&nbsp;&nbsp;NATHAN&nbsp; //</a>
       <a href="#">&nbsp;&nbsp;STEFFI &nbsp;//</a>
-      <a href="#">&nbsp;&nbsp;AVISHAI &nbsp;//</a>
+      <a href="/html/stories/avishai.php">&nbsp;&nbsp;AVISHAI &nbsp;//</a>
       <a href="#">&nbsp;&nbsp;CARLA &nbsp; //</a>
     </nav>
   </div>

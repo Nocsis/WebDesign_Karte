@@ -30,7 +30,7 @@
 
 @font-face{
   font-family: 'MuliRegular';
-  src: url("Material/Muli/Muli-Regular.ttf") format("opentype");
+  src: url("material/Muli/Muli-Regular.ttf") format("opentype");
 }
 
 /*GENERELLES*/
@@ -65,7 +65,7 @@ header {
   '. . . . . . . . .'
   '. s s s . s2 s2 s2 .'
   '. erk erk erk . jahr jahr jahr .'
-  '. . . . . . . t .'
+  '. . . . . . . . .'
   '. s3 s3 s3 . s4 s4 s4 .'
   '. . . . . . . . .';
 }
@@ -163,6 +163,7 @@ nav a:hover {
 /*Name*/
 #name{
   grid-area: name;
+  font-family: 'MuliRegular';
   text-align: right;
   align-self: end;
 }
@@ -187,6 +188,7 @@ nav a:hover {
 /*Zitat*/
 #text {
   grid-area: text;
+  font-family: 'MuliRegular';
   text-align: left;
   font-size: 25px;
   align-self: end;
@@ -216,6 +218,7 @@ nav a:hover {
 /*Stationen*/
 #jahr {
   grid-area: jahr;
+  font-family: 'MuliRegular';
   text-align: left;
   font-size: 25px;
 }
@@ -303,7 +306,7 @@ nav a:hover {
   height: 4vw;
   border: none;
   cursor: pointer;
-  background-color: green;
+  background-image: url(material/bilder/closeButton.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -381,14 +384,29 @@ nav a:hover {
 }
 
 /*Avishay*/
-/*
-#avishayStation1-1 {
-  top: ;
-  left: ;
+#avishayMap {
+  background-image: url(material/bilder/maps/map_avishay.jpg)
 }
-...und so weiter. Ist klar, ne? -sehen wir dann ... ;)- 
 
-/*...*/
+#avishayStation1-1 {
+  top: 288px;
+  left: 747px;
+}
+
+#avishayStation1-2 {
+  top: 300px;
+  left: 747px;
+}
+
+#avishayStation2-1 {
+  top: 251px;
+  left: 577px;
+}
+
+#avishayStation3-1 {
+  top: 824px;
+  left: 1504px;
+}
 
 /*Impressum*/
 
