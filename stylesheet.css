@@ -65,7 +65,7 @@ header {
   '. . . . . . . . .'
   '. s s s . s2 s2 s2 .'
   '. erk erk erk . jahr jahr jahr .'
-  '. . . . . . . t .'
+  '. . . . . . . . .'
   '. s3 s3 s3 . s4 s4 s4 .'
   '. . . . . . . . .';
 }
@@ -392,7 +392,7 @@ nav a:hover {
 
 /*Impressum*/
 
-.Impressum{
+.impressum{
 grid-area: bild;
 font-size: 30px !important;
 font-family: 'BebasNeueLight';
@@ -402,7 +402,7 @@ text-align: left !important;
 height: 50px;
 }
 
-.Angaben{
+.angaben{
   grid-area: bild;
   margin-top:75px;
   text-align: left !important;
@@ -413,7 +413,7 @@ height: 50px;
   height: 155px;
 }
 
-.Angaben2{
+.angaben2{
   grid-area: text;
   grid-column: 6/ span 1;
   margin-top:75px;
@@ -424,7 +424,7 @@ height: 50px;
   height: 155px;
 }
 
-.Datenschutz{
+.datenschutz{
   grid-area: bild;
   margin-top:260px;
   text-align: left !important;
@@ -437,7 +437,7 @@ height: 50px;
 
 /*Verein*/
 
-.Verein{
+.verein{
   grid-area: name;
   grid-column: 2/ span 3;
   text-align: left !important;
@@ -446,7 +446,14 @@ height: 50px;
   align-self: end;
 }
 
-.Daten{
+#vereinsbild{
+  margin-top: 25px;
+  grid-area: text;
+  text-align: left;
+  font-size: 25px;
+}
+
+.daten{
   grid-area: jahr;
   font-family: 'MuliRegular';
   font-size: 14px !important;
@@ -455,7 +462,7 @@ height: 50px;
   border-bottom: solid 1px #c6c6c6;
 }
 
-.Erklärung{
+.erklärung{
   grid-area: erk;
   font-family: 'MuliRegular';
   font-size: 14px !important;
@@ -464,7 +471,7 @@ height: 50px;
   border-bottom: solid 1px #c6c6c6;
 }
 
-.Studenten{
+.studenten{
   margin-top: 135px;
   grid-area: jahr;
   font-family: 'MuliRegular';
@@ -474,7 +481,7 @@ height: 50px;
   height: 220px;
 }
 
-.FHD{
+.fhd{
   grid-area: erk;
   margin-top: 135px;
   border-bottom: solid 1px #c6c6c6;
@@ -482,4 +489,127 @@ height: 50px;
   grid-column: 2/ span 3;
   height: 220px;
   text-align: right !important;
+}
+
+/*IE stuff*/
+
+.flex-container2{
+  border: 1px solid firebrick;
+  height: 41vh;
+  display: flex;
+}
+
+.flex-container3{
+  border: 1px solid olive;
+  height: 5vh;
+  display: flex;
+}
+
+.flex-container4{
+  border: 1px solid olive;
+  height: 3vh;
+  display: flex;
+}
+
+.flex-container5{
+  border: 1px solid olive;
+  height: 20.5vh;
+  display: flex;
+}
+
+.flex-container6{
+  border: 1px solid olive;
+  height: 3vh;
+  display: flex;
+}
+
+.flex-container7{
+  border: 1px solid olive;
+  height: 3vh;
+  display: flex;
+}
+
+.flex-container8{
+  border: 1px solid olive;
+  height: 7.4vh;
+  display: flex;
+}
+
+.randlinks{
+flex: 0 0 5.2vw;
+border: 1px solid purple;
+display: flex;
+}
+
+.spalte1{
+  flex: 0 0 20.8vw;
+  border: 1px solid purple;
+}
+
+.spalte2{
+  flex: 0 0 2.3vw;
+  border: 1px solid purple;
+}
+
+.spalte3{
+  flex: 0 0 20.8vw;
+  border: 1px solid purple;
+}
+
+.spalte4{
+  flex: 0 0 2.3vw;
+  border: 1px solid purple;
+}
+
+.spalte5{
+  flex: 0 0 20.8vw;
+  border: 1px solid purple;
+}
+
+.spalte6{
+  flex: 0 0 2.3vw;
+  border: 1px solid purple;
+}
+
+.spalte7{
+  flex: 0 0 20.8vw;
+  border: 1px solid purple;
+}
+
+.randrechts{
+  flex: 0 0 4.7vw;
+border: 1px solid purple;
+display: flex;
+}
+
+.leer{
+  flex: 0 0 100vw;
+}
+
+.strich{
+  flex: 0 0 43.9vw;
+}
+
+.strich2{
+  flex: 0 0 43.9vw;
+}
+
+.strich3{
+  flex: 0 0 43.9vw;
+}
+
+.strich4{
+  flex: 0 0 43.9vw;
+}
+
+.IE-text{
+  flex: 0 0 43.9vw;
+}
+
+.IE-erklärung{
+  flex: 0 0 43.9vw;
+}
+
+.IE-jahr{
+  flex: 0 0 43.9vw;
 }

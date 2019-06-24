@@ -19,9 +19,9 @@
   <div id="navigationRechts">
     <nav class="sidenav">
       <a href="#"><!--&emsp;&emsp;&emsp;&nbsp;-->FILM&nbsp;&nbsp;//</a>
-      <a href="#">&nbsp;&nbsp;VEREIN&nbsp;&nbsp;//</a>
-      <a href="#">&nbsp;&nbsp;KONTAKT&nbsp;&nbsp;//</a>
-      <a href="#">&nbsp;&nbsp;IMPRESSUM </a>
+      <a href="../html/association.php">&nbsp;&nbsp;VEREIN&nbsp;&nbsp;//</a>
+      <a href="">&nbsp;&nbsp;KONTAKT&nbsp;&nbsp;//</a>
+      <a href="../html/legal.php">&nbsp;&nbsp;IMPRESSUM </a>
     </nav>
   </div>
 

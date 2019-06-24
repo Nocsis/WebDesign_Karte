@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>TITLE HERE</title>
+    <title>Association</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../stylesheet.css">
     <script src="../scripts.js"></script>
@@ -15,17 +15,17 @@
 
       <!--Das &nbsp; vor den Zeilen ist wichtig
           um das Layout der schwarzen Boxen zu erhalten!-->
-      <div class="Verein">
+      <div class="verein">
         <img src="../Material/Bilder/TnZ-Logo.PNG" height="25%" width="35%"> <br> <br>
         >> Viele Völker werden hingehen und sagen: Kommt, laßt uns <br> hinaufziehen zum Berg des HERRN...
         Denn von Zion wird <br> Weisung ausgehen und das Wort des HERRN von <br> Jerusalem.<< Jesaja 2:3
       </div>
 
-      <div id="text">
+      <div id="vereinsbild">
         <img src="../Material/Bilder/Verein.jpeg" height="100%" width="100%">
       </div>
 
-      <div class="Erklärung">
+      <div class="erklärung">
         Unsere Arbeit soll ein Tor sein, durch das Versöhnung und <br> 
         UNterstützung zwischen Deutschen und Israelis, Christen und Juden <br>
         fließen kann. Wir wünschen uns, dass durch unsere Arbeit viele <br>
@@ -36,10 +36,10 @@
       <div class="s"></div>
       <div class="s2"></div>
 
-      <div class="Daten">Tor nach Zion e.V. <br> Scharnhorstraße 21 <br> 04275 Leipzig <br> <br> <strong> wwww.tornachzion.de </strong>   
+      <div class="daten">Tor nach Zion e.V. <br> Scharnhorstraße 21 <br> 04275 Leipzig <br> <br> <strong> wwww.tornachzion.de </strong>   
       </div>
 
-      <div class="Studenten">
+      <div class="studenten">
         Entworfen von Studierenden der Fachhochschule Dresden <br> <br>
         Die Fachhochschule Dresden (FHD) leistet mit ihren Bildungsangeboten <br>
         einen wichtigen Beitrag zur Bewältigung der stetigen Veränderungen <br>
@@ -51,7 +51,7 @@
         <strong>www.fh-dresden.eu</strong>
       </div>
 
-      <div class="FHD">
+      <div class="fhd">
         <br><br><br>
         <img src="../Material/Bilder/FHD-Logo.PNG" height= 120px; width="210px" >
       </div>
