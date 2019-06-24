@@ -667,3 +667,50 @@ height: 50px;
   font-size: 15px;
   font-family: 'MuliRegular';
 }
+
+/* IE-Verein*/
+
+.ie-tnz-logo{
+  margin-top: 175px;
+  flex: 0 0 43.9vw;
+  font-family: 'MuliRegular';
+  font-size: 14px !important;
+  height: 320px;
+}
+
+.ie-vereinsbild{
+  flex: 0 0 43.9vw;
+  border: 1px solid #c6c6c6;
+}
+
+.ie-strich{
+  border-bottom: 1px solid #c6c6c6;
+  flex: 0 0 43.9vw;
+}
+
+.container4{
+  height: 125px;
+  display:flex;
+  margin-top: 25px;
+}
+
+.ie-erklärung{
+  flex: 0 0 43.9vw;
+  font-family: 'MuliRegular';
+  font-size: 15px !important;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.ie-studenten{
+  flex: 0 0 43.9vw;
+  font-family: 'MuliRegular';
+  font-size: 15px !important;
+  border-bottom: 1px solid #c6c6c6;
+  height: 240px;
+}
+
+.ie-fhd-logo{
+  margin-top: 20px;
+  flex: 0 0 43.9vw;
+  text-align:right;
+}
