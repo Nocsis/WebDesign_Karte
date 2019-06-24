@@ -512,91 +512,75 @@ height: 50px;
 /*IE stuff*/
 
 .flex-container2{
-  border: 1px solid firebrick;
   height: 41vh;
   display: flex;
 }
 
 .flex-container3{
-  border: 1px solid olive;
   height: 5vh;
   display: flex;
 }
 
 .flex-container4{
-  border: 1px solid olive;
   height: 3vh;
   display: flex;
 }
 
 .flex-container5{
-  border: 1px solid olive;
   height: 20.5vh;
   display: flex;
 }
 
 .flex-container6{
-  border: 1px solid olive;
   height: 3vh;
   display: flex;
 }
 
 .flex-container7{
-  border: 1px solid olive;
   height: 3vh;
   display: flex;
 }
 
 .flex-container8{
-  border: 1px solid olive;
   height: 7.4vh;
   display: flex;
 }
 
 .randlinks{
 flex: 0 0 5.2vw;
-border: 1px solid purple;
 display: flex;
 }
 
 .spalte1{
   flex: 0 0 20.8vw;
-  border: 1px solid purple;
 }
 
 .spalte2{
   flex: 0 0 2.3vw;
-  border: 1px solid purple;
 }
 
 .spalte3{
   flex: 0 0 20.8vw;
-  border: 1px solid purple;
 }
 
 .spalte4{
   flex: 0 0 2.3vw;
-  border: 1px solid purple;
 }
 
 .spalte5{
   flex: 0 0 20.8vw;
-  border: 1px solid purple;
 }
 
 .spalte6{
   flex: 0 0 2.3vw;
-  border: 1px solid purple;
 }
 
 .spalte7{
   flex: 0 0 20.8vw;
-  border: 1px solid purple;
 }
 
 .randrechts{
   flex: 0 0 4.7vw;
-border: 1px solid purple;
 display: flex;
 }
 
@@ -606,23 +590,30 @@ display: flex;
 
 .strich{
   flex: 0 0 43.9vw;
+  border-top: 1px solid #c6c6c6;
 }
 
 .strich2{
   flex: 0 0 43.9vw;
+  border-top: 1px solid #c6c6c6;
 }
 
 .strich3{
   flex: 0 0 43.9vw;
+  border-top: 1px solid #c6c6c6;
 }
 
 .strich4{
   flex: 0 0 43.9vw;
+  border-top: 1px solid #c6c6c6;
 }
 
 .IE-text{
   flex: 0 0 43.9vw;
-  align-self: end;
+  align-self: flex-end; 
+  font-family: 'MuliRegular';
+  text-align: left;
+  font-size: 25px;
 }
 
 .IE-erklärung{
@@ -632,3 +623,4 @@ display: flex;
 .IE-jahr{
   flex: 0 0 43.9vw;
 }
+

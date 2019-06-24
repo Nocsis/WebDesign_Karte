@@ -8,63 +8,76 @@
     <link rel="stylesheet" href="../stylesheet.css">
   </head>
 
-  <header></header>
-
   <body>
       <?php include ("../html/header.php"); ?>
 
       <div class="flex-container2">
-          <div class="randlinks">leer</div>
-          <div class="spalte1">name</div>
-          <div class="spalte2">leer</div>
+          <div class="randlinks"></div>
+          <div id="name">
+          <div class="spalte1"> <span id="name1">
+            &nbsp;Blubi
+          </span>
+          <span id="name2">
+            &nbsp;Blub
+          </span>
+          <span id="name3">
+            &nbsp;über
+          </span>
+          <span id="name4">
+            &nbsp;seine Mutter
+          </span></div> </div>
+          <div class="spalte2"></div>
           <div class="spalte3">
               <img src="../material/bilder/portrait-dummy.jpg" alt="portrait-dummy" height="100%" width="90.91%">
           </div>
-          <div class="spalte4">leer</div>
-          <div class="IE-text"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+          <div class="spalte4"></div>
+          <div class="IE-text de"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
               sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
               sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
               no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
               sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
               accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
               sit amet.</div>
-          <div class="randrechts">leer</div>
+            
+            <div class="IE-text en"> english text here</div>
+
+          <div class="randrechts"></div>
         </div>
 
         <div class="flex-container3">
-          <div class="leer">leer</div>
+          <div class="leer"></div>
         </div>
 
         <div class="flex-container4">
-          <div class="randlinks">leer</div>
-          <div class="strich">s</div>
-          <div class="spalte4">leer</div>
-          <div class="strich2">s2</div>
-          <div class="randrechts">leer</div>
+          <div class="randlinks"></div>
+          <div class="strich"></div>
+          <div class="spalte4"></div>
+          <div class="strich2"></div>
+          <div class="randrechts"></div>
         </div>
 
         <div class="flex-container5">
-          <div class="randlinks">leer</div>
-          <div class="IE-erklärung">erk</div>
-          <div class="spalte4">leer</div>
-          <div class="IE-jahr">jahr</div>
-          <div class="randrechts">leer</div>
+          <div class="randlinks"></div>
+          <div class="IE-erklärung"></div>
+          <div class="spalte4"></div>
+          <div class="IE-jahr">year here</div>
+          <div class="randrechts"></div>
         </div>
 
         <div class="flex-container6">
-            <div class="leer">leer</div>
+            <div class="leer"></div>
         </div>
           
         <div class="flex-container7">
-          <div class="randlinks">leer</div>
-          <div class="strich3">s3</div>
-          <div class="spalte4">leer</div>
-          <div class="strich4">s2</div>
-          <div class="randrechts">leer</div>
+          <div class="randlinks"></div>
+          <div class="strich3"></div>
+          <div class="spalte4"> </div>
+          <div class="strich4"></div>
+          <div class="randrechts"></div>
         </div>
 
         <div class="flex-container8">
-            <div class="leer">leer</div>
+            <div class="leer"></div>
         </div>
           
         <div id="section2">
@@ -85,7 +98,7 @@
       
           <button class="scrollButton" id="downButton" onclick="scrollToBottom()"></button>
           <button class="scrollButton" id="upButton" onclick="scrollToTop()"></button>
-      
+        
           <script src="../scripts.js"></script>
       
   </body>
