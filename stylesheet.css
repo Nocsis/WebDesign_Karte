@@ -586,6 +586,7 @@ display: flex;
 
 .leer{
   flex: 0 0 100vw;
+  border: 1px solid green;
 }
 
 .strich{
@@ -624,3 +625,45 @@ display: flex;
   flex: 0 0 43.9vw;
 }
 
+/*IE-Impressum*/
+
+.ie-impressum{
+font-size: 30px !important;
+font-family: 'BebasNeueLight';
+border-bottom: solid 1px #c6c6c6;
+text-align: left;
+flex: 0 0 43.9vw;
+height: 50px;
+}
+
+.ie-angaben{
+  text-align: left;
+  font-size: 15px;
+  font-family: 'MuliRegular';
+  flex: 0 0 21.95vw;
+  border-bottom: solid 1px #c6c6c6;
+}
+
+.container1{
+  height: 50px;
+  display: flex;
+}
+
+.container2{
+  height: 160px;
+  display:flex;
+  margin-top: 20px;
+}
+
+.container3{
+  height: 310px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.ie-datenschutz{
+  flex: 0 0 43.9vw;
+  border-bottom: 1px solid #c6c6c6;
+  font-size: 15px;
+  font-family: 'MuliRegular';
+}
