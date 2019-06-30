@@ -291,7 +291,7 @@ nav a:hover {
   left: 3vw;
   height: 93vh;
   width: 93vw;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   text-align: center;
   border-radius: 10px;
@@ -323,12 +323,6 @@ nav a:hover {
   width: 90%;
 }
 
-#section2 .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
-}
-
 .mapButton {
   position: relative;
   z-index: 2;
@@ -343,6 +337,27 @@ nav a:hover {
   background-image: url(material/bilder/PlayOrange.png);
   background-size: 100%;
   background-repeat: no-repeat;
+}
+
+.map-popup {
+  visibility: hidden;
+  position: absolute;
+  margin-left: 25px;
+  padding: 3px;
+  width: 250px;
+  background: rgba(0, 0, 0, 0.5);
+  font-family: "MuliRegular";
+  font-size: 10pt;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  z-index: 97;
+}
+
+#section2 .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
 }
 
 
@@ -384,26 +399,30 @@ nav a:hover {
 }
 
 /*Avishay*/
-#avishayMap {
+#avishay-map {
   background-image: url(material/bilder/maps/map_avishay.jpg)
 }
 
-#avishayStation1-1 {
+#avishay-map.en-map {
+  background-image: url(material/bilder/maps/map_bella.jpg)
+}
+
+.avishayStation1-1 {
   top: 288px;
   left: 747px;
 }
 
-#avishayStation1-2 {
+.avishayStation1-2 {
   top: 300px;
   left: 747px;
 }
 
-#avishayStation2-1 {
+.avishayStation2-1 {
   top: 251px;
   left: 577px;
 }
 
-#avishayStation3-1 {
+.avishayStation3-1 {
   top: 824px;
   left: 1504px;
 }
@@ -628,12 +647,12 @@ display: flex;
 /*IE-Impressum*/
 
 .ie-impressum{
-font-size: 30px !important;
-font-family: 'BebasNeueLight';
-border-bottom: solid 1px #c6c6c6;
-text-align: left;
-flex: 0 0 43.9vw;
-height: 50px;
+  font-size: 30px !important;
+  font-family: 'BebasNeueLight';
+  border-bottom: solid 1px #c6c6c6;
+  text-align: left;
+  flex: 0 0 43.9vw;
+  height: 50px;
 }
 
 .ie-angaben{

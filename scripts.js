@@ -8,20 +8,19 @@ var deutsch = document.getElementById('de_click'),
     de_txt = document.querySelectorAll('.de'),
     en_txt = document.querySelectorAll('.en'),
     nb_de = de_txt.length,
-    nb_en = en_txt.length;
+    nb_en = en_txt.length,
+    map = document.getElementsByClassName("mapBG")[0];
 
-deutsch.addEventListener('click', function() {
-  language(deutsch,english);
-});
+deutsch.addEventListener('click', function() {switchGerman();});
 
-english.addEventListener('click', function() {
-  language(english,deutsch);
-});
+english.addEventListener('click', function() {switchEnglish();});
 
 //Video Buttons
 var videoPopup = document.getElementById("videoPopup"),
     videoContainer = document.getElementById("videoContainer"),
-    videoClose = document.getElementById("videoClose");
+    videoClose = document.getElementById("videoClose"),
+    descriptionPopup = document.querySelectorAll(".map-popup"),
+    nb_descriptions = descriptionPopup.length;
 
 //----Funktionsaufrufe----
 init();
@@ -66,6 +65,18 @@ function init(){
   language(deutsch,english);
 }
 
+function switchGerman() {
+  language(deutsch,english);
+  map.classList.remove("en-map");
+}
+
+function switchEnglish() {
+  language(english,deutsch);
+  if(!map.classList.contains("en-map")) {
+    map.classList.add("en-map");
+  }
+}
+
 function language(languageOn,languageOff){
   if (!languageOn.classList.contains('current_lang')) {
     languageOn.classList.toggle('current_lang');
@@ -76,7 +87,6 @@ function language(languageOn,languageOff){
     display(de_txt, nb_de);
     hide(en_txt, nb_en);
   }
-
   else if(languageOn.innerHTML == 'EN'){
     display(en_txt, nb_en);
     hide(de_txt, nb_de);
@@ -105,5 +115,23 @@ function hideVideo() {
   if(videoPopup.classList.contains("show")) {
     videoPopup.classList.toggle(("show"));
     videoContainer.innerHTML = "";
+  }
+}
+
+function popupDescription(element) {
+  for(var i = 0; i < nb_descriptions; i++) {
+    if(descriptionPopup[i].classList.item(1) == element.classList.item(1)
+    && descriptionPopup[i].classList.item(2) == element.classList.item(2)) {
+      descriptionPopup[i].classList.toggle("show");
+    }
+  }
+}
+
+function hideDescription(element) {
+  for(var i = 0; i < nb_descriptions; i++) {
+    if(descriptionPopup[i].classList.item(1) == element.classList.item(1)
+    && descriptionPopup[i].classList.item(2) == element.classList.item(2)) {
+      descriptionPopup[i].classList.toggle("show");
+    }
   }
 }
