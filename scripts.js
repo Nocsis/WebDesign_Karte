@@ -106,7 +106,8 @@ function hide(txt,nb){
 }
 
 //Video Buttons
-function popupVideo(src) {
+function popupVideo(src, btn) {
+  btn.classList.add("clicked");
   videoContainer.innerHTML = "<video controls autoplay id=\"videoPlayer\"> <source src=\""+src+"\" type=\"video/mp4\"> </video>";
   videoPopup.classList.toggle("show");
 }

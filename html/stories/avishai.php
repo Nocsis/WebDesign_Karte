@@ -71,22 +71,22 @@
           <button id="videoClose"></button>
         </div>
         <!--Die Reihenfolge der Klassen ist wichtig! Immer "map-button sprache name-station-nr-nr" bzw "map-popup sprache name-station-nr-nr"!-->
-        <button class="mapButton de avishayStation1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd.mp4')"></button>
+        <button class="mapButton de avishayStation1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd.mp4', this)"></button>
         <div class="map-popup de avishayStation1-1">Avishay erzählt Zeug. Ist bestimmt ganz interessant.</div>
-        <button class="mapButton de avishayStation1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay02_sd.mp4')"></button>
+        <button class="mapButton de avishayStation1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay02_sd.mp4', this)"></button>
         <div class="map-popup de avishayStation1-2">Avishay erzählt mehr Zeug. Bestimmt immernoch ganz interessant.</div>
-        <button class="mapButton de avishayStation2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay03_sd.mp4')"></button>
+        <button class="mapButton de avishayStation2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay03_sd.mp4', this)"></button>
         <div class="map-popup de avishayStation2-1">Avishay erzählt noch mehr Zeug. Meh.</div>
-        <button class="mapButton de avishayStation3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay04_sd.mp4')"></button>
+        <button class="mapButton de avishayStation3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay04_sd.mp4', this)"></button>
         <div class="map-popup de avishayStation3-1">Avishay erzählt immernoch... Langsam wird's langweilig.</div>
         
-        <button class="mapButton en avishayStation1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd_en.mp4')"></button>
+        <button class="mapButton en avishayStation1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd_en.mp4', this)"></button>
         <div class="map-popup en avishayStation1-1">Avishay talks about stuff. It's interesting. Probably.</div>
-        <button class="mapButton en avishayStation1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd_en.mp4')"></button>
+        <button class="mapButton en avishayStation1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd_en.mp4', this)"></button>
         <div class="map-popup en avishayStation1-2">Avishay talks about more stuff. It's probably still interesting.</div>
-        <button class="mapButton en avishayStation2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd_en.mp4')"></button>
+        <button class="mapButton en avishayStation2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd_en.mp4', this)"></button>
         <div class="map-popup en avishayStation2-1">Avishay talks about even more stuff. Meh.</div>
-        <button class="mapButton en avishayStation3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd_en.mp4')"></button>
+        <button class="mapButton en avishayStation3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd_en.mp4', this)"></button>
         <div class="map-popup en avishayStation3-1">Avishay is still talking... It's getting a little annoying.</div>
       </div>
     </div>

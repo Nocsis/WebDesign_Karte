@@ -339,6 +339,10 @@ nav a:hover {
   background-repeat: no-repeat;
 }
 
+.mapButton.clicked {
+  background-image: url(material/bilder/PlayGray.png);
+}
+
 .map-popup {
   visibility: hidden;
   position: absolute;
