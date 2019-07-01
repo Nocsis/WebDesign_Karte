@@ -70,24 +70,24 @@
           <div id="video-container"></div>
           <button id="video-close"></button>
         </div>
-        <!--Die Reihenfolge der Klassen ist wichtig! Immer "map-button sprache name-station-nr-nr" bzw "map-popup sprache name-station-nr-nr"!-->
+        <!--Die Reihenfolge der Klassen ist wichtig! Immer "map-button sprache name-stationnr-nr" bzw "map-popup sprache name-stationnr-nr"!-->
         <button class="map-button de avishay-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd.mp4', this)"></button>
-        <div class="map-popup de avishay-station1-1">Avishay erzählt Zeug. Ist bestimmt ganz interessant.</div>
-        <button class="map-button de avishay-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay02_sd.mp4', this)"></button>
-        <div class="map-popup de avishay-station1-2">Avishay erzählt mehr Zeug. Bestimmt immernoch ganz interessant.</div>
-        <button class="map-button de avishay-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay03_sd.mp4', this)"></button>
-        <div class="map-popup de avishay-station2-1">Avishay erzählt noch mehr Zeug. Meh.</div>
-        <button class="map-button de avishay-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay04_sd.mp4', this)"></button>
-        <div class="map-popup de avishay-station3-1">Avishay erzählt immernoch... Langsam wird's langweilig.</div>
+        <div class="map-popup de avishay-station1-1">Avishay erzählt vom Leben seiner Familie und den Beginn ihrer Flucht.</div>
+        <button class="map-button de avishay-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay02_sd.mp4', this)"></button>
+        <div class="map-popup de avishay-station2-1">Avishay berichtet, wie seine Mutter und ihre Geschwister die Nazizeit überlebt haben.</div>
+        <button class="map-button de avishay-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay03_sd.mp4', this)"></button>
+        <div class="map-popup de avishay-station3-1">Avishay beschreibt, wie schwierig es in seiner Familie war, über die Erlebnisse im Holocaust zu sprechen.</div>
+        <button class="map-button de avishay-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay04_sd.mp4', this)"></button>
+        <div class="map-popup de avishay-station3-2">Avishay beschreibt die gemeinsame Zukunft von Juden und Deutschen.</div>
         
         <button class="map-button en avishay-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd_en.mp4', this)"></button>
         <div class="map-popup en avishay-station1-1">Avishay talks about stuff. It's interesting. Probably.</div>
-        <button class="map-button en avishay-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd_en.mp4', this)"></button>
-        <div class="map-popup en avishay-station1-2">Avishay talks about more stuff. It's probably still interesting.</div>
-        <button class="map-button en avishay-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd_en.mp4', this)"></button>
-        <div class="map-popup en avishay-station2-1">Avishay talks about even more stuff. Meh.</div>
-        <button class="map-button en avishay-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd_en.mp4', this)"></button>
-        <div class="map-popup en avishay-station3-1">Avishay is still talking... It's getting a little annoying.</div>
+        <button class="map-button en avishay-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay02_sd_en.mp4', this)"></button>
+        <div class="map-popup en avishay-station2-1">Avishay talks about more stuff. It's probably still interesting.</div>
+        <button class="map-button en avishay-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay03_sd_en.mp4', this)"></button>
+        <div class="map-popup en avishay-station3-1">Avishay talks about even more stuff. Meh.</div>
+        <button class="map-button en avishay-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay04_sd_en.mp4', this)"></button>
+        <div class="map-popup en avishay-station3-2">Avishay is still talking... It's getting a little annoying.</div>
       </div>
     </div>
 
