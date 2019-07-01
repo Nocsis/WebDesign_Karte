@@ -87,11 +87,11 @@ header {
   text-align: center;
 }
 
-#randLinks{
+#border-left{
   flex: 0 0 5.2vw;
 }
 
-#randRechts{
+#border-right{
   flex: 0 0 4.7vw;
 }
 
@@ -100,7 +100,7 @@ header {
   display: none;
 }
 
-.button_lang {
+.button-lang {
   width: 1.5vw;
   height: 1.5vw;
   margin-left: 0.3vw;
@@ -111,7 +111,7 @@ header {
   border-radius: 50%;
 }
 
-.button_lang:hover, .current_lang {
+.button-lang:hover, .current-lang {
   background-color: #777;
 }
 
@@ -150,7 +150,7 @@ nav a:hover {
 }
 
 /*mini-Nav rechts*/
-#navigationRechts{
+#navigation-right{
   flex: 0 0 20.8vw;
 }
 
@@ -181,7 +181,7 @@ nav a:hover {
 }
 
 /*Portrait*/
-#bild {
+#portrait {
   grid-area: bild;
 }
 
@@ -216,7 +216,7 @@ nav a:hover {
 }
 
 /*Stationen*/
-#jahr {
+#year {
   grid-area: jahr;
   font-family: 'MuliRegular';
   text-align: left;
@@ -224,7 +224,7 @@ nav a:hover {
 }
 
 /*Scroll Buttons*/
-.scrollButton {
+.scroll-button {
   width: 3vw;
   height: 3vw;
   position: fixed;
@@ -239,31 +239,31 @@ nav a:hover {
   border-radius: 50%;
 }
 
-.scrollButton:hover {
+.scroll-button:hover {
   width: 3.5vw;
   height: 3.5vw;
   margin-left: -1.75vw;
   margin-bottom: -0.25vw;
 }
 
-#downButton {
+#down-button {
   display: none;
   background: url(material/bilder/PfeilDownOrange.png);
   background-size: 100%;
 }
 
-#downButton:hover {
+#down-button:hover {
   background: url(material/bilder/PfeilDownBlue.png);
   background-size: 100%;
 }
 
-#upButton {
+#up-button {
   display: none;
   background: url(material/bilder/PfeilUpOrange.png);
   background-size: 100%;
 }
 
-#upButton:hover {
+#up-button:hover {
   background: url(material/bilder/PfeilUpBlue.png);
   background-size: 100%;
 }
@@ -276,7 +276,7 @@ nav a:hover {
   overflow: scroll;
 }
 
-.mapBG {
+.map-background {
   width: 1920px;
   height: 1080px;
   position: absolute;
@@ -284,7 +284,7 @@ nav a:hover {
   background-repeat: no-repeat;
 }
 
-#videoPopup {
+#video-popup {
   visibility: hidden;
   position: fixed;
   top: 3vh;
@@ -298,7 +298,7 @@ nav a:hover {
   z-index: 99;
 }
 
-#videoClose {
+#video-close {
   position: fixed;
   top: 3vh;
   right: 3vw;
@@ -311,19 +311,19 @@ nav a:hover {
   background-repeat: no-repeat;
 }
 
-#videoContainer {
+#video-container {
   height: 100%;
   width: 100%;
 }
 
-#videoPlayer {
+#video-player {
   position: relative;
   top: 5%;
   height: 90%;
   width: 90%;
 }
 
-.mapButton {
+.map-button {
   position: relative;
   z-index: 2;
   border: none;
@@ -339,7 +339,7 @@ nav a:hover {
   background-repeat: no-repeat;
 }
 
-.mapButton.clicked {
+.map-button.clicked {
   background-image: url(material/bilder/PlayGray.png);
 }
 
@@ -368,7 +368,7 @@ nav a:hover {
 /*SEITEN-SPEZIFISCHES*/
 
 /*Landing Page*/
-#backgroundVideoContainer {
+#background-video-container {
   z-index: -1;
   position: fixed;
   top: 0;
@@ -377,29 +377,8 @@ nav a:hover {
   width: 100vw;
 }
 
-#backgroundVideo {
-  
+#background-video {
   width: 100%;
-}
-
-/*Dummy*/
-#dummyMap {
-  background-image: url(material/bilder/maps/map_dummy.jpg)
-}
-
-#dummyStation1-1 { 
-  top: 368px;
-  left: 327px;
-}
-
-#dummyStation1-2 { 
-  top: 390px;
-  left: 315px;
-}
-
-#dummyStation2-1 {
-  top: 412px;
-  left: 497px;
 }
 
 /*Avishay*/
@@ -408,25 +387,25 @@ nav a:hover {
 }
 
 #avishay-map.en-map {
-  background-image: url(material/bilder/maps/map_bella.jpg)
+  background-image: url(material/bilder/maps/map_avishay_en.jpg)
 }
 
-.avishayStation1-1 {
+.avishay-station1-1 {
   top: 288px;
   left: 747px;
 }
 
-.avishayStation1-2 {
+.avishay-station1-2 {
   top: 300px;
   left: 747px;
 }
 
-.avishayStation2-1 {
+.avishay-station2-1 {
   top: 251px;
   left: 577px;
 }
 
-.avishayStation3-1 {
+.avishay-station3-1 {
   top: 824px;
   left: 1504px;
 }

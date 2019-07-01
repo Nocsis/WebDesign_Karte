@@ -11,8 +11,8 @@
   <body>
     <?php include ("../html/header.php"); ?>
 
-    <div id="backgroundVideoContainer">
-      <video autoplay muted loop id="backgroundVideo">
+    <div id="background-video-container">
+      <video autoplay muted loop id="background-video">
         <source src="../material/videos/avishay01_sd.mp4" type="video/mp4">
       </video>
     </div>
