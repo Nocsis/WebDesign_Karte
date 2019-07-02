@@ -17,3 +17,6 @@ Maps:
 Größe Button-Hintergrund-Kreise: 46px Durchmesser
 Farbe: #BF7833
 Opacity: 30%
+
+Portraits:
+400px x 440px

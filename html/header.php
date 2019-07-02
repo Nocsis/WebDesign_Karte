@@ -1,6 +1,6 @@
 <header>
 <div class="flex-container">
-  <div id="randLinks"></div>
+  <div id="border-left"></div>
   <div id="ueberleben">
     <a href="/html/index.php">Über<strong>leben</strong></a> 
   </div>
@@ -16,7 +16,7 @@
     </nav>
   </div>
 
-  <div id="navigationRechts">
+  <div id="navigation-right">
     <nav class="sidenav">
       <a href="#">FILM&nbsp;&nbsp;//</a>
       <a href="/html/association.php">&nbsp;&nbsp;VEREIN&nbsp;&nbsp;//</a>
@@ -25,9 +25,9 @@
     </nav>
   </div>
 
-  <div id="randRechts">
-    <button id="de_click" class="button_lang current_lang">DE</button>
-    <button id="en_click" class="button_lang">EN</button>
+  <div id="border-right">
+    <button id="de-click" class="button-lang current-lang">DE</button>
+    <button id="en-click" class="button-lang">EN</button>
   </div>
 </div>
 </header>

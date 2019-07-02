@@ -3,22 +3,22 @@
 //----Variablen----
 
 //Language Switchers
-var deutsch = document.getElementById('de_click'),
-    english = document.getElementById('en_click'),
+var deutsch = document.getElementById('de-click'),
+    english = document.getElementById('en-click'),
     de_txt = document.querySelectorAll('.de'),
     en_txt = document.querySelectorAll('.en'),
     nb_de = de_txt.length,
     nb_en = en_txt.length,
-    map = document.getElementsByClassName("mapBG")[0];
+    map = document.getElementsByClassName("map-background")[0];
 
 deutsch.addEventListener('click', function() {switchGerman();});
 
 english.addEventListener('click', function() {switchEnglish();});
 
 //Video Buttons
-var videoPopup = document.getElementById("videoPopup"),
-    videoContainer = document.getElementById("videoContainer"),
-    videoClose = document.getElementById("videoClose"),
+var videoPopup = document.getElementById("video-popup"),
+    videoContainer = document.getElementById("video-container"),
+    videoClose = document.getElementById("video-close"),
     descriptionPopup = document.querySelectorAll(".map-popup"),
     nb_descriptions = descriptionPopup.length;
 
@@ -42,12 +42,12 @@ function checkKeyPress(keyEvent) {
 //Scroll Buttons
 function checkScroll() {
   if (document.body.scrollTop > (document.body.scrollHeight / 3) || document.documentElement.scrollTop > (document.documentElement.scrollHeight / 4)) {
-    document.getElementById("upButton").style.display = "block";
-    document.getElementById("downButton").style.display = "none";
+    document.getElementById("up-button").style.display = "block";
+    document.getElementById("down-button").style.display = "none";
   }
   else {
-    document.getElementById("upButton").style.display = "none";
-    document.getElementById("downButton").style.display = "block";
+    document.getElementById("up-button").style.display = "none";
+    document.getElementById("down-button").style.display = "block";
   }
 }
 
@@ -78,9 +78,9 @@ function switchEnglish() {
 }
 
 function language(languageOn,languageOff){
-  if (!languageOn.classList.contains('current_lang')) {
-    languageOn.classList.toggle('current_lang');
-    languageOff.classList.toggle('current_lang');
+  if (!languageOn.classList.contains('current-lang')) {
+    languageOn.classList.toggle('current-lang');
+    languageOff.classList.toggle('current-lang');
   }
 
   if(languageOn.innerHTML == 'DE'){
@@ -106,8 +106,9 @@ function hide(txt,nb){
 }
 
 //Video Buttons
-function popupVideo(src) {
-  videoContainer.innerHTML = "<video controls autoplay id=\"videoPlayer\"> <source src=\""+src+"\" type=\"video/mp4\"> </video>";
+function popupVideo(src, btn) {
+  btn.classList.add("clicked");
+  videoContainer.innerHTML = "<video controls autoplay id=\"video-player\"> <source src=\""+src+"\" type=\"video/mp4\"> </video>";
   videoPopup.classList.toggle("show");
 }
 
