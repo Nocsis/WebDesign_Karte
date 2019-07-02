@@ -13,38 +13,25 @@
     <?php include ("../html/header.php"); ?>
 
       <div class="flex-container2">
-          <div class="randlinks"></div>
-          <div id="name">
-          <div class="spalte1"> <span id="name1">
-            &nbsp;Avishai
-          </span>
-          <span id="name2">
-            &nbsp;Golz
-          </span>
-          <span class="de"id="name3">
-            &nbsp;über
-          </span>
-          <span class="en" id="name3">
-            &nbsp;talking about
-          </span>
-          <span class="de"id="name4">
-            &nbsp;seine Mutter
-          </span>
-          <span class="en" id="name4">
-            &nbsp;his mother
-          </span>
-        </div> </div>
-          <div class="spalte2"></div>
-          <div class="spalte3">
-            <img src="../material/bilder/portraits/portraitAvishay.jpg" alt="Portrait Avishay" height="100%" width="90.91%">
-          </div>
+        <div class="randlinks"></div>
+          <div class="spalte1 IE-name"> 
+            <span id="name1">&nbsp;Avishai</span>
+            <span id="name2">&nbsp;Golz</span>
+            <span class="de"id="name3">&nbsp;über</span>
+            <span class="en" id="name3">&nbsp;talking about</span>
+            <span class="de"id="name4">&nbsp;seine Mutter</span>
+            <span class="en" id="name4">&nbsp;his mother</span>
+         </div>
 
+         <div class="spalte2"></div>
+         <div class="spalte3">
+           <img src="../material/bilder/portraits/portraitAvishay.jpg" alt="Portrait Avishay" height="100%" width="90.91%">
+         </div>
           <div class="spalte4"></div>
           <div class="IE-text de"> >>Wenn du deine Vergangenheit nicht kennst, hast du keine Gegenwart und deine Zukunft ist sehr unklar.<<</div>
           <div class="IE-text en"> >>When you don't know your past, you do not have a present and your future is very unclear.<<</div>
-
           <div class="randrechts"></div>
-        </div>
+      </div>
 
         <div class="flex-container3">
           <div class="leer"></div>
@@ -62,18 +49,18 @@
           <div class="randlinks"></div>
           <div class="IE-erklärung"></div>
           <div class="spalte4"></div>
-          <div class="IE-jahr"><strong>// &nbsp; 1930er</strong> &nbsp; Kindheit in Leipzig <br>
+          <div class="IE-jahr de">
+            <strong>// &nbsp; 1930er</strong> &nbsp; Kindheit in Leipzig <br>
             <strong>// &nbsp; 1939</strong> &emsp; Flucht in die Niederlande bei Kriegsausbruch <br>
             <strong>// &nbsp; 1945</strong> &emsp; Weg nach Israel <br></div>
+          <div class="IE-jahr en">
+            <strong>// &nbsp; 1930s</strong> &nbsp; childhood in Leipzig <br>
+            <strong>// &nbsp; 1939</strong> &emsp; escape to the Netherlands at start of war <br>
+            <strong>// &nbsp; 1945</strong> &emsp; path towards Israel <br>
+          </div>
           <div class="randrechts"></div>
         </div>
 
-        <div id="year" class="en">
-          <strong>// &nbsp; 1930s</strong> &nbsp; childhood in Leipzig <br>
-          <strong>// &nbsp; 1939</strong> &emsp; escape to the Netherlands at start of war <br>
-          <strong>// &nbsp; 1945</strong> &emsp; path towards Israel <br>
-         </div>
-       </div>
 
         <div class="flex-container6">
             <div class="leer"></div>
@@ -121,7 +108,7 @@
         <button class="scroll-button" id="down-button" onclick="scrollToBottom()"></button>
         <button class="scroll-button" id="up-button" onclick="scrollToTop()"></button>
     
-        <script src="/scripts.js"></script>
+        <script src="../scripts.js"></script>
       
   </body>
 
