@@ -14,14 +14,14 @@
 
       <div class="flex-container2">
         <div class="randlinks"></div>
-          <div class="spalte1 IE-name"> 
+          <div id="IE-name"> 
             <span id="name1">&nbsp;Avishai</span>
             <span id="name2">&nbsp;Golz</span>
             <span class="de"id="name3">&nbsp;über</span>
             <span class="en" id="name3">&nbsp;talking about</span>
             <span class="de"id="name4">&nbsp;seine Mutter</span>
-            <span class="en" id="name4">&nbsp;his mother</span>
-         </div>
+            <span class="en" id="name4">&nbsp;his mother</span> 
+         </div> 
 
          <div class="spalte2"></div>
          <div class="spalte3">

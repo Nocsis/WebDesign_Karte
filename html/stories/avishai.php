@@ -35,7 +35,7 @@
       </div>
 
       <div id="portrait">
-        <img src="/material/bilder/portraits/portraitAvishay.jpg" alt="Portrait Avishay" height="100%" width="90.91%">
+        <img src="/material/bilder/portraits/portraitAvishay.jpg" alt="Portrait Avishay">
       </div>
 
       <div id="text" class="de">
@@ -43,7 +43,7 @@
       </div>
 
       <div id="text" class="en">
-        >>When you don't know your past, you do not have a present and your future is very unclear.<<
+        >>If you don’t know your past, you don’t have a present and your future is very vague.”<<
       </div>
 
       <div class="s"></div>
@@ -52,15 +52,20 @@
       <div class="s4"></div>
 
       <div id="year" class="de">
-       <strong>// &nbsp; 1930er</strong> &nbsp; Kindheit in Leipzig <br>
-       <strong>// &nbsp; 1939</strong> &emsp; Flucht in die Niederlande bei Kriegsausbruch <br>
-       <strong>// &nbsp; 1945</strong> &emsp; Weg nach Israel <br>
+       <strong>//</strong> &emsp; Geboren am 9.9.1949 in Haifa. <br>
+       <strong>//</strong> &emsp; Die Mutter von Avishay Golz, wird als Edith Gutter in Leipzig geboren. Sie wird als junges Mädchen von ihrer Familie in die Schweiz geschickt. Später trifft sich die Familie in Holland wieder. <br>
+       <strong>//</strong> &emsp; Edith Gutter wird von einer Bauernfamilie in Holland versteckt und überlebt den Holocaust. Ihre Eltern werden in Sobibor ermordet.<br>
+       <strong>//</strong> &emsp; Nach dem Krieg lernt sie ihren Mann kennen und wandert mit ihm in Israel ein.<br>
+       <strong>//</strong> &emsp; Avishay Golz lebt heute in Haifa.<br>
+       
       </div>
 
       <div id="year" class="en">
-       <strong>// &nbsp; 1930s</strong> &nbsp; childhood in Leipzig <br>
-       <strong>// &nbsp; 1939</strong> &emsp; escape to the Netherlands at start of war <br>
-       <strong>// &nbsp; 1945</strong> &emsp; path towards Israel <br>
+       <strong>//</strong> &emsp; Born on 9.9.1949 in Haifa. <br>
+       <strong>//</strong> &emsp; The mother of Avishay Golz was born as Edith Gutter in Leipzig. <br>
+       <strong>//</strong> &emsp; The grandfather sends Edith to Switzerland. Later she comes to Holland, is hidden by a farming family in rural Holland and survives the Holocaust. The parents of Edith are murdered in Sobibor.<br>
+       <strong>//</strong> &emsp; After the war she meets her husband. She follows him to Israel. <br>
+       <strong>//</strong> &emsp; Avishay today lives in Haifa. <br>
       </div>
     </div>
 
@@ -81,13 +86,13 @@
         <div class="map-popup de avishay-station3-2">Avishay beschreibt die gemeinsame Zukunft von Juden und Deutschen.</div>
         
         <button class="map-button en avishay-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd_en.mp4', this)"></button>
-        <div class="map-popup en avishay-station1-1">Avishay talks about stuff. It's interesting. Probably.</div>
+        <div class="map-popup en avishay-station1-1">Avishay talks about the life of his family and their flight from Germany.</div>
         <button class="map-button en avishay-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay02_sd_en.mp4', this)"></button>
-        <div class="map-popup en avishay-station2-1">Avishay talks about more stuff. It's probably still interesting.</div>
+        <div class="map-popup en avishay-station2-1">Avishay talks about how his mother and her siblings survived the Holocaust.</div>
         <button class="map-button en avishay-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay03_sd_en.mp4', this)"></button>
-        <div class="map-popup en avishay-station3-1">Avishay talks about even more stuff. Meh.</div>
+        <div class="map-popup en avishay-station3-1">Avishay describes how difficult it has been to talk about what happened during the Holocaust in his family.</div>
         <button class="map-button en avishay-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay04_sd_en.mp4', this)"></button>
-        <div class="map-popup en avishay-station3-2">Avishay is still talking... It's getting a little annoying.</div>
+        <div class="map-popup en avishay-station3-2">Avishay describes the common future of Jews and Germans.</div>
       </div>
     </div>
 
