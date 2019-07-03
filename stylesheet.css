@@ -685,10 +685,9 @@ display: flex;
 }
 
 #IE-name{
-  height: 27vh;
+  /*height: 27vh;*/
   font-family: 'MuliRegular'; 
   flex: 0 0 20.8vw;
-  border: 1px solid red;
   align-self: flex-end;
 }
 
