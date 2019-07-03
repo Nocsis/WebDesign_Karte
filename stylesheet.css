@@ -603,6 +603,21 @@ height: 50px;
   display: flex;
 }
 
+.flex-container9{
+  height: 75.5vh;
+  display:flex;
+}
+
+.flex-container10{
+  height:92.6vh;
+  display:flex;
+}
+
+.flex-container11{
+  height:17.16vh;
+  display:flex;
+}
+
 .randlinks{
 flex: 0 0 5.2vw;
 display: flex;
@@ -644,6 +659,30 @@ display: flex;
 
 .leer{
   flex: 0 0 100vw;
+}
+
+.film-spalte-ie{
+  flex: 0 0 64.7vw;
+}
+
+.erklärung-spalte-ie{
+  flex: 0 0 23.1vw;
+  font-family: 'MuliRegular';
+  font-size: 20px;
+  border-top: 1px solid #c6c6c6;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.erklärung2-spalte-ie{
+  flex: 0 0 23.1vw;
+}
+
+.erklär-text-ie{
+  font-family: 'MuliRegular';
+  font-size: 16px;
+  flex: 0 0 20.8vw;
+  border-top: 1px solid #c6c6c6;
+  border-bottom: 1px solid #c6c6c6;
 }
 
 .strich{
@@ -779,4 +818,8 @@ display: flex;
   margin-top: 20px;
   flex: 0 0 43.9vw;
   text-align:right;
+}
+
+.film-foto-ie{
+  flex: 0 0 43.9vw;
 }
