@@ -76,7 +76,6 @@ header {
   bottom: 50px;
   width: 99vw;
   align-items: baseline;
-  border: 1px solid red;
 }
 
 .flex-container > div {
@@ -94,7 +93,6 @@ header {
 
 #border-right{
   flex: 0 0 4.7vw;
-  border: 1px solid green;
 }
 
 /* Language-switcher*/

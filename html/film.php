@@ -14,16 +14,14 @@
     <div class="grid-container" >
       
       <div id="film-trailer">
-        <video controls autoplay id="film-video">
-          <source src="/material/videos/avishay01_sd.mp4" type="video/mp4">
-        </video>
+      <iframe src="https://www.youtube-nocookie.com/embed/UOtiYPDr1BI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
       <div id="film-aside">
         <div>
         
         </div>
-        <img src="">
+        <!--<img src="/material/bilder/SchmidtFilm.jpg">-->
         <div>
         
         </div>
