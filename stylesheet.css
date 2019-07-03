@@ -416,55 +416,6 @@ nav a:hover {
   left: 1510px;
 }
 
-/*Bella*/
-#bella-map {
-  background-image: url(material/bilder/maps/map_bella.jpg)
-}
-
-#bella-map.en-map {
-  background-image: url(material/bilder/maps/map_bella_en.jpg)
-}
-
-.bella-station1-1 {
-  top: 330px;
-  left: 700px;
-}
-
-.bella-station1-2 {
-  top: 320px;
-  left: 725px;
-}
-
-/*.bella-station1-3 {
-  top: px;
-  left: 1510px;
-}
-
-.bella-station1-4 {
-  top: 837px;
-  left: 1510px;
-}
-
-.bella-station2-1 {
-  top: 837px;
-  left: 1510px;
-}
-
-.bella-station3-1 {
-  top: 837px;
-  left: 1510px;
-}
-
-.bella-station3-2 {
-  top: 837px;
-  left: 1510px;
-}
-
-.bella-station3-4 {
-  top: 837px;
-  left: 1510px;
-}*/
-
 /*Impressum*/
 
 .impressum{
@@ -685,7 +636,7 @@ display: flex;
 }
 
 #IE-name{
-  height: 27vh;
+  /*height: 27vh;*/
   font-family: 'MuliRegular'; 
   flex: 0 0 20.8vw;
   border: 1px solid red;
