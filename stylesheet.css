@@ -555,6 +555,7 @@ display: flex;
 
 .spalte1{
   flex: 0 0 20.8vw;
+  border: 30px solid red;
 }
 
 .spalte2{
@@ -624,6 +625,16 @@ display: flex;
 
 .IE-jahr{
   flex: 0 0 43.9vw;
+  font-family: 'MuliRegular';
+  font-size: 25px;
+}
+
+#IE-name{
+  height: 27vh;
+  font-family: 'MuliRegular'; 
+  flex: 0 0 20.8vw;
+  border: 1px solid red;
+  align-self: flex-end;
 }
 
 /*IE-Impressum*/
