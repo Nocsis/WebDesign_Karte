@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8" />
-    <title>Karla Pilpel</title>
+    <title>Avishay Golz</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/stylesheet.css">
   </head>
@@ -15,10 +15,22 @@
 
       <div id="name">
         <span id="name1">
-          &nbsp;Karla
+          &nbsp;Avishay
         </span>
         <span id="name2">
-          &nbsp;Pilpel
+          &nbsp;Golz
+        </span>
+        <span class="de" id="name3">
+          &nbsp;über
+        </span>
+        <span class="en" id="name3">
+          &nbsp;talking about
+        </span>
+        <span class="de" id="name4">
+          &nbsp;seine Mutter
+        </span>
+        <span class="en" id="name4">
+          &nbsp;his mother
         </span>
       </div>
 
@@ -27,11 +39,11 @@
       </div>
 
       <div id="text" class="de">
-        >>Ich sage immer, man muss sich um die Lebenden kümmern, nicht um die Toten.<<
+        >>Wenn du deine Vergangenheit nicht kennst, hast du keine Gegenwart und deine Zukunft ist sehr unklar.<<
       </div>
 
       <div id="text" class="en">
-        >>I always say that you have to focus to the living and not to the dead.<<
+        >>When you don't know your past, you do not have a present and your future is very unclear.<<
       </div>
 
       <div class="s"></div>
@@ -40,22 +52,18 @@
       <div class="s4"></div>
 
       <div id="year" class="de">
-       <strong>// </strong> &nbsp; Geboren am 12.12.1931 in Berlin als Karla Rothstein. <br>
-       <strong>// </strong> &emsp; 1939 wird sie zusammen mit ihrer Schwester auf einen Kindertransport nach England geschickt; sie sieht ihre Eltern das letzte Mal. <br>
-       <strong>// </strong> &emsp; In England lebt sie in einem Kinderheim in Manchester.  <br>
-       <strong>// </strong> &nbsp; Karla wandert 1951 in Israel ein, gründet eine Familie und bekommt zwei Kinder. Sie arbeitet vorwiegend als Krankenschwester. <br>
+       <strong>// &nbsp; 1930er</strong> &nbsp; Kindheit in Leipzig <br>
+       <strong>// &nbsp; 1939</strong> &emsp; Flucht in die Niederlande bei Kriegsausbruch <br>
+       <strong>// &nbsp; 1945</strong> &emsp; Weg nach Israel <br>
       </div>
 
       <div id="year" class="en">
-       <strong>// </strong> &nbsp; Born on 12.12.1931 in Berlin as Karla Rothstein <br>
-       <strong>// </strong> &emsp; In 1939 she is sent on a Kindertransport to England together with her sister; she sees her parents for the last time. <br>
-       <strong>// </strong> &emsp; In England she is sent to a Kinderheim in Manchester <br>
-       <strong>// </strong> &emsp; Karla emigrates to Israel in 1951 and marries Abraham Pilpel. They have two sons. <br>
-       <strong>// </strong> &nbsp; Karla works as a nurse. She lives in Jerusalem today. <br>
+       <strong>// &nbsp; 1930s</strong> &nbsp; childhood in Leipzig <br>
+       <strong>// &nbsp; 1939</strong> &emsp; escape to the Netherlands at start of war <br>
+       <strong>// &nbsp; 1945</strong> &emsp; path towards Israel <br>
       </div>
     </div>
 
-<!--Bis hier nicht weiter!-->
     <div id="section2">
       <div class="map-background" id="avishay-map">
         <div id="video-popup">
