@@ -3,16 +3,19 @@
 //----Variablen----
 
 //Language Switchers
+    /*Buttons im header*/
 var deutsch = document.getElementById('de-click'),
     english = document.getElementById('en-click'),
+    /*alle Elemente die als deutsch oder englisch gekennzeichnet sind*/
     de_txt = document.querySelectorAll('.de'),
     en_txt = document.querySelectorAll('.en'),
     nb_de = de_txt.length,
     nb_en = en_txt.length,
+    /*das Map element*/
     map = document.getElementsByClassName("map-background")[0];
 
+/*onClick listener für die Buttons im header*/
 deutsch.addEventListener('click', function() {switchGerman();});
-
 english.addEventListener('click', function() {switchEnglish();});
 
 //Video Buttons
@@ -34,6 +37,7 @@ videoClose.onclick = function() {hideVideo()};
 //----Funktionen----
 
 function checkKeyPress(keyEvent) {
+  //27 = Escape
   if(keyEvent.keyCode == 27) {
     hideVideo();
   }
@@ -61,15 +65,18 @@ function scrollToBottom() {
 }
 
 //Language Switchers
+/*bei Seitenaufruf*/
 function init(){
   language(deutsch,english);
 }
 
+/*onClick Button DE*/
 function switchGerman() {
   language(deutsch,english);
   map.classList.remove("en-map");
 }
 
+/*onClick Button EN*/
 function switchEnglish() {
   language(english,deutsch);
   if(!map.classList.contains("en-map")) {
@@ -106,12 +113,14 @@ function hide(txt,nb){
 }
 
 //Video Buttons
+/*onClick aller Video Buttons, Übergabe des Quellpfades und des Button elements*/
 function popupVideo(src, btn) {
   btn.classList.add("clicked");
   videoContainer.innerHTML = "<video controls autoplay id=\"video-player\"> <source src=\""+src+"\" type=\"video/mp4\"> </video>";
   videoPopup.classList.toggle("show");
 }
 
+/*onClick des Close Buttons*/
 function hideVideo() {
   if(videoPopup.classList.contains("show")) {
     videoPopup.classList.toggle(("show"));
@@ -119,6 +128,7 @@ function hideVideo() {
   }
 }
 
+/*hover aller Video Buttons*/
 function popupDescription(element) {
   for(var i = 0; i < nb_descriptions; i++) {
     if(descriptionPopup[i].classList.item(1) == element.classList.item(1)
@@ -128,6 +138,7 @@ function popupDescription(element) {
   }
 }
 
+/*mouseLeave aller Video Buttons*/
 function hideDescription(element) {
   for(var i = 0; i < nb_descriptions; i++) {
     if(descriptionPopup[i].classList.item(1) == element.classList.item(1)
