@@ -8,11 +8,11 @@
   <div id="navigation">
     <nav>
       <a href="/html/stories/bella.php">BELLA&nbsp; //</a>
-      <a href="#">&nbsp;&nbsp;JOSEPH &nbsp;//</a>
-      <a href="#">&nbsp;&nbsp;NATHAN&nbsp; //</a>
-      <a href="#">&nbsp;&nbsp;STEFFI &nbsp;//</a>
-      <a href="/html/stories/avishai.php">&nbsp;&nbsp;AVISHAI &nbsp;//</a>
-      <a href="/html/stories/carla.php">&nbsp;&nbsp;CARLA &nbsp; //</a>
+      <a href="/html/stories/joseph.php">&nbsp;&nbsp;JOSEF &nbsp;//</a>
+      <a href="/html/stories/nathan.php">&nbsp;&nbsp;NATHAN&nbsp; //</a>
+      <a href="/html/stories/steffi.php">&nbsp;&nbsp;STEFFI &nbsp;//</a>
+      <a href="/html/stories/avishai.php">&nbsp;&nbsp;AVISHAY &nbsp;//</a>
+      <a href="/html/stories/carla.php">&nbsp;&nbsp;KARLA &nbsp; //</a>
     </nav>
   </div>
 
