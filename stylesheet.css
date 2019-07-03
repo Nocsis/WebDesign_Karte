@@ -588,7 +588,6 @@ display: flex;
 
 .leer{
   flex: 0 0 100vw;
-  border: 1px solid green;
 }
 
 .strich{
