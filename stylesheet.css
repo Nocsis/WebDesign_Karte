@@ -515,7 +515,7 @@ height: 50px;
 
 .flex-container2{
   height: 41vh;
-  display: flex;
+  display: flex; 
 }
 
 .flex-container3{
@@ -540,11 +540,11 @@ height: 50px;
 
 .flex-container7{
   height: 3vh;
-  display: flex;
+  display: flex; 
 }
 
 .flex-container8{
-  height: 7.4vh;
+  height: 10.8vh;
   display: flex;
 }
 
@@ -624,6 +624,16 @@ display: flex;
 
 .IE-jahr{
   flex: 0 0 43.9vw;
+  font-family: 'MuliRegular';
+  text-align: left;
+  font-size: 25px;
+}
+
+.IE-name{
+  height: 41vh;
+  font-family: 'MuliRegular';
+  margin-top: 152px;
+  
 }
 
 /*IE-Impressum*/
