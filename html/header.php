@@ -7,12 +7,12 @@
 
   <div id="navigation">
     <nav>
-      <a href="/vorlagen/layoutWebsite Kopie.php">BELLA&nbsp; //</a>
+      <a href="/html/stories/bella.php">BELLA&nbsp; //</a>
       <a href="#">&nbsp;&nbsp;JOSEPH &nbsp;//</a>
       <a href="#">&nbsp;&nbsp;NATHAN&nbsp; //</a>
       <a href="#">&nbsp;&nbsp;STEFFI &nbsp;//</a>
       <a href="/html/stories/avishai.php">&nbsp;&nbsp;AVISHAI &nbsp;//</a>
-      <a href="#">&nbsp;&nbsp;CARLA &nbsp; //</a>
+      <a href="/html/stories/carla.php">&nbsp;&nbsp;CARLA &nbsp; //</a>
     </nav>
   </div>
 
