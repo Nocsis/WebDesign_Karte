@@ -12,6 +12,7 @@
       
     <?php include ("../html/header.php"); ?>
 
+      <!--Name-->
       <div class="flex-container2">
         <div class="randlinks"></div>
           <div id="IE-name"> 
@@ -23,6 +24,7 @@
             <span class="en" id="name4">&nbsp;his mother</span> 
          </div> 
 
+         <!--Portrait und Text-->
          <div class="spalte2"></div>
          <div class="spalte3">
            <img src="../material/bilder/portraits/portraitAvishay.jpg" alt="Portrait Avishay" height="100%" width="90.91%">
@@ -45,6 +47,7 @@
           <div class="randrechts"></div>
         </div>
 
+        <!--Jahre-->
         <div class="flex-container5">
           <div class="randlinks"></div>
           <div class="IE-erklärung"></div>
@@ -61,7 +64,6 @@
           <div class="randrechts"></div>
         </div>
 
-
         <div class="flex-container6">
             <div class="leer"></div>
         </div>
@@ -77,7 +79,8 @@
         <div class="flex-container8">
             <div class="leer"></div>
         </div>
-          
+
+        <!--Map und Video Zeug-->  
         <div id="section2">
           <div class="map-background" id="avishay-map">
             <div id="video-popup">
