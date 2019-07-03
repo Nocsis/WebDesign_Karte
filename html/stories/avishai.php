@@ -96,5 +96,4 @@
 
     <script src="/scripts.js"></script>
   </body>
-  </body>
 </html>
