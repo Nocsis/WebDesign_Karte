@@ -32,7 +32,7 @@
   </div>
 
   <div id="text" class="en">
-        >>I never talked about the past, never. I could not live on anymore if I would always think of the past.<<
+        >>I have never spoken about my past. I wouldn’t be able to live if I would always think about my past.<<
   </div>
 
   <div class="s"></div>
@@ -41,17 +41,21 @@
       <div class="s4"></div>
 
   <div id="year" class="de">
-       <strong>// &nbsp; 1930er</strong> &nbsp; Kindheit in Leipzig <br>
-       <strong>// &nbsp; 1940-1945</strong> &emsp; Exil in Jugoslavien <br>
-       <strong>// &nbsp; 1945</strong> &emsp; Rückkehr nach Leipzig <br>
-       <strong>// &nbsp; 1948</strong> &emsp; Weg nach Israel <br>
+       <strong>// </strong> &nbsp; Bella (Zahava) Katz wird am 2.9.1924 in Leipzig als Beate Reichardt geboren. <br>
+       <strong>// </strong> &emsp; Mit 17 Jahren schicken ihre Eltern sie erst nach Wien, später nach Prag zum Studium und um sich bei Bekannten zu verstecken. Später flieht sie nach Jugoslawien, wo sie sich bei Bauersfamilien vor den Nazis versteckt. <br>
+       <strong>// </strong> &emsp; Nach dem Krieg lernt sie ihren Mann kennen und kehrt mit ihm nach Deutschland zurück. Sie helfen Juden bei der Einwanderung ins britische Mandatsgebiet Palästina. <br>
+       <strong>// </strong> &emsp; 1949 wandern sie selbst mit ihrer einjährigen Tochter in Israel ein. <br>
+       <strong>// </strong> &nbsp; Ron Stern ist ihr Enkel.<br>
   </div>
 
   <div id="year" class="en">
-       <strong>// &nbsp; 1930s</strong> &nbsp; childhood in Leipzig <br>
-       <strong>// &nbsp; 1940-1945</strong> &emsp; exile in Yugoslavia <br>
-       <strong>// &nbsp; 1945</strong> &emsp; return to Leipzig <br>
-       <strong>// &nbsp; 1948</strong> &emsp; path towards Israel <br>
+       <strong>// </strong> &nbsp; Bella (Zahava) Katz was born on 2.9.1924 in Leipzig as Beate Reichardt.<br>
+       <strong>// </strong> &emsp; At the age of 17 her parents send her first to Vienna and later on to Prague to study.<br>
+       <strong>// </strong> &emsp; Later she flees to Yugoslavia where she hides with other young Jews at farmers families from the Nazis.<br>
+       <strong>// </strong> &emsp; After the war she hitchhikes back to Germany and meets her husband Mandel Katz.<br>
+       <strong>// </strong> &emsp; Both flee to the western sector of Germany and help to smuggle Jews to Palestine that belonged at this time to the British Mandate.<br>
+       <strong>// </strong> &emsp; In 1949 she emigrates to Israel with her husband and her daughter Lea.<br>
+       <strong>// </strong> &emsp; Ron Stern is her grandson.<br>
   </div>
   </div>
 
