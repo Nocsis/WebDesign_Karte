@@ -67,9 +67,7 @@
         </div>
         <!--Die Reihenfolge der Klassen ist wichtig! Immer "map-button sprache name-stationnr-nr" bzw "map-popup sprache name-stationnr-nr"!-->
         <button class="map-button de bella-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella01_sd.mp4', this)"></button>
-        <div class="map-popup de bella-station1-1">Bella erzählt von ihrer Kindheit 
-in der Vorkriegszeit
-</div>
+        <div class="map-popup de bella-station1-1">Bella erzählt von ihrer Kindheit in der Vorkriegszeit</div>
 
         <button class="map-button de bella-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella02_sd.mp4', this)"></button>
         <div class="map-popup de bella-station1-2">Bella versucht zu verstehen, was eigentlich geschieht.</div>

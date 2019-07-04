@@ -77,31 +77,65 @@
   </div>
     
   <div id="section2">
-    <div class="map-background" id="avishay-map">
-      <div id="video-popup">
-        <div id="video-container"></div>
-        <button id="video-close"></button>
+      <div class="map-background" id="bella-map">
+        <div id="video-popup">
+          <div id="video-container"></div>
+          <button id="video-close"></button>
+        </div>
+        <!--Die Reihenfolge der Klassen ist wichtig! Immer "map-button sprache name-stationnr-nr" bzw "map-popup sprache name-stationnr-nr"!-->
+        <button class="map-button de bella-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella01_sd.mp4', this)"></button>
+        <div class="map-popup de bella-station1-1">Bella erzählt von ihrer Kindheit 
+in der Vorkriegszeit
+</div>
+
+        <button class="map-button de bella-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella02_sd.mp4', this)"></button>
+        <div class="map-popup de bella-station1-2">Bella versucht zu verstehen, was eigentlich geschieht.</div>
+
+        <button class="map-button de bella-station1-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella03_sd.mp4', this)"></button>
+        <div class="map-popup de bella-station1-3">Bella beschreibt die Umzüge der Nazis und das Verschwinden jüdischer Nachbarn</div>
+
+        <button class="map-button de bella-station1-4" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd.mp4', this)"></button>
+        <div class="map-popup de bella-station1-4">Bella erzählt von ihrer Jugendzeit im Exil.</div>
+
+        <button class="map-button de bella-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd.mp4', this)"></button>
+        <div class="map-popup de bella-station2-1">Bella lernt nach Kriegsende ihren Mann kennen. Gemeinsam verlassen sie Deutschland.</div>
+
+        <button class="map-button de bella-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd.mp4', this)"></button>
+        <div class="map-popup de bella-station3-1">Bella berichtet voller Humor von der Ankunft in Israel und dem Leben in einfachen Verhältnissen</div>
+
+        <button class="map-button de bella-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd.mp4', this)"></button>
+        <div class="map-popup de bella-station3-2">Gemeinsam mit ihrem Enkel Ron Stern redet Bella über Vergangenheit und Zukunft.</div>
+
+        <button class="map-button de bella-station3-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd.mp4', this)"></button>
+        <div class="map-popup de bella-station3-3">Die Erinnerung an die Geschichte ist grundlegend für die Zukunft.</div>
+        
+
+
+        <button class="map-button en bella-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella01_sd_en.mp4', this)"></button>
+        <div class="map-popup en bella-station1-1">Childhood pre-war period</div>
+
+        <button class="map-button en bella-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella02_sd_en.mp4', this)"></button>
+        <div class="map-popup de bella-station1-2">Bella understands what is actually happening</div>
+
+        <button class="map-button en bella-station1-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella03_sd_en.mp4', this)"></button>
+        <div class="map-popup de bella-station1-3">Bella describes the Nazi parades as well as the disappearing of Jews</div>
+
+        <button class="map-button en bella-station1-4" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd_en.mp4', this)"></button>
+        <div class="map-popup de bella-station1-4">Bella talks about her youth in exile in Yugoslavia</div>
+
+        <button class="map-button en bella-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd_en.mp4', this)"></button>
+        <div class="map-popup de bella-station2-1">Bella meets her husband, both flee to the western sector and emigrate to Israel </div>
+
+        <button class="map-button en bella-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd_en.mp4', this)"></button>
+        <div class="map-popup de bella-station3-1">Bella talks humorously about her arrival in Israel and the very simple life there.</div>
+
+        <button class="map-button en bella-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd_en.mp4', this)"></button>
+        <div class="map-popup de bella-station3-2">Bella and her grandson Ron are speaking about the past and the future.</div>
+
+        <button class="map-button en bella-station3-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd_en.mp4', this)"></button>
+        <div class="map-popup de bella-station3-3">Remembering the past is essential for the future.</div>
       </div>
-      <!--Die Reihenfolge der Klassen ist wichtig! Immer "map-button sprache name-stationnr-nr" bzw "map-popup sprache name-stationnr-nr"!-->
-      <button class="map-button de avishay-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd.mp4', this)"></button>
-      <div class="map-popup de avishay-station1-1">Avishay erzählt vom Leben seiner Familie und den Beginn ihrer Flucht.</div>
-      <button class="map-button de avishay-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay02_sd.mp4', this)"></button>
-      <div class="map-popup de avishay-station2-1">Avishay berichtet, wie seine Mutter und ihre Geschwister die Nazizeit überlebt haben.</div>
-      <button class="map-button de avishay-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay03_sd.mp4', this)"></button>
-      <div class="map-popup de avishay-station3-1">Avishay beschreibt, wie schwierig es in seiner Familie war, über die Erlebnisse im Holocaust zu sprechen.</div>
-      <button class="map-button de avishay-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay04_sd.mp4', this)"></button>
-      <div class="map-popup de avishay-station3-2">Avishay beschreibt die gemeinsame Zukunft von Juden und Deutschen.</div>
-      
-      <button class="map-button en avishay-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd_en.mp4', this)"></button>
-      <div class="map-popup en avishay-station1-1">Avishay talks about stuff. It's interesting. Probably.</div>
-      <button class="map-button en avishay-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay02_sd_en.mp4', this)"></button>
-      <div class="map-popup en avishay-station2-1">Avishay talks about more stuff. It's probably still interesting.</div>
-      <button class="map-button en avishay-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay03_sd_en.mp4', this)"></button>
-      <div class="map-popup en avishay-station3-1">Avishay talks about even more stuff. Meh.</div>
-      <button class="map-button en avishay-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay04_sd_en.mp4', this)"></button>
-      <div class="map-popup en avishay-station3-2">Avishay is still talking... It's getting a little annoying.</div>
     </div>
-  </div>
 
   <button class="scroll-button" id="down-button" onclick="scrollToBottom()"></button>
   <button class="scroll-button" id="up-button" onclick="scrollToTop()"></button>
