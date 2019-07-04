@@ -471,6 +471,104 @@ nav a:hover {
   left: 1513px;
 }
 
+/*Karla*/
+#karla-map {
+  background-image: url(material/bilder/maps/map_karla.jpg)
+}
+
+#karla-map.en-map {
+  background-image: url(material/bilder/maps/map_karla_en.jpg)
+}
+
+.karla-station1-1 {
+  top: 254px;
+  left: 746px;
+}
+
+.karla-station1-2 {
+  top: 265px;
+  left: 746px;
+}
+
+.karla-station2-1 {
+  top: 232px;
+  left: 435px;
+}
+
+.karla-station2-2 {
+  top: 243px;
+  left: 435px;
+}
+
+.karla-station3-1 {
+  top: 814px;
+  left: 1492px;
+}
+
+.karla-station3-2 {
+  top: 804px;
+  left: 1514px;
+}
+
+.karla-station3-3 {
+  top: 817px;
+  left: 1491px;
+}
+
+.karla-station3-4 {
+  top: 807px;
+  left: 1514px;
+}
+
+/*Joseph*/
+#joseph-map {
+  background-image: url(material/bilder/maps/map_joseph.jpg)
+}
+
+#joseph-map.en-map {
+  background-image: url(material/bilder/maps/map_joseph_en.jpg)
+}
+
+.joseph-station1-1 {
+  top: 328px;
+  left: 701px;
+}
+
+/*.joseph-station1-2 {
+  top: 318px;
+  left: 723px;
+}
+
+.joseph-station1-3 {
+  top: 330px;
+  left: 701px;
+}
+
+.joseph-station1-4 {
+  top: 320px;
+  left: 723px;
+}
+
+.joseph-station2-1 {
+  top: 549px;
+  left: 879px;
+}
+
+.joseph-station3-1 {
+  top: 804px;
+  left: 1503px;
+}
+
+.joseph-station3-2 {
+  top: 812px;
+  left: 1492px;
+}
+
+.joseph-station3-3 {
+  top: 802px;
+  left: 1513px;
+}*/
+
 /*Impressum*/
 
 .impressum{
