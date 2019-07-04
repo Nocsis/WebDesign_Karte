@@ -93,13 +93,28 @@
 
 
         <button class="map-button en bella-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella01_sd_en.mp4', this)"></button>
-        <div class="map-popup en bella-station1-1">Avishay talks about stuff. It's interesting. Probably.</div>
-        <button class="map-button en bella-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella02_sd_en.mp4', this)"></button>
-        <div class="map-popup en bella-station2-1">Avishay talks about more stuff. It's probably still interesting.</div>
-        <button class="map-button en bella-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella03_sd_en.mp4', this)"></button>
-        <div class="map-popup en bella-station3-1">Avishay talks about even more stuff. Meh.</div>
-        <button class="map-button en bella-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd_en.mp4', this)"></button>
-        <div class="map-popup en bella-station3-2">Avishay is still talking... It's getting a little annoying.</div>
+        <div class="map-popup en bella-station1-1">Bella 1-1</div>
+
+        <button class="map-button de bella-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella02_sd_en.mp4', this)"></button>
+        <div class="map-popup de bella-station1-2">Bella 1-2</div>
+
+        <button class="map-button de bella-station1-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella03_sd.mp4', this)"></button>
+        <div class="map-popup de bella-station1-3">Bella 1-3</div>
+
+        <button class="map-button de bella-station1-4" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd.mp4', this)"></button>
+        <div class="map-popup de bella-station1-4">Bella 1-4</div>
+
+        <button class="map-button de bella-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd.mp4', this)"></button>
+        <div class="map-popup de bella-station2-1">Bella 2-1</div>
+
+        <button class="map-button de bella-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd.mp4', this)"></button>
+        <div class="map-popup de bella-station3-1">Bella 3-1</div>
+
+        <button class="map-button de bella-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd.mp4', this)"></button>
+        <div class="map-popup de bella-station3-2">Bella 3-2</div>
+
+        <button class="map-button de bella-station3-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd.mp4', this)"></button>
+        <div class="map-popup de bella-station3-3">Bella 3-3</div>
       </div>
     </div>
 
