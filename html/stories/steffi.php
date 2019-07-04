@@ -20,7 +20,7 @@
 
    <div class="spalte2"></div>
    <div class="spalte3">
-     <img src="../material/bilder/portraits/portraitAvishay.jpg" alt="Portrait Avishay" height="100%" width="90.91%">
+     <img src="../material/bilder/portraits/portraitSteffi.png" alt="Portrait Steffi" height="100%" width="90.91%">
    </div>
     <div class="spalte4"></div>
     <div class="IE-text de"> 	„Es fiel mir nie schwer, darüber zu reden. So ist das Leben - gut und schlecht. Man muss sich ich ihm stellen.“</div>

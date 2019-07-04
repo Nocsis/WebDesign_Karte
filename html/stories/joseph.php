@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Tor nach Zion</title>
+    <title>Josef Aaron</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../stylesheet.css">
     <script src="../scripts.js"></script>
@@ -20,7 +20,7 @@
 
    <div class="spalte2"></div>
    <div class="spalte3">
-     <img src="../material/bilder/portraits/portraitAvishay.jpg" alt="Portrait Avishay" height="100%" width="90.91%">
+     <img src="../material/bilder/portraits/portraitJosef.png" alt="Portrait Josef" height="100%" width="90.91%">
    </div>
     <div class="spalte4"></div>
     <div class="IE-text de"> 	„Ich erzähle meine Geschichte. Weiter und weiter und es ist, … es ist schwer. Und es tut weh. Aber ich freue mich heute, dass ich die Geschichte  erzählen und weitergeben kann.“</div>
