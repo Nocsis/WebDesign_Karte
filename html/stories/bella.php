@@ -96,25 +96,25 @@
         <div class="map-popup en bella-station1-1">Childhood pre-war period</div>
 
         <button class="map-button en bella-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella02_sd_en.mp4', this)"></button>
-        <div class="map-popup de bella-station1-2">Bella understands what is actually happening</div>
+        <div class="map-popup en bella-station1-2">Bella understands what is actually happening</div>
 
         <button class="map-button en bella-station1-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella03_sd_en.mp4', this)"></button>
-        <div class="map-popup de bella-station1-3">Bella describes the Nazi parades as well as the disappearing of Jews</div>
+        <div class="map-popup en bella-station1-3">Bella describes the Nazi parades as well as the disappearing of Jews</div>
 
         <button class="map-button en bella-station1-4" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd_en.mp4', this)"></button>
-        <div class="map-popup de bella-station1-4">Bella talks about her youth in exile in Yugoslavia</div>
+        <div class="map-popup en bella-station1-4">Bella talks about her youth in exile in Yugoslavia</div>
 
         <button class="map-button en bella-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd_en.mp4', this)"></button>
-        <div class="map-popup de bella-station2-1">Bella meets her husband, both flee to the western sector and emigrate to Israel </div>
+        <div class="map-popup en bella-station2-1">Bella meets her husband, both flee to the western sector and emigrate to Israel </div>
 
         <button class="map-button en bella-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd_en.mp4', this)"></button>
-        <div class="map-popup de bella-station3-1">Bella talks humorously about her arrival in Israel and the very simple life there.</div>
+        <div class="map-popup en bella-station3-1">Bella talks humorously about her arrival in Israel and the very simple life there.</div>
 
         <button class="map-button en bella-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd_en.mp4', this)"></button>
-        <div class="map-popup de bella-station3-2">Bella and her grandson Ron are speaking about the past and the future.</div>
+        <div class="map-popup en bella-station3-2">Bella and her grandson Ron are speaking about the past and the future.</div>
 
         <button class="map-button en bella-station3-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd_en.mp4', this)"></button>
-        <div class="map-popup de bella-station3-3">Remembering the past is essential for the future.</div>
+        <div class="map-popup en bella-station3-3">Remembering the past is essential for the future.</div>
       </div>
     </div>
 
