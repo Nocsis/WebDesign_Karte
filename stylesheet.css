@@ -624,46 +624,46 @@ height: 50px;
   display:flex;
 }
 
-.randlinks{
+.border-left{
 flex: 0 0 5.2vw;
 display: flex;
 }
 
-.spalte1{
+.column1{
   flex: 0 0 20.8vw;
   border: 30px solid red;
 }
 
-.spalte2{
+.column2{
   flex: 0 0 2.3vw;
 }
 
-.spalte3{
+.column3{
   flex: 0 0 20.8vw;
 }
 
-.spalte4{
+.column4{
   flex: 0 0 2.3vw;
 }
 
-.spalte5{
+.column5{
   flex: 0 0 20.8vw;
 }
 
-.spalte6{
+.column6{
   flex: 0 0 2.3vw;
 }
 
-.spalte7{
+.column7{
   flex: 0 0 20.8vw;
 }
 
-.randrechts{
+.border-right{
   flex: 0 0 4.7vw;
 display: flex;
 }
 
-.leer{
+.blank{
   flex: 0 0 100vw;
 }
 
@@ -691,27 +691,27 @@ display: flex;
   border-bottom: 1px solid #c6c6c6;
 }
 
-.strich{
+.line{
   flex: 0 0 43.9vw;
   border-top: 1px solid #c6c6c6;
 }
 
-.strich2{
+.line2{
   flex: 0 0 43.9vw;
   border-top: 1px solid #c6c6c6;
 }
 
-.strich3{
+.line3{
   flex: 0 0 43.9vw;
   border-top: 1px solid #c6c6c6;
 }
 
-.strich4{
+.line4{
   flex: 0 0 43.9vw;
   border-top: 1px solid #c6c6c6;
 }
 
-.IE-text{
+.ie-text{
   flex: 0 0 43.9vw;
   align-self: flex-end; 
   font-family: 'MuliRegular';
@@ -719,17 +719,17 @@ display: flex;
   font-size: 25px;
 }
 
-.IE-erklärung{
+.ie-statement{
   flex: 0 0 43.9vw;
 }
 
-.IE-jahr{
+.ie-year{
   flex: 0 0 43.9vw;
   font-family: 'MuliRegular';
   font-size: 25px;
 }
 
-#IE-name{
+#ie-name{
   /*height: 27vh;*/
   font-family: 'MuliRegular'; 
   flex: 0 0 20.8vw;
