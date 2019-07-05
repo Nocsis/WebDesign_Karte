@@ -667,11 +667,11 @@ display: flex;
   flex: 0 0 100vw;
 }
 
-.film-spalte-ie{
+.film-column-ie{
   flex: 0 0 64.7vw;
 }
 
-.erklärung-spalte-ie{
+.explanation-column-ie{
   flex: 0 0 23.1vw;
   font-family: 'MuliRegular';
   font-size: 20px;
@@ -683,7 +683,7 @@ display: flex;
   flex: 0 0 23.1vw;
 }
 
-.erklär-text-ie{
+.explanation-text-ie{
   font-family: 'MuliRegular';
   font-size: 16px;
   flex: 0 0 20.8vw;
