@@ -473,7 +473,7 @@ nav a:hover {
 
 /*Impressum*/
 
-.impressum{
+.legal{
 grid-area: bild;
 font-size: 30px !important;
 font-family: 'BebasNeueLight';
@@ -483,7 +483,7 @@ text-align: left !important;
 height: 50px;
 }
 
-.angaben{
+.legal-information{
   grid-area: bild;
   margin-top:75px;
   text-align: left !important;
@@ -494,7 +494,7 @@ height: 50px;
   height: 155px;
 }
 
-.angaben2{
+.legal-information2{
   grid-area: text;
   grid-column: 6/ span 1;
   margin-top:75px;
@@ -505,7 +505,7 @@ height: 50px;
   height: 155px;
 }
 
-.datenschutz{
+.data-protection{
   grid-area: bild;
   margin-top:260px;
   text-align: left !important;
@@ -518,7 +518,7 @@ height: 50px;
 
 /*Verein*/
 
-.verein{
+.association{
   grid-area: name;
   grid-column: 2/ span 3;
   text-align: left !important;
@@ -527,14 +527,14 @@ height: 50px;
   align-self: end;
 }
 
-#vereinsbild{
+#association-img{
   margin-top: 25px;
   grid-area: text;
   text-align: left;
   font-size: 25px;
 }
 
-.daten{
+.data{
   grid-area: jahr;
   font-family: 'MuliRegular';
   font-size: 14px !important;
@@ -543,7 +543,7 @@ height: 50px;
   border-bottom: solid 1px #c6c6c6;
 }
 
-.erklärung{
+.explanation{
   grid-area: erk;
   font-family: 'MuliRegular';
   font-size: 14px !important;
@@ -552,7 +552,7 @@ height: 50px;
   border-bottom: solid 1px #c6c6c6;
 }
 
-.studenten{
+.students{
   margin-top: 135px;
   grid-area: jahr;
   font-family: 'MuliRegular';
@@ -738,7 +738,7 @@ display: flex;
 
 /*IE-Impressum*/
 
-.ie-impressum{
+.ie-legal{
   font-size: 30px !important;
   font-family: 'BebasNeueLight';
   border-bottom: solid 1px #c6c6c6;
@@ -747,7 +747,7 @@ display: flex;
   height: 50px;
 }
 
-.ie-angaben{
+.ie-information{
   text-align: left;
   font-size: 15px;
   font-family: 'MuliRegular';
@@ -772,7 +772,7 @@ display: flex;
   margin-top: 20px;
 }
 
-.ie-datenschutz{
+.ie-data-protection{
   flex: 0 0 43.9vw;
   border-bottom: 1px solid #c6c6c6;
   font-size: 15px;
@@ -789,12 +789,12 @@ display: flex;
   height: 320px;
 }
 
-.ie-vereinsbild{
+.ie-association-img{
   flex: 0 0 43.9vw;
   border: 1px solid #c6c6c6;
 }
 
-.ie-strich{
+.ie-line{
   border-bottom: 1px solid #c6c6c6;
   flex: 0 0 43.9vw;
 }
@@ -805,14 +805,14 @@ display: flex;
   margin-top: 25px;
 }
 
-.ie-erklärung{
+.ie-explanation{
   flex: 0 0 43.9vw;
   font-family: 'MuliRegular';
   font-size: 15px !important;
   border-bottom: 1px solid #c6c6c6;
 }
 
-.ie-studenten{
+.ie-students{
   flex: 0 0 43.9vw;
   font-family: 'MuliRegular';
   font-size: 15px !important;
