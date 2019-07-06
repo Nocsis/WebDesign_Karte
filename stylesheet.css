@@ -830,6 +830,21 @@ display: flex;
   flex: 0 0 43.9vw;
 }
 
-.testagain{
-  border: 1px solid green;
+/*Ie Formular stuff*/
+
+#ie-name1, #ie-name2, #ie-name3, #ie-name4{
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  float: right;
+  clear: both;
+  text-align: top !important;
+}
+
+#ie-name2, #ie-name3, #ie-name4 {
+  margin-top: 1vh;
+}
+
+#ie-name4{
+  margin-bottom: 22vh;
 }

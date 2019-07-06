@@ -12,7 +12,8 @@
     
     <?php include ("../html/header.php"); ?>
 
-    <form action='" . $_SERVER["SCRIPT_NAME"] . "' method='post'> 
+    <div>
+    <form  action='" . $_SERVER["SCRIPT_NAME"] . "' method='post'> 
           
        <p> 
           <label> Name: 
@@ -53,6 +54,7 @@
           </p> 
                           
         </form>
+        </div>
           <div class="testagain">hallo</div>
   </body>
 </html>
