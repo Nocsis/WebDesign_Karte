@@ -15,23 +15,12 @@
 
       <div id="name">
         <span id="name1">
-          &nbsp;Avishay
+          &nbsp;Nathan
         </span>
         <span id="name2">
-          &nbsp;Golz
+          &nbsp;Friedman
         </span>
-        <span class="de" id="name3">
-          &nbsp;über
-        </span>
-        <span class="en" id="name3">
-          &nbsp;talking about
-        </span>
-        <span class="de" id="name4">
-          &nbsp;seine Mutter
-        </span>
-        <span class="en" id="name4">
-          &nbsp;his mother
-        </span>
+  
       </div>
 
       <div id="portrait">
