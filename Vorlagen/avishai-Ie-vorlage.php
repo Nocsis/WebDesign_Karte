@@ -14,8 +14,8 @@
 
       <!--Name-->
       <div class="flex-container2">
-        <div class="randlinks"></div>
-          <div id="IE-name"> 
+        <div class="border-left"></div>
+          <div id="ie-name"> 
             <span id="name1">&nbsp;Avishai</span>
             <span id="name2">&nbsp;Golz</span>
             <span class="de"id="name3">&nbsp;über</span>
@@ -25,59 +25,59 @@
          </div> 
 
          <!--Portrait und Text-->
-         <div class="spalte2"></div>
-         <div class="spalte3">
+         <div class="column2"></div>
+         <div class="column3">
            <img src="../material/bilder/portraits/portraitAvishay.jpg" alt="Portrait Avishay" height="100%" width="90.91%">
          </div>
-          <div class="spalte4"></div>
-          <div class="IE-text de"> >>Wenn du deine Vergangenheit nicht kennst, hast du keine Gegenwart und deine Zukunft ist sehr unklar.<<</div>
-          <div class="IE-text en"> >>When you don't know your past, you do not have a present and your future is very unclear.<<</div>
-          <div class="randrechts"></div>
+          <div class="column4"></div>
+          <div class="ie-text de"> >>Wenn du deine Vergangenheit nicht kennst, hast du keine Gegenwart und deine Zukunft ist sehr unklar.<<</div>
+          <div class="ie-text en"> >>When you don't know your past, you do not have a present and your future is very unclear.<<</div>
+          <div class="border-right"></div>
       </div>
 
         <div class="flex-container3">
-          <div class="leer"></div>
+          <div class="blank"></div>
         </div>
 
         <div class="flex-container4">
-          <div class="randlinks"></div>
-          <div class="strich"></div>
-          <div class="spalte4"></div>
-          <div class="strich2"></div>
-          <div class="randrechts"></div>
+          <div class="border-left"></div>
+          <div class="line"></div>
+          <div class="column4"></div>
+          <div class="line2"></div>
+          <div class="border-right"></div>
         </div>
 
         <!--Jahre-->
         <div class="flex-container5">
-          <div class="randlinks"></div>
-          <div class="IE-erklärung"></div>
-          <div class="spalte4"></div>
-          <div class="IE-jahr de">
+          <div class="border-left"></div>
+          <div class="ie-statement"></div>
+          <div class="column4"></div>
+          <div class="ie-year de">
             <strong>// &nbsp; 1930er</strong> &nbsp; Kindheit in Leipzig <br>
             <strong>// &nbsp; 1939</strong> &emsp; Flucht in die Niederlande bei Kriegsausbruch <br>
             <strong>// &nbsp; 1945</strong> &emsp; Weg nach Israel <br></div>
-          <div class="IE-jahr en">
+          <div class="ie-year en">
             <strong>// &nbsp; 1930s</strong> &nbsp; childhood in Leipzig <br>
             <strong>// &nbsp; 1939</strong> &emsp; escape to the Netherlands at start of war <br>
             <strong>// &nbsp; 1945</strong> &emsp; path towards Israel <br>
           </div>
-          <div class="randrechts"></div>
+          <div class="border-right"></div>
         </div>
 
         <div class="flex-container6">
-            <div class="leer"></div>
+            <div class="blank"></div>
         </div>
           
         <div class="flex-container7">
-          <div class="randlinks"></div>
-          <div class="strich3"></div>
-          <div class="spalte4"> </div>
-          <div class="strich4"></div>
-          <div class="randrechts"></div>
+          <div class="border-left"></div>
+          <div class="line3"></div>
+          <div class="column4"> </div>
+          <div class="line4"></div>
+          <div class="border-right"></div>
         </div>
 
         <div class="flex-container8">
-            <div class="leer"></div>
+            <div class="blank"></div>
         </div>
 
         <!--Map und Video Zeug-->  

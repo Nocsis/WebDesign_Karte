@@ -13,14 +13,14 @@
     <?php include ("../html/header.php"); ?>
 
     <div class="flex-container9">
-     <div class="randlinks" ></div>
-      <div class="film-spalte-ie" >
+     <div class="border-left" ></div>
+      <div class="film-column-ie" >
         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/UOtiYPDr1BI" 
         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen></iframe>
     </div>
-      <div class="spalte6"></div>
-      <div class="erklärung-spalte-ie">
+      <div class="column6"></div>
+      <div class="explanation-column-ie">
    
         <br>
      <strong>//Buch und Regie <br> </strong>
@@ -35,14 +35,14 @@
     <strong><br> www.schmidt-film.com </strong>
 
     </div>
-      <div class="randrechts" ></div>
+      <div class="border-right" ></div>
     </div>
 
     <div class="flex-container8" ></div>
     <div class="flex-container8" ></div>
     <div class="flex-container9" >
-        <div class="randlinks" ></div>
-        <div class="erklär-text-ie" >
+        <div class="border-left" ></div>
+        <div class="explanation-text-ie" >
         
             <br>
         Der Film erzählt die berührende <br>
@@ -65,17 +65,17 @@
         sich der Film auf die Suche nach <br>
         den Familiengeschichten. 
         </div>
-        <div class="spalte6" ></div>
-        <div class="spalte5">
+        <div class="column6" ></div>
+        <div class="column5">
         <img src="../material/bilder/Tm_3mV9j.jpeg" alt="" width="100%" height="50%"> <br>
         <img src="../material/bilder/WSuEVlGc.jpeg" alt="" width="100%" height="49.4%">
 
         </div>
-        <div class="spalte6" ></div>
+        <div class="column6" ></div>
         <div class="film-foto-ie">
             <img src="../material/bilder/HcaxParX.jpeg" alt="" width="100%" height="100%">
         </div>
-        <div class="randrechts"></div>
+        <div class="border-right"></div>
     </div>
     <div class="flex-container11"></div>
 
