@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8" />
-    <title>Avishay Golz</title>
+    <title>Joseph Aaron </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/stylesheet.css">
   </head>
@@ -15,22 +15,10 @@
 
       <div id="name">
         <span id="name1">
-          &nbsp;Avishay
+          &nbsp;Joseph
         </span>
         <span id="name2">
-          &nbsp;Golz
-        </span>
-        <span class="de" id="name3">
-          &nbsp;über
-        </span>
-        <span class="en" id="name3">
-          &nbsp;talking about
-        </span>
-        <span class="de" id="name4">
-          &nbsp;seine Mutter
-        </span>
-        <span class="en" id="name4">
-          &nbsp;his mother
+          &nbsp;Aaron
         </span>
       </div>
 
@@ -39,11 +27,11 @@
       </div>
 
       <div id="text" class="de">
-        >>Wenn du deine Vergangenheit nicht kennst, hast du keine Gegenwart und deine Zukunft ist sehr unklar.<<
+      „Ich erzähle meine Geschichte. Weiter und weiter und es ist, … es ist schwer. Und es tut weh. Aber ich freue mich heute, dass ich die Geschichte  erzählen und weitergeben kann.“
       </div>
 
       <div id="text" class="en">
-        >>When you don't know your past, you do not have a present and your future is very unclear.<<
+      „I am going on telling my story. It is hard and it hurts. But I am happy that I can tell my story and share it with others.”
       </div>
 
       <div class="s"></div>
@@ -52,15 +40,19 @@
       <div class="s4"></div>
 
       <div id="year" class="de">
-       <strong>// &nbsp; 1930er</strong> &nbsp; Kindheit in Leipzig <br>
-       <strong>// &nbsp; 1939</strong> &emsp; Flucht in die Niederlande bei Kriegsausbruch <br>
-       <strong>// &nbsp; 1945</strong> &emsp; Weg nach Israel <br>
+       <strong>// </strong> &nbsp; Geboren am 5.5.1935 in Frankfurt am Main in einer Familie mit 11 Kindern. <br>
+       <strong>// </strong> &emsp; 1939 schickt ihn seine Mutter mit zwei Geschwistern nach Frankreich. Dort werden sie an verschiedenen Orten versteckt. <br>
+       <strong>// </strong> &emsp; 1942 findet sie die SS, die Kinder werden nach Bergen-Belsen gebracht.<br>
+       <strong>// </strong> &emsp; Nach seiner Befreiung wandert er in Israel ein. Er arbeitet lange Zeit als Kellner.<br>
+       <strong>// </strong> &emsp; Josef Aaron lebt heute in Jerusalem.<br>
       </div>
 
       <div id="year" class="en">
-       <strong>// &nbsp; 1930s</strong> &nbsp; childhood in Leipzig <br>
-       <strong>// &nbsp; 1939</strong> &emsp; escape to the Netherlands at start of war <br>
-       <strong>// &nbsp; 1945</strong> &emsp; path towards Israel <br>
+       <strong>//  </strong> &nbsp; Born on 5.5.1935 in Frankfurt am Main in a family of eleven children <br>
+       <strong>//  </strong> &emsp;	In 1939 his mother sends him and two other siblings to France. There they are hidden in different places.  <br>
+       <strong>// </strong> &emsp; In 1942 the SS finds them and they were brought to Bergen-Belsen. <br>
+       <strong>// </strong> &emsp; After his liberation and lengthy rehabilitation he immigrates to Israel. He works as a waiter. <br>
+       <strong>// </strong> &emsp; Josef Aaron lives in Jerusalem today. <br>
       </div>
     </div>
     
