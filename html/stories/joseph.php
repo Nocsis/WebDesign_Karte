@@ -65,31 +65,63 @@
     </div>
     
   <div id="section2">
-    <div class="map-background" id="avishay-map">
-      <div id="video-popup">
-        <div id="video-container"></div>
-        <button id="video-close"></button>
+      <div class="map-background" id="josef-map">
+        <div id="video-popup">
+          <div id="video-container"></div>
+          <button id="video-close"></button>
+        </div>
+        <!--Die Reihenfolge der Klassen ist wichtig! Immer "map-button sprache name-stationnr-nr" bzw "map-popup sprache name-stationnr-nr"!-->
+        <button class="map-button de josef-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef01_sd.mp4', this)"></button>
+        <div class="map-popup de josef-station1-1"Josef erzählt von seiner Familie in Frankfurt / Main </div>
+
+        <button class="map-button de josef-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef02_sd.mp4', this)"></button>
+        <div class="map-popup de josef-station1-2"Josef berichtet von seiner Mutter und der Rettung dreier Kinder.</div>
+
+        <button class="map-button de josef-station1-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef03_sd.mp4', this)"></button>
+        <div class="map-popup de josef-station1-3">Josef beschreibt  den Transport ins KZ Bergen-Belsen.</div>
+
+        <button class="map-button de josef-station1-4" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef04_sd.mp4', this)"></button>
+        <div class="map-popup de josef-station1-4">Josef erzählt von seinen schrecklichen Erlebnissen im Konzentrationslager.</div>
+
+        <button class="map-button de josef-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef04_sd.mp4', this)"></button>
+        <div class="map-popup de bella-station2-1">Josef findet nach seinen traumatischen Erlebnissen langsam zurück ins Leben.</div>
+
+        <button class="map-button de josef-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef04_sd.mp4', this)"></button>
+        <div class="map-popup de bella-station3-1">Josef berichtet von den schweren Anfangsjahren in Israel.</div>
+
+        <button class="map-button de josef-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef04_sd.mp4', this)"></button>
+        <div class="map-popup de josef-station3-2">Josef erzählt von seinem Leben in Jerusalem.</div>
+
+        <button class="map-button de josef-station3-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef04_sd.mp4', this)"></button>
+        <div class="map-popup de josef-station3-3"Josef erinnert sich an seine Mutter und ihr Vermächtnis in seinem Leben</div>
+        
+
+
+        <button class="map-button en josef-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef01_sd_en.mp4', this)"></button>
+        <div class="map-popup en josef-station1-1">Josef talks about his family in Frankfurt/Main. </div>
+
+        <button class="map-button en josef-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef02_sd_en.mp4', this)"></button>
+        <div class="map-popup en josef-station1-2">Josef talks about his mother and the rescue of him and his two siblings.</div>
+
+        <button class="map-button en josef-station1-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef03_sd_en.mp4', this)"></button>
+        <div class="map-popup en josef-station1-3">Josef describes the transport to the concentration camp Bergen-Belsen.</div>
+
+        <button class="map-button en josef-station1-4" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef04_sd_en.mp4', this)"></button>
+        <div class="map-popup en josef-station1-4">Josef talks about the horrifying experiences in the concentration camp.</div>
+
+        <button class="map-button en josef-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef04_sd_en.mp4', this)"></button>
+        <div class="map-popup en josef-station2-1">Josef finds his way back to life after his very traumatic experiences. </div>
+
+        <button class="map-button en josef-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef04_sd_en.mp4', this)"></button>
+        <div class="map-popup en josef-station3-1">Josef talks about his first  years in Israel and his hardships.</div>
+
+        <button class="map-button en josef-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef04_sd_en.mp4', this)"></button>
+        <div class="map-popup en josef-station3-2">Josef talks about his life in in Jerusalem.</div>
+
+        <button class="map-button en josef-station3-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef04_sd_en.mp4', this)"></button>
+        <div class="map-popup en josef-station3-3">Josef remembers his mother and her legacy in his life</div>
       </div>
-      <!--Die Reihenfolge der Klassen ist wichtig! Immer "map-button sprache name-stationnr-nr" bzw "map-popup sprache name-stationnr-nr"!-->
-      <button class="map-button de avishay-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd.mp4', this)"></button>
-      <div class="map-popup de avishay-station1-1">Avishay erzählt vom Leben seiner Familie und den Beginn ihrer Flucht.</div>
-      <button class="map-button de avishay-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay02_sd.mp4', this)"></button>
-      <div class="map-popup de avishay-station2-1">Avishay berichtet, wie seine Mutter und ihre Geschwister die Nazizeit überlebt haben.</div>
-      <button class="map-button de avishay-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay03_sd.mp4', this)"></button>
-      <div class="map-popup de avishay-station3-1">Avishay beschreibt, wie schwierig es in seiner Familie war, über die Erlebnisse im Holocaust zu sprechen.</div>
-      <button class="map-button de avishay-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay04_sd.mp4', this)"></button>
-      <div class="map-popup de avishay-station3-2">Avishay beschreibt die gemeinsame Zukunft von Juden und Deutschen.</div>
-      
-      <button class="map-button en avishay-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd_en.mp4', this)"></button>
-      <div class="map-popup en avishay-station1-1">Avishay talks about stuff. It's interesting. Probably.</div>
-      <button class="map-button en avishay-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay02_sd_en.mp4', this)"></button>
-      <div class="map-popup en avishay-station2-1">Avishay talks about more stuff. It's probably still interesting.</div>
-      <button class="map-button en avishay-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay03_sd_en.mp4', this)"></button>
-      <div class="map-popup en avishay-station3-1">Avishay talks about even more stuff. Meh.</div>
-      <button class="map-button en avishay-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay04_sd_en.mp4', this)"></button>
-      <div class="map-popup en avishay-station3-2">Avishay is still talking... It's getting a little annoying.</div>
     </div>
-  </div>
 
   <button class="scroll-button" id="down-button" onclick="scrollToBottom()"></button>
   <button class="scroll-button" id="up-button" onclick="scrollToTop()"></button>

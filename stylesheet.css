@@ -48,8 +48,8 @@ body {
 
 header {
   height: 150px;
-  background-image: url("material/bilder/nav_bg_notext_small.png");
-  background-size:   100%;
+  background-image: url("material/bilder/nav_bg_notext_small_wide.png");
+  background-size: auto 100%;
   background-repeat: no-repeat;
   position: relative;
   background-color: rgba(0, 0, 0, 0)
@@ -105,7 +105,7 @@ header {
   height: 1.5vw;
   margin-left: 0.3vw;
   float: left;
-  color:black;
+  color: black;
   border-style: none;
   cursor: pointer;
   border-radius: 50%;
@@ -154,10 +154,16 @@ nav a:hover {
   flex: 0 0 20.8vw;
 }
 
+.sidenav {
+  position: relative;
+  right: 0;
+}
+
 .sidenav a {
   color: black;
   text-decoration: none;
   font-size: 18px;
+  float: right;
 }
 
 /*Name*/
@@ -183,6 +189,11 @@ nav a:hover {
 /*Portrait*/
 #portrait {
   grid-area: bild;
+}
+
+#portrait > img {
+  object-fit: cover;
+  width: 100%;
 }
 
 /*Zitat*/
@@ -221,6 +232,7 @@ nav a:hover {
   font-family: 'MuliRegular';
   text-align: left;
   font-size: 25px;
+  overflow: auto;
 }
 
 /*Scroll Buttons*/
@@ -410,9 +422,58 @@ nav a:hover {
   left: 1510px;
 }
 
+/*Bella*/
+#bella-map {
+  background-image: url(material/bilder/maps/map_bella.jpg)
+}
+
+#bella-map.en-map {
+  background-image: url(material/bilder/maps/map_bella_en.jpg)
+}
+
+.bella-station1-1 {
+  top: 328px;
+  left: 701px;
+}
+
+.bella-station1-2 {
+  top: 318px;
+  left: 723px;
+}
+
+.bella-station1-3 {
+  top: 330px;
+  left: 701px;
+}
+
+.bella-station1-4 {
+  top: 320px;
+  left: 723px;
+}
+
+.bella-station2-1 {
+  top: 549px;
+  left: 879px;
+}
+
+.bella-station3-1 {
+  top: 804px;
+  left: 1503px;
+}
+
+.bella-station3-2 {
+  top: 812px;
+  left: 1492px;
+}
+
+.bella-station3-3 {
+  top: 802px;
+  left: 1513px;
+}
+
 /*Impressum*/
 
-.impressum{
+.legal{
 grid-area: bild;
 font-size: 30px !important;
 font-family: 'BebasNeueLight';
@@ -422,7 +483,7 @@ text-align: left !important;
 height: 50px;
 }
 
-.angaben{
+.legal-information{
   grid-area: bild;
   margin-top:75px;
   text-align: left !important;
@@ -433,7 +494,7 @@ height: 50px;
   height: 155px;
 }
 
-.angaben2{
+.legal-information2{
   grid-area: text;
   grid-column: 6/ span 1;
   margin-top:75px;
@@ -444,7 +505,7 @@ height: 50px;
   height: 155px;
 }
 
-.datenschutz{
+.data-protection{
   grid-area: bild;
   margin-top:260px;
   text-align: left !important;
@@ -457,7 +518,7 @@ height: 50px;
 
 /*Verein*/
 
-.verein{
+.association{
   grid-area: name;
   grid-column: 2/ span 3;
   text-align: left !important;
@@ -466,14 +527,14 @@ height: 50px;
   align-self: end;
 }
 
-#vereinsbild{
+#association-img{
   margin-top: 25px;
   grid-area: text;
   text-align: left;
   font-size: 25px;
 }
 
-.daten{
+.data{
   grid-area: jahr;
   font-family: 'MuliRegular';
   font-size: 14px !important;
@@ -482,7 +543,7 @@ height: 50px;
   border-bottom: solid 1px #c6c6c6;
 }
 
-.erklärung{
+.explanation{
   grid-area: erk;
   font-family: 'MuliRegular';
   font-size: 14px !important;
@@ -491,7 +552,7 @@ height: 50px;
   border-bottom: solid 1px #c6c6c6;
 }
 
-.studenten{
+.students{
   margin-top: 135px;
   grid-area: jahr;
   font-family: 'MuliRegular';
@@ -548,69 +609,109 @@ height: 50px;
   display: flex;
 }
 
-.randlinks{
+.flex-container9{
+  height: 75.5vh;
+  display:flex;
+}
+
+.flex-container10{
+  height:92.6vh;
+  display:flex;
+}
+
+.flex-container11{
+  height:17.16vh;
+  display:flex;
+}
+
+.border-left{
 flex: 0 0 5.2vw;
 display: flex;
 }
 
-.spalte1{
+.column1{
   flex: 0 0 20.8vw;
+  border: 30px solid red;
 }
 
-.spalte2{
+.column2{
   flex: 0 0 2.3vw;
 }
 
-.spalte3{
+.column3{
   flex: 0 0 20.8vw;
 }
 
-.spalte4{
+.column4{
   flex: 0 0 2.3vw;
 }
 
-.spalte5{
+.column5{
   flex: 0 0 20.8vw;
 }
 
-.spalte6{
+.column6{
   flex: 0 0 2.3vw;
 }
 
-.spalte7{
+.column7{
   flex: 0 0 20.8vw;
 }
 
-.randrechts{
+.border-right{
   flex: 0 0 4.7vw;
 display: flex;
 }
 
-.leer{
+.blank{
   flex: 0 0 100vw;
 }
 
-.strich{
+.film-column-ie{
+  flex: 0 0 64.7vw;
+}
+
+.explanation-column-ie{
+  flex: 0 0 23.1vw;
+  font-family: 'MuliRegular';
+  font-size: 20px;
+  border-top: 1px solid #c6c6c6;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.erklärung2-spalte-ie{
+  flex: 0 0 23.1vw;
+}
+
+.explanation-text-ie{
+  font-family: 'MuliRegular';
+  font-size: 16px;
+  flex: 0 0 20.8vw;
+  border-top: 1px solid #c6c6c6;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.line{
   flex: 0 0 43.9vw;
   border-top: 1px solid #c6c6c6;
 }
 
-.strich2{
+.line2{
   flex: 0 0 43.9vw;
   border-top: 1px solid #c6c6c6;
 }
 
-.strich3{
+.line3{
   flex: 0 0 43.9vw;
   border-top: 1px solid #c6c6c6;
 }
 
-.strich4{
+.line4{
   flex: 0 0 43.9vw;
   border-top: 1px solid #c6c6c6;
 }
 
-.IE-text{
+.ie-text{
   flex: 0 0 43.9vw;
   align-self: flex-end; 
   font-family: 'MuliRegular';
@@ -618,17 +719,26 @@ display: flex;
   font-size: 25px;
 }
 
-.IE-erklärung{
+.ie-statement{
   flex: 0 0 43.9vw;
 }
 
-.IE-jahr{
+.ie-year{
   flex: 0 0 43.9vw;
+  font-family: 'MuliRegular';
+  font-size: 25px;
+}
+
+#ie-name{
+  /*height: 27vh;*/
+  font-family: 'MuliRegular'; 
+  flex: 0 0 20.8vw;
+  align-self: flex-end;
 }
 
 /*IE-Impressum*/
 
-.ie-impressum{
+.ie-legal{
   font-size: 30px !important;
   font-family: 'BebasNeueLight';
   border-bottom: solid 1px #c6c6c6;
@@ -637,7 +747,7 @@ display: flex;
   height: 50px;
 }
 
-.ie-angaben{
+.ie-information{
   text-align: left;
   font-size: 15px;
   font-family: 'MuliRegular';
@@ -662,7 +772,7 @@ display: flex;
   margin-top: 20px;
 }
 
-.ie-datenschutz{
+.ie-data-protection{
   flex: 0 0 43.9vw;
   border-bottom: 1px solid #c6c6c6;
   font-size: 15px;
@@ -679,12 +789,12 @@ display: flex;
   height: 320px;
 }
 
-.ie-vereinsbild{
+.ie-association-img{
   flex: 0 0 43.9vw;
   border: 1px solid #c6c6c6;
 }
 
-.ie-strich{
+.ie-line{
   border-bottom: 1px solid #c6c6c6;
   flex: 0 0 43.9vw;
 }
@@ -695,14 +805,14 @@ display: flex;
   margin-top: 25px;
 }
 
-.ie-erklärung{
+.ie-explanation{
   flex: 0 0 43.9vw;
   font-family: 'MuliRegular';
   font-size: 15px !important;
   border-bottom: 1px solid #c6c6c6;
 }
 
-.ie-studenten{
+.ie-students{
   flex: 0 0 43.9vw;
   font-family: 'MuliRegular';
   font-size: 15px !important;
@@ -714,4 +824,27 @@ display: flex;
   margin-top: 20px;
   flex: 0 0 43.9vw;
   text-align:right;
+}
+
+.film-foto-ie{
+  flex: 0 0 43.9vw;
+}
+
+/*Ie Formular stuff*/
+
+#ie-name1, #ie-name2, #ie-name3, #ie-name4{
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  float: right;
+  clear: both;
+  text-align: top !important;
+}
+
+#ie-name2, #ie-name3, #ie-name4 {
+  margin-top: 1vh;
+}
+
+#ie-name4{
+  margin-bottom: 22vh;
 }

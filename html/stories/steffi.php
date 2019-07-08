@@ -20,7 +20,7 @@
 
    <div class="spalte2"></div>
    <div class="spalte3">
-     <img src="../material/bilder/portraits/portraitAvishay.jpg" alt="Portrait Avishay" height="100%" width="90.91%">
+     <img src="../material/bilder/portraits/portraitSteffi.jpg" alt="Portrait Steffi" height="100%" width="90.91%">
    </div>
     <div class="spalte4"></div>
     <div class="IE-text de"> 	„Es fiel mir nie schwer, darüber zu reden. So ist das Leben - gut und schlecht. Man muss sich ich ihm stellen.“</div>
@@ -77,29 +77,65 @@
   </div>
     
   <div id="section2">
-    <div class="map-background" id="avishay-map">
-      <div id="video-popup">
-        <div id="video-container"></div>
-        <button id="video-close"></button>
+      <div class="map-background" id="bella-map">
+        <div id="video-popup">
+          <div id="video-container"></div>
+          <button id="video-close"></button>
+        </div>
+        <!--Die Reihenfolge der Klassen ist wichtig! Immer "map-button sprache name-stationnr-nr" bzw "map-popup sprache name-stationnr-nr"!-->
+        <button class="map-button de steffi-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi01_sd.mp4', this)"></button>
+        <div class="map-popup de steffi-station1-1">Steffi erzählt von ihrer glücklichen und behüteten Kindheit.
+</div>
+
+        <button class="map-button de steffi-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi02_sd.mp4', this)"></button>
+        <div class="map-popup de steffi-station1-2">Steffi berichtet von der Zerstörung des Familienbetriebes Bamberger & Hertz.</div>
+
+        <button class="map-button de steffi-station1-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi03_sd.mp4', this)"></button>
+        <div class="map-popup de steffi-station1-3">Steffi erzählt von Kriegsausbruch, Judenverfolgung und dem Kindertransport nach England.
+</div>
+
+        <button class="map-button de steffi-station1-4" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd.mp4', this)"></button>
+        <div class="map-popup de steffi-station1-4"Steffi beschreibt das Schicksal ihrer Eltern.</div>
+
+        <button class="map-button de steffi-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd.mp4', this)"></button>
+        <div class="map-popup de steffi-station2-1"> Steffi berichtet von der Vorbereitung zur Einwanderung nach Israel.</div>
+
+        <button class="map-button de steffi-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd.mp4', this)"></button>
+        <div class="map-popup de steffi-station3-1">Steffi beschreibt die ersten Jahre im Kibbutz. Sie arbeitete als Köchin.</div>
+
+        <button class="map-button de steffi-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd.mp4', this)"></button>
+        <div class="map-popup de steffi-station3-2">Steffi erzählt von ihrem Besuch in Leipzig.</div>
+
+        <button class="map-button de steffi-station3-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd.mp4', this)"></button>
+        <div class="map-popup de steffi-station3-3">Iftach redet über die  Auswirkungen der Familien-geschichte in der Gegenwart.</div>
+        
+
+
+        <button class="map-button en steffi-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi01_sd_en.mp4', this)"></button>
+        <div class="map-popup en steffi-station1-1">Steffi talks about her happy and protected childhood.d</div>
+
+        <button class="map-button en steffi-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi02_sd_en.mp4', this)"></button>
+        <div class="map-popup en steffi-station1-2"Steffi talks about the destruction of the family business Bamberger & Hertz.</div>
+
+        <button class="map-button en steffi-station1-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi03_sd_en.mp4', this)"></button>
+        <div class="map-popup en steffi-station1-3">Steffi speaks about the outbreak of war, persecution of Jews and the Kindertransport to England.
+</div>
+
+        <button class="map-button en steffi-station1-4" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd_en.mp4', this)"></button>
+        <div class="map-popup en steffi-station1-4">Steffi describes the fate of her parents.</div>
+
+        <button class="map-button en steffi-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd_en.mp4', this)"></button>
+        <div class="map-popup en steffi-station2-1">Steffi talks about the preparation to immigrate to Israel. </div>
+
+        <button class="map-button en steffi-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd_en.mp4', this)"></button>
+        <div class="map-popup en steffi-station3-1">BSteffi describes her first years in the Kibbutz. She worked as a cook.</div>
+
+        <button class="map-button en steffi-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd_en.mp4', this)"></button>
+        <div class="map-popup en steffi-station3-2">BSteffi talks about her visit to Leipzig.</div>
+
+        <button class="map-button en steffi-station3-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd_en.mp4', this)"></button>
+        <div class="map-popup en steffi-station3-3">Iftach talks about the impact of the family history on the present.</div>
       </div>
-      <!--Die Reihenfolge der Klassen ist wichtig! Immer "map-button sprache name-stationnr-nr" bzw "map-popup sprache name-stationnr-nr"!-->
-      <button class="map-button de avishay-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd.mp4', this)"></button>
-      <div class="map-popup de avishay-station1-1">Avishay erzählt vom Leben seiner Familie und den Beginn ihrer Flucht.</div>
-      <button class="map-button de avishay-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay02_sd.mp4', this)"></button>
-      <div class="map-popup de avishay-station2-1">Avishay berichtet, wie seine Mutter und ihre Geschwister die Nazizeit überlebt haben.</div>
-      <button class="map-button de avishay-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay03_sd.mp4', this)"></button>
-      <div class="map-popup de avishay-station3-1">Avishay beschreibt, wie schwierig es in seiner Familie war, über die Erlebnisse im Holocaust zu sprechen.</div>
-      <button class="map-button de avishay-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay04_sd.mp4', this)"></button>
-      <div class="map-popup de avishay-station3-2">Avishay beschreibt die gemeinsame Zukunft von Juden und Deutschen.</div>
-      
-      <button class="map-button en avishay-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd_en.mp4', this)"></button>
-      <div class="map-popup en avishay-station1-1">Avishay talks about stuff. It's interesting. Probably.</div>
-      <button class="map-button en avishay-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay02_sd_en.mp4', this)"></button>
-      <div class="map-popup en avishay-station2-1">Avishay talks about more stuff. It's probably still interesting.</div>
-      <button class="map-button en avishay-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay03_sd_en.mp4', this)"></button>
-      <div class="map-popup en avishay-station3-1">Avishay talks about even more stuff. Meh.</div>
-      <button class="map-button en avishay-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay04_sd_en.mp4', this)"></button>
-      <div class="map-popup en avishay-station3-2">Avishay is still talking... It's getting a little annoying.</div>
     </div>
   </div>
 
