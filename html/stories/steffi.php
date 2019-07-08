@@ -57,28 +57,26 @@
     </div>
 
   <div id="section2">
-      <div class="map-background" id="bella-map">
+      <div class="map-background" id="steffi-map">
         <div id="video-popup">
           <div id="video-container"></div>
           <button id="video-close"></button>
         </div>
         <!--Die Reihenfolge der Klassen ist wichtig! Immer "map-button sprache name-stationnr-nr" bzw "map-popup sprache name-stationnr-nr"!-->
         <button class="map-button de steffi-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi01_sd.mp4', this)"></button>
-        <div class="map-popup de steffi-station1-1">Steffi erzählt von ihrer glücklichen und behüteten Kindheit.
-</div>
+        <div class="map-popup de steffi-station1-1">Steffi erzählt von ihrer glücklichen und behüteten Kindheit.</div>
 
         <button class="map-button de steffi-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi02_sd.mp4', this)"></button>
         <div class="map-popup de steffi-station1-2">Steffi berichtet von der Zerstörung des Familienbetriebes Bamberger & Hertz.</div>
 
         <button class="map-button de steffi-station1-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi03_sd.mp4', this)"></button>
-        <div class="map-popup de steffi-station1-3">Steffi erzählt von Kriegsausbruch, Judenverfolgung und dem Kindertransport nach England.
-</div>
-
-        <button class="map-button de steffi-station1-4" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd.mp4', this)"></button>
-        <div class="map-popup de steffi-station1-4"Steffi beschreibt das Schicksal ihrer Eltern.</div>
+        <div class="map-popup de steffi-station1-3">Steffi erzählt von Kriegsausbruch, Judenverfolgung und dem Kindertransport nach England.</div>
 
         <button class="map-button de steffi-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd.mp4', this)"></button>
-        <div class="map-popup de steffi-station2-1"> Steffi berichtet von der Vorbereitung zur Einwanderung nach Israel.</div>
+        <div class="map-popup de steffi-station2-1">Steffi beschreibt das Schicksal ihrer Eltern.</div>
+
+        <button class="map-button de steffi-station2-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd.mp4', this)"></button>
+        <div class="map-popup de steffi-station2-2"> Steffi berichtet von der Vorbereitung zur Einwanderung nach Israel.</div>
 
         <button class="map-button de steffi-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd.mp4', this)"></button>
         <div class="map-popup de steffi-station3-1">Steffi beschreibt die ersten Jahre im Kibbutz. Sie arbeitete als Köchin.</div>
@@ -95,17 +93,16 @@
         <div class="map-popup en steffi-station1-1">Steffi talks about her happy and protected childhood.d</div>
 
         <button class="map-button en steffi-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi02_sd_en.mp4', this)"></button>
-        <div class="map-popup en steffi-station1-2"Steffi talks about the destruction of the family business Bamberger & Hertz.</div>
+        <div class="map-popup en steffi-station1-2">Steffi talks about the destruction of the family business Bamberger & Hertz.</div>
 
         <button class="map-button en steffi-station1-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi03_sd_en.mp4', this)"></button>
-        <div class="map-popup en steffi-station1-3">Steffi speaks about the outbreak of war, persecution of Jews and the Kindertransport to England.
-</div>
-
-        <button class="map-button en steffi-station1-4" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd_en.mp4', this)"></button>
-        <div class="map-popup en steffi-station1-4">Steffi describes the fate of her parents.</div>
+        <div class="map-popup en steffi-station1-3">Steffi speaks about the outbreak of war, persecution of Jews and the Kindertransport to England.</div>
 
         <button class="map-button en steffi-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd_en.mp4', this)"></button>
-        <div class="map-popup en steffi-station2-1">Steffi talks about the preparation to immigrate to Israel. </div>
+        <div class="map-popup en steffi-station2-1">Steffi describes the fate of her parents.</div>
+
+        <button class="map-button en steffi-station2-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd_en.mp4', this)"></button>
+        <div class="map-popup en steffi-station2-2">Steffi talks about the preparation to immigrate to Israel. </div>
 
         <button class="map-button en steffi-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd_en.mp4', this)"></button>
         <div class="map-popup en steffi-station3-1">BSteffi describes her first years in the Kibbutz. She worked as a cook.</div>
@@ -122,7 +119,7 @@
   <button class="scroll-button" id="down-button" onclick="scrollToBottom()"></button>
   <button class="scroll-button" id="up-button" onclick="scrollToTop()"></button>
 
-  <script src="../scripts.js"></script>
+  <script src="/scripts.js"></script>
 
   </body>
 </html>

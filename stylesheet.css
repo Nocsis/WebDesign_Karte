@@ -569,6 +569,99 @@ nav a:hover {
   left: 1513px;
 }
 
+/*Nathan*/
+#nathan-map {
+  background-image: url(material/bilder/maps/map_nathan.jpg)
+}
+
+#nathan-map.en-map {
+  background-image: url(material/bilder/maps/map_nathan_en.jpg)
+}
+
+.nathan-station1-1 {
+  top: 247px;
+  left: 963px;
+}
+
+.nathan-station1-2 {
+  top: 237px;
+  left: 985px;
+}
+
+.nathan-station2-1 {
+  top: 309px;
+  left: 914px;
+}
+
+.nathan-station2-2 {
+  top: 299px;
+  left: 936px;
+}
+
+.nathan-station3-1 {
+  top: 814px;
+  left: 1503px;
+}
+
+.nathan-station3-2 {
+  top: 822px;
+  left: 1492px;
+}
+
+.nathan-station3-3 {
+  top: 812px;
+  left: 1513px;
+}
+
+/*Steffi*/
+#steffi-map {
+  background-image: url(material/bilder/maps/map_steffi.jpg)
+}
+
+#steffi-map.en-map {
+  background-image: url(material/bilder/maps/map_steffi_en.jpg)
+}
+
+.steffi-station1-1 {
+  top: 324px;
+  left: 729px;
+}
+
+.steffi-station1-2 {
+  top: 333px;
+  left: 719px;
+}
+
+.steffi-station1-3 {
+  top: 323px;
+  left: 740px;
+}
+
+.steffi-station2-1 {
+  top: 233px;
+  left: 424px;
+}
+
+.steffi-station2-2 {
+  top: 223px;
+  left: 446px;
+}
+
+.steffi-station3-1 {
+  top: 804px;
+  left: 1503px;
+}
+
+.steffi-station3-2 {
+  top: 812px;
+  left: 1492px;
+}
+
+.steffi-station3-3 {
+  top: 802px;
+  left: 1513px;
+}
+
 /*Impressum*/
 
 .legal{
