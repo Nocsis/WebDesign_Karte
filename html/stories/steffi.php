@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8" />
-    <title>Stefanie Segerman </title>
+    <title>Steffi Segermann </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/stylesheet.css">
   </head>
@@ -15,16 +15,16 @@
 
       <div id="name">
         <span id="name1">
-          &nbsp;Stefanie
+          &nbsp;Steffi
         </span>
         <span id="name2">
-          &nbsp;Segerman
+          &nbsp;Segermann
         </span>
       
       </div>
 
       <div id="portrait">
-        <img src="/material/bilder/portraits/portraitAvishay.jpg" alt="Portrait Avishay" height="100%" width="90.91%">
+        <img src="/material/bilder/portraits/portraitSteffi.png" alt="Portrait Steffi" height="100%" width="90.91%">
       </div>
 
       <div id="text" class="de">

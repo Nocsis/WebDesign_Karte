@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8" />
-    <title>Joseph Aaron </title>
+    <title>Josef Aaron </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/stylesheet.css">
   </head>
@@ -15,7 +15,7 @@
 
       <div id="name">
         <span id="name1">
-          &nbsp;Joseph
+          &nbsp;Josef
         </span>
         <span id="name2">
           &nbsp;Aaron
@@ -23,7 +23,7 @@
       </div>
 
       <div id="portrait">
-        <img src="/material/bilder/portraits/portraitAvishay.jpg" alt="Portrait Avishay" height="100%" width="90.91%">
+        <img src="/material/bilder/portraits/portraitJosef.png" alt="Portrait Josef" height="100%" width="90.91%">
       </div>
 
       <div id="text" class="de">
