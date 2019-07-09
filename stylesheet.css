@@ -577,11 +577,13 @@ height: 50px;
 .flex-container2{
   height: 41vh;
   display: flex;
+  border: 50px solid blue;
 }
 
 .flex-container3{
   height: 5vh;
   display: flex;
+  border: 50px solid blue;
 }
 
 .flex-container4{
@@ -592,6 +594,7 @@ height: 50px;
 .flex-container5{
   height: 20.5vh;
   display: flex;
+  border: 50px solid blue;
 }
 
 .flex-container6{
@@ -640,6 +643,7 @@ display: flex;
 
 .column3{
   flex: 0 0 20.8vw;
+  border: 50px solid green;
 }
 
 .column4{
@@ -727,6 +731,9 @@ display: flex;
   flex: 0 0 43.9vw;
   font-family: 'MuliRegular';
   font-size: 25px;
+  display: flex;
+  overflow: auto;
+  border: 5px solid blue;
 }
 
 #ie-name{
@@ -734,6 +741,7 @@ display: flex;
   font-family: 'MuliRegular'; 
   flex: 0 0 20.8vw;
   align-self: flex-end;
+  text-align: end;
 }
 
 /*IE-Impressum*/

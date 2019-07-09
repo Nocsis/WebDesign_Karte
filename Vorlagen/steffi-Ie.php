@@ -14,119 +14,97 @@
 
       <!--Name-->
       <div class="flex-container2">
-        <div class="randlinks"></div>
-          <div id="IE-name"> 
-            <span id="name1">&nbsp;Steffi</span>
-            <span id="name2">&nbsp;Segermann</span>
+        <div class="border-left"></div>
+          <div id="ie-name"> 
+            <span id="name1">&nbsp;Stefanie</span>
+            <span id="name2">&nbsp;Segerman</span>
          </div> 
 
          <!--Portrait und Text-->
-         <div class="spalte2"></div>
-         <div class="spalte3">
-           <img src="../material/bilder/portraits/portraitSteffi.jpeg" alt="Portrait Steffi" height="100%" width="85.91%">
+         <div class="column2"></div>
+         <div class="column3">
+           <img src="../material/bilder/portraits/portraitAvishay.jpg" alt="Portrait Avishay" height="100%" width="90.91%">
          </div>
-          <div class="spalte4"></div>
-          <div class="IE-text de"> >>Es fiel mir nie schwer, darüber zu reden. So ist das Leben - gut und schlecht. Man muss sich ich ihm stellen.<<</div>
-          <div class="IE-text en"> >>I never found it hard to talk about my life. That is life – good and bad. You need to deal with it.<<</div>
-          <div class="randrechts"></div>
+          <div class="column4"></div>
+          <div class="ie-text de"> „Es fiel mir nie schwer, darüber zu reden. So ist das Leben - gut und schlecht. Man muss sich ich ihm stellen.“</div>
+          <div class="ie-text en"> „I never found it hard to talk about my life. That is life – good and bad. You need to deal with it.“</div>
+          <div class="border-right"></div>
       </div>
 
         <div class="flex-container3">
-          <div class="leer"></div>
+          <div class="blank"></div>
         </div>
 
         <div class="flex-container4">
-          <div class="randlinks"></div>
-          <div class="strich"></div>
-          <div class="spalte4"></div>
-          <div class="strich2"></div>
-          <div class="randrechts"></div>
+          <div class="border-left"></div>
+          <div class="line"></div>
+          <div class="column4"></div>
+          <div class="line2"></div>
+          <div class="border-right"></div>
         </div>
 
         <!--Jahre-->
         <div class="flex-container5">
-          <div class="randlinks"></div>
-          <div class="IE-erklärung"></div>
-          <div class="spalte4"></div>
-          <div class="IE-jahr de">
-            <strong>// &nbsp; 1920er und 1930er</strong> &nbsp; Kindheit in Leipzig <br>
-            <strong>// &nbsp; 9. 11. 1938</strong> &emsp; Pogromnacht 1938 <br>
-            <strong>// &nbsp; 1939</strong> &emsp; Kindertransport nach England <br>
-			<strong>// &nbsp; 1940-1945</strong> &emsp; Kinderexil in England <br>
-			<strong>// &nbsp; 1948</strong> &emsp; Nachkriegszeit in England <br>
-			<strong>// &nbsp; 1948-1952</strong> &emsp; Die ersten Jahre in Israel <br>
-			<strong>// &nbsp; 2015</strong> &emsp; Erinnerungen an die Vergangenheit <br>
-			<strong>// &nbsp; 2015</strong> &emsp; Iftach Dahadi (Enkel von Steffi Segermann): Auswirkungen der Geschichte <br></div>
-          <div class="IE-jahr en">
-            <strong>// &nbsp; 1920s and 1930s</strong> &nbsp; Childhood in Leipzig <br>
-            <strong>// &nbsp; 9. 11. 1938</strong> &emsp; Pogrom night 1938 <br>
-            <strong>// &nbsp; 1939</strong> &emsp; Kindertransport to England <br>
-			<strong>// &nbsp; 1940-1945</strong> &emsp; Exile in England <br>
-			<strong>// &nbsp; 1948</strong> &emsp; Post-war period in England <br>
-			<strong>// &nbsp; 1948-1952</strong> &emsp; The first years in Israel <br>
-			<strong>// &nbsp; 2015</strong> &emsp; Memories of the past <br>
-			<strong>// &nbsp; 2015</strong> &emsp; Iftach Dahadi (Enkel of Steffi Segermann): Impact oft he past <br>
+          <div class="border-left"></div>
+          <div class="ie-statement"></div>
+          <div class="column4"></div>
+          <div class="ie-year de">
+          <strong>// </strong> &nbsp; Stefanie (Steffi) wird am 10.04.1928 in Leipzig in einer Kaufmannsfamilie geboren.<br>
+       <strong>// </strong> &emsp; Sie wird mit dem Kindertransport nach England geschickt. Dort kommt sie bei einer liebevollen Familie unter.<br>
+       <strong>// </strong> &emsp; Ihr Vater wird im KZ Theresienstadt ermordet und ihre Mutter stirbt dort an Tuberkulose.<br>
+       <strong>// </strong> &emsp; 1949 wandert sie in Israel ein. Dort lebt sie im Kibbutz Kfar Blum, wo sie auch heute noch mit Kindern, Enkeln und Urenkeln lebt<br>
           </div>
-          <div class="randrechts"></div>
+          <div class="ie-year en">
+          <strong>//  </strong> &nbsp; Stefanie (Steffi) was born on 10.04.1928 in Leipzig.<br>
+       <strong>//  </strong> &emsp;	Her father is the owner of “Bamberger & Hertz” in Leipzig. <br>
+       <strong>// </strong> &emsp; 	Steffi is sent on the Kindertransport to England. A lovely family takes care of Steffi. <br>
+       <strong>// </strong> &emsp;  Her father is murdered in Theresienstadt and her mother dies from tuberculosis.<br>
+       <strong>// </strong> &emsp; In 1949 she emigrates to Israel. There she goes to Kibbutz Kfar Blum, where she still lives happily with her large family today.<br>
+          </div>
+          <div class="border-right"></div>
         </div>
 
         <div class="flex-container6">
-            <div class="leer"></div>
+            <div class="blank"></div>
         </div>
           
         <div class="flex-container7">
-          <div class="randlinks"></div>
-          <div class="strich3"></div>
-          <div class="spalte4"> </div>
-          <div class="strich4"></div>
-          <div class="randrechts"></div>
+          <div class="border-left"></div>
+          <div class="line3"></div>
+          <div class="column4"> </div>
+          <div class="line4"></div>
+          <div class="border-right"></div>
         </div>
 
         <div class="flex-container8">
-            <div class="leer"></div>
+            <div class="blank"></div>
         </div>
 
         <!--Map und Video Zeug-->  
         <div id="section2">
-          <div class="map-background" id="steffi-map">
+          <div class="map-background" id="avishay-map">
             <div id="video-popup">
               <div id="video-container"></div>
               <button id="video-close"></button>
             </div>
             <!--Die Reihenfolge der Klassen ist wichtig! Immer "map-button sprache name-stationnr-nr" bzw "map-popup sprache name-stationnr-nr"!-->
-            <button class="map-button de steffi-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi01_sd.mp4', this)"></button>
-            <div class="map-popup de steffi-station1-1">steffi erzählt von ihrer Kindheit in der Vorkriegszeit.</div>
-            <button class="map-button de steffi-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi02_sd.mp4', this)"></button>
-            <div class="map-popup de steffi-station1-2">steffi versucht zu verstehen, was eigentlich geschieht.</div>
-            <button class="map-button de steffi-station1-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi03_sd.mp4', this)"></button>
-            <div class="map-popup de steffi-station1-3">steffi beschreibt die Umzüge der Nazis und das Verschwinden jüdischer Nachbarn.</div>
-            <button class="map-button de steffi-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd.mp4', this)"></button>
-            <div class="map-popup de steffi-station2-1">steffi erzählt von ihrer Jugendzeit im Exil.</div>
-			<button class="map-button de steffi-station2-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd.mp4', this)"></button>
-            <div class="map-popup de steffi-station2-2">steffi lernt nach Kriegsende ihren Mann kennen. Gemeinsam verlassen sie Deutschland.</div>
-			<button class="map-button de steffi-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd.mp4', this)"></button>
-            <div class="map-popup de steffi-station3-1">steffi berichtet voller Humor von der Ankunft in Israel und dem Leben in einfachen Verhältnissen.</div>
-			<button class="map-button de steffi-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd.mp4', this)"></button>
-            <div class="map-popup de steffi-station3-2">Gemeinsam mit ihrem Enkel Ron Stern redet steffi über Vergangenheit und Zukunft.</div>
-			<button class="map-button de steffi-station3-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd.mp4', this)"></button>
-            <div class="map-popup de steffi-station3-3">Die Erinnerung an die Geschichte ist grundlegend für die Zukunft.</div>
+            <button class="map-button de avishay-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd.mp4', this)"></button>
+            <div class="map-popup de avishay-station1-1">Avishay erzählt vom Leben seiner Familie und den Beginn ihrer Flucht.</div>
+            <button class="map-button de avishay-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay02_sd.mp4', this)"></button>
+            <div class="map-popup de avishay-station2-1">Avishay berichtet, wie seine Mutter und ihre Geschwister die Nazizeit überlebt haben.</div>
+            <button class="map-button de avishay-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay03_sd.mp4', this)"></button>
+            <div class="map-popup de avishay-station3-1">Avishay beschreibt, wie schwierig es in seiner Familie war, über die Erlebnisse im Holocaust zu sprechen.</div>
+            <button class="map-button de avishay-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay04_sd.mp4', this)"></button>
+            <div class="map-popup de avishay-station3-2">Avishay beschreibt die gemeinsame Zukunft von Juden und Deutschen.</div>
             
-            <button class="map-button en steffi-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi01_sd_en.mp4', this)"></button>
-            <div class="map-popup en steffi-station1-1">Steffi talks about her happy and protected childhood.</div>
-            <button class="map-button en steffi-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi02_sd_en.mp4', this)"></button>
-            <div class="map-popup en steffi-station1-2">Steffi talks about the destruction of the family business Bamberger & Hertz.</div>
-            <button class="map-button en steffi-station1-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi03_sd_en.mp4', this)"></button>
-            <div class="map-popup en steffi-station1-3">Steffi speaks about the outbreak of war, persecution of Jews and the Kindertransport to England.</div>
-            <button class="map-button en steffi-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd_en.mp4', this)"></button>
-            <div class="map-popup en steffi-station2-1">Steffi describes the fate of her parents.</div>
-			<button class="map-button en steffi-station2-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd_en.mp4', this)"></button>
-            <div class="map-popup en steffi-station2-2">Steffi talks about the preparation to immigrate to Israel.</div>
-			<button class="map-button en steffi-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd_en.mp4', this)"></button>
-            <div class="map-popup en steffi-station3-1">Steffi describes her first years in the Kibbutz. She worked as a cook.</div>
-			<button class="map-button en steffi-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd_en.mp4', this)"></button>
-            <div class="map-popup en steffi-station3-2">Steffi talks about her visit to Leipzig.</div>
-			<button class="map-button en steffi-station3-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi04_sd_en.mp4', this)"></button>
-            <div class="map-popup en steffi-station3-3">Iftach talks about the impact of the family history on the present.</div>
+            <button class="map-button en avishay-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd_en.mp4', this)"></button>
+            <div class="map-popup en avishay-station1-1">Avishay talks about the life of his family and their flight from Germany.</div>
+            <button class="map-button en avishay-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay02_sd_en.mp4', this)"></button>
+            <div class="map-popup en avishay-station2-1">Avishay talks about how his mother and her siblings survived the Holocaust.</div>
+            <button class="map-button en avishay-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay03_sd_en.mp4', this)"></button>
+            <div class="map-popup en avishay-station3-1">Avishay describes how difficult it has been to talk about what happened during the Holocaust in his family.</div>
+            <button class="map-button en avishay-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay04_sd_en.mp4', this)"></button>
+            <div class="map-popup en avishay-station3-2">Avishay describes the  common future of Jews and Germans.</div>
           </div>
         </div>
     
