@@ -48,8 +48,8 @@ body {
 
 header {
   height: 150px;
-  background-image: url("material/bilder/nav_bg_notext_small.png");
-  background-size:   100%;
+  background-image: url("material/bilder/nav_bg_notext_small_wide.png");
+  background-size: auto 100%;
   background-repeat: no-repeat;
   position: relative;
   background-color: rgba(0, 0, 0, 0)
@@ -87,11 +87,11 @@ header {
   text-align: center;
 }
 
-#randLinks{
+#border-left{
   flex: 0 0 5.2vw;
 }
 
-#randRechts{
+#border-right{
   flex: 0 0 4.7vw;
 }
 
@@ -100,18 +100,18 @@ header {
   display: none;
 }
 
-.button_lang {
+.button-lang {
   width: 1.5vw;
   height: 1.5vw;
   margin-left: 0.3vw;
   float: left;
-  color:black;
+  color: black;
   border-style: none;
   cursor: pointer;
   border-radius: 50%;
 }
 
-.button_lang:hover, .current_lang {
+.button-lang:hover, .current-lang {
   background-color: #777;
 }
 
@@ -150,14 +150,20 @@ nav a:hover {
 }
 
 /*mini-Nav rechts*/
-#navigationRechts{
+#navigation-right{
   flex: 0 0 20.8vw;
+}
+
+.sidenav {
+  position: relative;
+  right: 0;
 }
 
 .sidenav a {
   color: black;
   text-decoration: none;
   font-size: 18px;
+  float: right;
 }
 
 /*Name*/
@@ -181,8 +187,17 @@ nav a:hover {
 }
 
 /*Portrait*/
-#bild {
+#portrait {
   grid-area: bild;
+  position: relative;
+}
+
+#portrait > img {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: -2;
 }
 
 /*Zitat*/
@@ -216,15 +231,16 @@ nav a:hover {
 }
 
 /*Stationen*/
-#jahr {
+#year {
   grid-area: jahr;
   font-family: 'MuliRegular';
   text-align: left;
   font-size: 25px;
+  overflow: auto;
 }
 
 /*Scroll Buttons*/
-.scrollButton {
+.scroll-button {
   width: 3vw;
   height: 3vw;
   position: fixed;
@@ -239,31 +255,31 @@ nav a:hover {
   border-radius: 50%;
 }
 
-.scrollButton:hover {
+.scroll-button:hover {
   width: 3.5vw;
   height: 3.5vw;
   margin-left: -1.75vw;
   margin-bottom: -0.25vw;
 }
 
-#downButton {
+#down-button {
   display: none;
   background: url(material/bilder/PfeilDownOrange.png);
   background-size: 100%;
 }
 
-#downButton:hover {
+#down-button:hover {
   background: url(material/bilder/PfeilDownBlue.png);
   background-size: 100%;
 }
 
-#upButton {
+#up-button {
   display: none;
   background: url(material/bilder/PfeilUpOrange.png);
   background-size: 100%;
 }
 
-#upButton:hover {
+#up-button:hover {
   background: url(material/bilder/PfeilUpBlue.png);
   background-size: 100%;
 }
@@ -276,7 +292,7 @@ nav a:hover {
   overflow: scroll;
 }
 
-.mapBG {
+.map-background {
   width: 1920px;
   height: 1080px;
   position: absolute;
@@ -284,21 +300,21 @@ nav a:hover {
   background-repeat: no-repeat;
 }
 
-#videoPopup {
+#video-popup {
   visibility: hidden;
   position: fixed;
   top: 3vh;
   left: 3vw;
   height: 93vh;
   width: 93vw;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   text-align: center;
   border-radius: 10px;
   z-index: 99;
 }
 
-#videoClose {
+#video-close {
   position: fixed;
   top: 3vh;
   right: 3vw;
@@ -311,25 +327,19 @@ nav a:hover {
   background-repeat: no-repeat;
 }
 
-#videoContainer {
+#video-container {
   height: 100%;
   width: 100%;
 }
 
-#videoPlayer {
+#video-player {
   position: relative;
   top: 5%;
   height: 90%;
   width: 90%;
 }
 
-#section2 .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
-}
-
-.mapButton {
+.map-button {
   position: relative;
   z-index: 2;
   border: none;
@@ -345,11 +355,36 @@ nav a:hover {
   background-repeat: no-repeat;
 }
 
+.map-button.clicked {
+  background-image: url(material/bilder/PlayGray.png);
+}
+
+.map-popup {
+  visibility: hidden;
+  position: absolute;
+  margin-left: 25px;
+  padding: 3px;
+  width: 250px;
+  background: rgba(0, 0, 0, 0.5);
+  font-family: "MuliRegular";
+  font-size: 10pt;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  z-index: 97;
+}
+
+#section2 .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
 
 /*SEITEN-SPEZIFISCHES*/
 
 /*Landing Page*/
-#backgroundVideoContainer {
+#background-video-container {
   z-index: -1;
   position: fixed;
   top: 0;
@@ -358,59 +393,91 @@ nav a:hover {
   width: 100vw;
 }
 
-#backgroundVideo {
-  
+#background-video {
   width: 100%;
 }
 
-/*Dummy*/
-#dummyMap {
-  background-image: url(material/bilder/maps/map_dummy.jpg)
-}
-
-#dummyStation1-1 { 
-  top: 368px;
-  left: 327px;
-}
-
-#dummyStation1-2 { 
-  top: 390px;
-  left: 315px;
-}
-
-#dummyStation2-1 {
-  top: 412px;
-  left: 497px;
-}
-
 /*Avishay*/
-#avishayMap {
+#avishay-map {
   background-image: url(material/bilder/maps/map_avishay.jpg)
 }
 
-#avishayStation1-1 {
-  top: 288px;
-  left: 747px;
+#avishay-map.en-map {
+  background-image: url(material/bilder/maps/map_avishay_en.jpg)
 }
 
-#avishayStation1-2 {
-  top: 300px;
-  left: 747px;
+.avishay-station1-1 {
+  top: 302px;
+  left: 749px;
 }
 
-#avishayStation2-1 {
-  top: 251px;
-  left: 577px;
+.avishay-station2-1 {
+  top: 269px;
+  left: 572px;
 }
 
-#avishayStation3-1 {
-  top: 824px;
-  left: 1504px;
+.avishay-station3-1 {
+  top: 826px;
+  left: 1510px;
+}
+
+.avishay-station3-2 {
+  top: 837px;
+  left: 1510px;
+}
+
+/*Bella*/
+#bella-map {
+  background-image: url(material/bilder/maps/map_bella.jpg)
+}
+
+#bella-map.en-map {
+  background-image: url(material/bilder/maps/map_bella_en.jpg)
+}
+
+.bella-station1-1 {
+  top: 328px;
+  left: 701px;
+}
+
+.bella-station1-2 {
+  top: 318px;
+  left: 723px;
+}
+
+.bella-station1-3 {
+  top: 330px;
+  left: 701px;
+}
+
+.bella-station1-4 {
+  top: 320px;
+  left: 723px;
+}
+
+.bella-station2-1 {
+  top: 549px;
+  left: 879px;
+}
+
+.bella-station3-1 {
+  top: 804px;
+  left: 1503px;
+}
+
+.bella-station3-2 {
+  top: 812px;
+  left: 1492px;
+}
+
+.bella-station3-3 {
+  top: 802px;
+  left: 1513px;
 }
 
 /*Impressum*/
 
-.impressum{
+.legal{
 grid-area: bild;
 font-size: 30px !important;
 font-family: 'BebasNeueLight';
@@ -420,7 +487,7 @@ text-align: left !important;
 height: 50px;
 }
 
-.angaben{
+.legal-information{
   grid-area: bild;
   margin-top:75px;
   text-align: left !important;
@@ -431,7 +498,7 @@ height: 50px;
   height: 155px;
 }
 
-.angaben2{
+.legal-information2{
   grid-area: text;
   grid-column: 6/ span 1;
   margin-top:75px;
@@ -442,7 +509,7 @@ height: 50px;
   height: 155px;
 }
 
-.datenschutz{
+.data-protection{
   grid-area: bild;
   margin-top:260px;
   text-align: left !important;
@@ -455,7 +522,7 @@ height: 50px;
 
 /*Verein*/
 
-.verein{
+.association{
   grid-area: name;
   grid-column: 2/ span 3;
   text-align: left !important;
@@ -464,14 +531,14 @@ height: 50px;
   align-self: end;
 }
 
-#vereinsbild{
+#association-img{
   margin-top: 25px;
   grid-area: text;
   text-align: left;
   font-size: 25px;
 }
 
-.daten{
+.data{
   grid-area: jahr;
   font-family: 'MuliRegular';
   font-size: 14px !important;
@@ -480,7 +547,7 @@ height: 50px;
   border-bottom: solid 1px #c6c6c6;
 }
 
-.erklärung{
+.explanation{
   grid-area: erk;
   font-family: 'MuliRegular';
   font-size: 14px !important;
@@ -489,7 +556,7 @@ height: 50px;
   border-bottom: solid 1px #c6c6c6;
 }
 
-.studenten{
+.students{
   margin-top: 135px;
   grid-area: jahr;
   font-family: 'MuliRegular';
@@ -509,16 +576,94 @@ height: 50px;
   text-align: right !important;
 }
 
+/*Film*/
+
+.second-grid {
+  grid-template-columns: 5.2vw 20.8vw 2.3vw 20.8vw 2.3vw 43.9vw 4.7vw;
+  grid-template-rows:  45.8vh 1vh 45.8 7.4vh;
+}
+
+#film-trailer {
+  grid-column: 2 / 7;
+  grid-row: 1 / 6;
+}
+
+#film-trailer > iframe {
+width: 100%;
+height: 100%;
+}
+
+#film-aside {
+  grid-column: 8 / 9;
+  grid-row: 1 / 6;
+  font-family: 'MuliRegular';
+  text-align: left;
+  font-size: 25px;
+}
+
+#schmidt-link {
+  /*TODO: größere Schriftgröße als normal, EM schauen*/
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#schmidt-link:hover {
+  background-color: #c6c6c6;
+}
+
+#schmidt-link > a {
+  text-decoration: none;
+  color: black;
+}
+
+#film-s {
+  grid-column: 8 / 9;
+  grid-row: 6 / 7;
+  border-top: solid 1px #c6c6c6;
+}
+
+#film-text {
+  grid-column: 2 / 3;
+  grid-row: 1 / 4;
+  font-family: 'MuliRegular';
+  text-align: left;
+  font-size: 25px;
+  border-bottom: solid 1px #c6c6c6;
+}
+
+#film-picture1 {
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+}
+
+#film-picture2 {
+  grid-column: 4 / 5;
+  grid-row: 3 / 4;
+
+}
+#film-picture3 {
+  grid-column: 6 / 7;
+  grid-row: 1 / 4;
+}
+
+#film-picture1 > img, #film-picture2 > img, #film-picture3 > img {
+  width: 100%;
+  height: 100%;
+}
 /*IE stuff*/
 
 .flex-container2{
   height: 41vh;
   display: flex;
+  border: 50px solid blue;
 }
 
 .flex-container3{
   height: 5vh;
   display: flex;
+  border: 50px solid blue;
 }
 
 .flex-container4{
@@ -529,6 +674,7 @@ height: 50px;
 .flex-container5{
   height: 20.5vh;
   display: flex;
+  border: 50px solid blue;
 }
 
 .flex-container6{
@@ -546,70 +692,110 @@ height: 50px;
   display: flex;
 }
 
-.randlinks{
+.flex-container9{
+  height: 75.5vh;
+  display:flex;
+}
+
+.flex-container10{
+  height:92.6vh;
+  display:flex;
+}
+
+.flex-container11{
+  height:17.16vh;
+  display:flex;
+}
+
+.border-left{
 flex: 0 0 5.2vw;
 display: flex;
 }
 
-.spalte1{
+.column1{
   flex: 0 0 20.8vw;
+  border: 30px solid red;
 }
 
-.spalte2{
+.column2{
   flex: 0 0 2.3vw;
 }
 
-.spalte3{
+.column3{
   flex: 0 0 20.8vw;
+  border: 50px solid green;
 }
 
-.spalte4{
+.column4{
   flex: 0 0 2.3vw;
 }
 
-.spalte5{
+.column5{
   flex: 0 0 20.8vw;
 }
 
-.spalte6{
+.column6{
   flex: 0 0 2.3vw;
 }
 
-.spalte7{
+.column7{
   flex: 0 0 20.8vw;
 }
 
-.randrechts{
+.border-right{
   flex: 0 0 4.7vw;
 display: flex;
 }
 
-.leer{
+.blank{
   flex: 0 0 100vw;
-  border: 1px solid green;
 }
 
-.strich{
+.film-column-ie{
+  flex: 0 0 64.7vw;
+}
+
+.explanation-column-ie{
+  flex: 0 0 23.1vw;
+  font-family: 'MuliRegular';
+  font-size: 20px;
+  border-top: 1px solid #c6c6c6;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.erklärung2-spalte-ie{
+  flex: 0 0 23.1vw;
+}
+
+.explanation-text-ie{
+  font-family: 'MuliRegular';
+  font-size: 16px;
+  flex: 0 0 20.8vw;
+  border-top: 1px solid #c6c6c6;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.line{
   flex: 0 0 43.9vw;
   border-top: 1px solid #c6c6c6;
 }
 
-.strich2{
+.line2{
   flex: 0 0 43.9vw;
   border-top: 1px solid #c6c6c6;
 }
 
-.strich3{
+.line3{
   flex: 0 0 43.9vw;
   border-top: 1px solid #c6c6c6;
 }
 
-.strich4{
+.line4{
   flex: 0 0 43.9vw;
   border-top: 1px solid #c6c6c6;
 }
 
-.IE-text{
+.ie-text{
   flex: 0 0 43.9vw;
   align-self: flex-end; 
   font-family: 'MuliRegular';
@@ -617,26 +803,39 @@ display: flex;
   font-size: 25px;
 }
 
-.IE-erklärung{
+.ie-statement{
   flex: 0 0 43.9vw;
 }
 
-.IE-jahr{
+.ie-year{
   flex: 0 0 43.9vw;
+  font-family: 'MuliRegular';
+  font-size: 25px;
+  display: flex;
+  overflow: auto;
+  border: 5px solid blue;
+}
+
+#ie-name{
+  /*height: 27vh;*/
+  font-family: 'MuliRegular'; 
+  flex: 0 0 20.8vw;
+  align-self: flex-end;
+  text-align: end;
 }
 
 /*IE-Impressum*/
 
-.ie-impressum{
-font-size: 30px !important;
-font-family: 'BebasNeueLight';
-border-bottom: solid 1px #c6c6c6;
-text-align: left;
-flex: 0 0 43.9vw;
-height: 50px;
+.ie-legal{
+  font-size: 30px !important;
+  font-family: 'BebasNeueLight';
+  border-bottom: solid 1px #c6c6c6;
+  text-align: left;
+  flex: 0 0 43.9vw;
+  height: 50px;
 }
 
-.ie-angaben{
+.ie-information{
   text-align: left;
   font-size: 15px;
   font-family: 'MuliRegular';
@@ -661,7 +860,7 @@ height: 50px;
   margin-top: 20px;
 }
 
-.ie-datenschutz{
+.ie-data-protection{
   flex: 0 0 43.9vw;
   border-bottom: 1px solid #c6c6c6;
   font-size: 15px;
@@ -678,12 +877,12 @@ height: 50px;
   height: 320px;
 }
 
-.ie-vereinsbild{
+.ie-association-img{
   flex: 0 0 43.9vw;
   border: 1px solid #c6c6c6;
 }
 
-.ie-strich{
+.ie-line{
   border-bottom: 1px solid #c6c6c6;
   flex: 0 0 43.9vw;
 }
@@ -694,14 +893,14 @@ height: 50px;
   margin-top: 25px;
 }
 
-.ie-erklärung{
+.ie-explanation{
   flex: 0 0 43.9vw;
   font-family: 'MuliRegular';
   font-size: 15px !important;
   border-bottom: 1px solid #c6c6c6;
 }
 
-.ie-studenten{
+.ie-students{
   flex: 0 0 43.9vw;
   font-family: 'MuliRegular';
   font-size: 15px !important;
@@ -713,4 +912,27 @@ height: 50px;
   margin-top: 20px;
   flex: 0 0 43.9vw;
   text-align:right;
+}
+
+.film-foto-ie{
+  flex: 0 0 43.9vw;
+}
+
+/*Ie Formular stuff*/
+
+#ie-name1, #ie-name2, #ie-name3, #ie-name4{
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  float: right;
+  clear: both;
+  text-align: top !important;
+}
+
+#ie-name2, #ie-name3, #ie-name4 {
+  margin-top: 1vh;
+}
+
+#ie-name4{
+  margin-bottom: 22vh;
 }

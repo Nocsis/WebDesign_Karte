@@ -15,17 +15,17 @@
 
       <!--Das &nbsp; vor den Zeilen ist wichtig
           um das Layout der schwarzen Boxen zu erhalten!-->
-      <div class="verein">
+      <div class="association">
         <img src="../Material/Bilder/TnZ-Logo.PNG" height="25%" width="35%"> <br> <br>
         >> Viele Völker werden hingehen und sagen: Kommt, laßt uns <br> hinaufziehen zum Berg des HERRN...
         Denn von Zion wird <br> Weisung ausgehen und das Wort des HERRN von <br> Jerusalem.<< Jesaja 2:3
       </div>
 
-      <div id="vereinsbild">
-        <img src="../Material/Bilder/Verein.jpeg" height="100%" width="100%">
+      <div id="association-img">
+        <img src="../Material/Bilder/Verein.jpg" height="100%" width="100%">
       </div>
 
-      <div class="erklärung">
+      <div class="explanation">
         Unsere Arbeit soll ein Tor sein, durch das Versöhnung und <br> 
         UNterstützung zwischen Deutschen und Israelis, Christen und Juden <br>
         fließen kann. Wir wünschen uns, dass durch unsere Arbeit viele <br>
@@ -36,10 +36,10 @@
       <div class="s"></div>
       <div class="s2"></div>
 
-      <div class="daten">Tor nach Zion e.V. <br> Scharnhorstraße 21 <br> 04275 Leipzig <br> <br> <strong> wwww.tornachzion.de </strong>   
+      <div class="data">Tor nach Zion e.V. <br> Scharnhorstraße 21 <br> 04275 Leipzig <br> <br> <strong> wwww.tornachzion.de </strong>   
       </div>
 
-      <div class="studenten">
+      <div class="students">
         Entworfen von Studierenden der Fachhochschule Dresden <br> <br>
         Die Fachhochschule Dresden (FHD) leistet mit ihren Bildungsangeboten <br>
         einen wichtigen Beitrag zur Bewältigung der stetigen Veränderungen <br>
