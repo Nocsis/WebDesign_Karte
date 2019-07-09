@@ -22,7 +22,7 @@
       </div>
 
       <div id="association-img">
-        <img src="../Material/Bilder/Verein.jpeg" height="100%" width="100%">
+        <img src="../Material/Bilder/Verein.jpg" height="100%" width="100%">
       </div>
 
       <div class="explanation">
