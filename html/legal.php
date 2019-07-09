@@ -13,11 +13,11 @@
     <?php include ("../html/header.php"); ?>
 
   <div class="grid-container"> 
-   <div class="impressum">Impressum</div>
-   <div class="angaben">Angaben gemäß §5 TMG <br> <br> 
+   <div class="legal">Impressum</div>
+   <div class="legal-information">Angaben gemäß §5 TMG <br> <br> 
     Max Muster <br> Musterweg <br> 12345 Musterstadt <br> Telefon 012345-6789 <br> E-Mail: max@muster.de </div>  
-   <div class="angaben2"> <br>  <br> Eingetragener Verein <br> Eingetragen im Registergericht: Musterstadt <br> Registernummer: 12345</div>
-   <div class="datenschutz">//Datenschutz <br> <br> Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbzeogner Daten <br>
+   <div class="legal-information2"> <br>  <br> Eingetragener Verein <br> Eingetragen im Registergericht: Musterstadt <br> Registernummer: 12345</div>
+   <div class="data-protection">//Datenschutz <br> <br> Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbzeogner Daten <br>
     (beispielsweise Name, <br> Anschrift oder eMail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf
     freiwilliger Basis. Diese Daten werden ohne ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben. <br> Wir 
     weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation <br> per E-Mail) Sicherheitslücken aufweisen kann.
