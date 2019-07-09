@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8" />
-    <title>Avishay Golz</title>
+    <title>Überleben Film</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/stylesheet.css">
   </head>
@@ -35,7 +35,7 @@
       <div id="film-s"></div>
     </div>
 
-    <div class="grid-container second-grid" >
+    <div class="second-grid">
       
       <div id="film-text">
       Der Film erzählt die berühernde Geschichte von sechs Holocaust-Überlebenden aus Deutschland und Polen.
@@ -50,13 +50,14 @@
       </div>
 
       <div id="film-picture2">
-      <img src="/material/bilder/Set3.jpg">
+        <img src="/material/bilder/Set3.jpg">
       </div>
 
       <div id="film-picture3">
-      <img src="/material/bilder/Set1.jpg">
+        <img src="/material/bilder/Set1.jpg">
       </div>
     </div>
+
     <script src="/scripts.js"></script>
   </body>
 </html>
