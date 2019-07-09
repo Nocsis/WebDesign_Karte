@@ -9,26 +9,33 @@
   </head>
 
   <body>
-    <?php include ("../header.php"); ?>
+    <?php include ("../html/header.php"); ?>
 
     <div class="grid-container" >
       
       <div id="film-trailer">
-      <iframe src="https://www.youtube-nocookie.com/embed/UOtiYPDr1BI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube-nocookie.com/embed/UOtiYPDr1BI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
       <div id="film-aside">
-        <div>
-        
-        </div>
-        <!--<img src="/material/bilder/SchmidtFilm.jpg">-->
-        <div>
-        
-        </div>
+        <strong>// Buch und Regie</strong><br>
+        Anna Schmidt <br><br>
+        <strong>// Kamera</strong><br>
+        Holger Berg / Björn Kowalewski / Anna Schmidt <br><br>
+        <strong>// Schnitt und Musik</strong><br>
+        Tom Chapman <br><br><br>
+        Eine Produktion von Tor nach Zion e.V. und SchmidtFilm <br>
+
+        <p id="schmidt-link">
+          <a href="www.schmidt-film.com"><strong>www.schmidt-film.com</strong></a>
+          <img src="/material/bilder/schmidtFilm.png" alt="Schmidt Film">
+        </p>
       </div>
+
+      <div id="film-s"></div>
     </div>
 
-    <div class="grid-container" >
+    <div class="grid-container second-grid" >
       
       <div id="film-text">
       Der Film erzählt die berühernde Geschichte von sechs Holocaust-Überlebenden aus Deutschland und Polen.
@@ -39,15 +46,15 @@
       </div>
 
       <div id="film-picture1">
-        <img src="/material/bilder/Verein.jpg">
+        <img src="/material/bilder/Set2.jpg">
       </div>
 
       <div id="film-picture2">
-      <img src="/material/bilder/Verein.jpg">
+      <img src="/material/bilder/Set3.jpg">
       </div>
 
       <div id="film-picture3">
-      <img src="/material/bilder/Verein.jpg">
+      <img src="/material/bilder/Set1.jpg">
       </div>
     </div>
     <script src="/scripts.js"></script>
