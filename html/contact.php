@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>TITLE HERE</title>
+    <title>Kontakt</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../stylesheet.css">
     <script src="../scripts.js"></script>
@@ -12,49 +12,34 @@
     
     <?php include ("../html/header.php"); ?>
 
-    <div>
-    <form  action='" . $_SERVER["SCRIPT_NAME"] . "' method='post'> 
-          
-       <p> 
-          <label> Name: 
-            <span class='pflichtfeld'> </span><br> 
-            <input type='text' name='name' value='" . $name . "'> 
-          </label> 
-        </p> 
-                          
-        <p> 
-          <label> E-Mail: 
-            <span class='pflichtfeld'> </span><br> 
-            <input type='email' name='email' value='" . $email . "'> 
-          </label> 
-        </p> 
-                          
-        <p> 
-          <label> Betreff: 
-            <span class='pflichtfeld'> </span><br> 
-            <input type='text' name='betreff' value='" . $betreff . "'> 
-          </label> 
-        </p> 
-                          
-        <p> 
-          <label> Nachricht: 
-            <span class='pflichtfeld'> </span><br> 
-            <textarea name='nachricht' cols='40' rows='8'> </textarea> 
-          </label> 
-        </p> 
-                          
-         <p> 
-           <br> 
-           <input type='submit' name='submit' value='Formular absenden'> 
-         </p> 
-                          
-          <p> 
-            <small>Bitte alle mit <span class='pflichtfeld'></span> 
-            markierten Felder ausfüllen.</small> 
-          </p> 
-                          
+    <div class="grid-container">
+
+      <div id="contact-text">
+        <h3>Kontaktaufnahme</h3>
+        <p>Zur Kontaktaufnahme mit dem Verein „Tor nach Zion e.V.“ nutzen Sie bitte dieses Kontaktformular</p>
+      </div>
+
+      <!--Falls das so nicht funtioniert, nimm placeholder in den Textboxen.--> 
+      <div id="contact-labels">
+        <p>&nbsp;Name</p>
+        <p>&nbsp;E-Mail</p>
+        <p>&nbsp;Betreff</p>
+        <p>&nbsp;Nachricht</p>
+      </div>
+
+      <div id="cantact-wrapper">
+        <form class="contact-form" action="sendmail.php" method='post'>
+          <input id="contact-name" name="name" type="text" tabindex="1" required autofocus>
+          <input id="contact-email" name="email" type="email" tabindex="2" required>
+
+          <div id="contact-confirmation">Nachricht gesendet!</div>
+
+          <input id="contact-subject" name="subject" type="text" tabindex="3" required>
+          <textarea id="contact-message" name="message" tabindex="4" required></textarea>
+          <label for="submit-button">// Senden</label>
+          <button name="submit" id="submit-button" type="submit" id="contact-submit" tabindex="5"></button>
         </form>
-        </div>
-          <div class="testagain">hallo</div>
+      </div>
+    </div>
   </body>
 </html>
