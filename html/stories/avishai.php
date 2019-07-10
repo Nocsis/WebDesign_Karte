@@ -10,11 +10,26 @@
 
   <body>
 
-  <?php
-    if ( preg_match("/MSIE/",$_SERVER['HTTP_USER_AGENT']) )
-    header("Location: avishai-ie.php");
-    exit;
-    ?>
+  <script>
+  if(detectIE()){
+    self.location = "avishai-Ie.php";
+  } else {
+    self.location = "avishai.php";
+  } 
+
+  function detectIE() {
+  var ua = window.navigator.userAgent;
+  
+  var msie = ua.indexOf('MSIE ');
+  if (msie > 0) {
+    return true;
+  }
+
+  // other browser
+  return false;
+}
+  </script>
+
 
     <?php include ("../header.php"); ?>
 
