@@ -16,7 +16,7 @@
       <div class="flex-container2">
         <div class="border-left"></div>
           <div id="ie-name"> 
-            <span id="name1">&nbsp;Avishai</span>
+            <span id="name1">&nbsp;Avishay</span>
             <span id="name2">&nbsp;Golz</span>
             <span class="de"id="name3">&nbsp;über</span>
             <span class="en" id="name3">&nbsp;talking about</span>
@@ -27,7 +27,8 @@
          <!--Portrait und Text-->
          <div class="column2"></div>
          <div class="column3">
-           <img src="/material/Bilder/portraits/portraitAvishay.jpg" alt="Portrait Avishay">
+            <div class="portrait-avishay-ie1">
+           <img class="portrait-avishay-ie2"src="/material/Bilder/portraits/portraitAvishay.jpg" alt="Portrait Avishay"> </div>
          </div>
           <div class="column4"></div>
           <div class="ie-text de"> >>Wenn du deine Vergangenheit nicht kennst, hast du keine Gegenwart und deine Zukunft ist sehr unklar.<<</div>
