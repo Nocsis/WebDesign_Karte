@@ -61,7 +61,7 @@ function checkKeyPress(keyEvent) {
 
 //Scroll Buttons
 function checkScroll() {
-  if (document.body.scrollTop > (document.body.clientHeight / 3) || document.documentElement.scrollTop > (document.documentElement.clientHeight / 3)) {
+  if (document.body.scrollTop > (window.innerHeight / 3) || document.documentElement.scrollTop > (window.innerHeight/ 3)) {
     document.getElementById("up-button").style.display = "block";
     document.getElementById("down-button").style.display = "none";
   }
@@ -76,8 +76,7 @@ function scrollToTop() {
 }
 
 function scrollToBottom() {
-  window.scroll({top: document.body.clientHeight, behavior: 'smooth'});
-  window.scroll({top: document.documentElement.clientHeight, behavior: 'smooth'});
+  window.scroll({top: window.innerHeight, behavior: 'smooth'});
 }
 
 //Language Switchers
