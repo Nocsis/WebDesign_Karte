@@ -16,7 +16,7 @@
           <div class="ie-tnz-logo"> <img src="../Material/Bilder/TnZ-Logo.PNG" height="25%" width="35%"> <br> <br> >> Viele Völker werden hingehen und sagen: Kommt, laßt uns <br> hinaufziehen zum Berg des HERRN...
             Denn von Zion wird <br> Weisung ausgehen und das Wort des HERRN von <br> Jerusalem.<< Jesaja 2:3 </div>
           <div class="column4"></div>
-          <div class="ie-association-img"style="1px solid purple"><img src="../Material/Bilder/Verein.jpeg" height="100%" width="100%"></div>   
+          <div class="ie-association-img"style="1px solid purple"><img src="../Material/Bilder/Verein.jpg" height="100%" width="100%"></div>   
           <div class="border-right"></div>
         </div>
         <div></div>

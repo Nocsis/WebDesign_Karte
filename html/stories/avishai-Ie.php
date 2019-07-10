@@ -10,7 +10,7 @@
 
   <body>
       
-    <?php include ("../header.php"); ?>
+    <?php include ("../header-Ie.php"); ?>
 
       <!--Name-->
       <div class="flex-container2">
@@ -27,7 +27,7 @@
          <!--Portrait und Text-->
          <div class="column2"></div>
          <div class="column3">
-           <img src=<img src="/material/bilder/portraits/portraitAvishay.jpg" alt="Portrait Avishay"> alt="Portrait Avishay" height="100%" width="90.91%">
+           <img src="/material/Bilder/portraits/portraitAvishay.jpg" alt="Portrait Avishay">
          </div>
           <div class="column4"></div>
           <div class="ie-text de"> >>Wenn du deine Vergangenheit nicht kennst, hast du keine Gegenwart und deine Zukunft ist sehr unklar.<<</div>
@@ -58,6 +58,7 @@
             <strong>//</strong> &emsp; Edith Gutter wird von einer Bauernfamilie in Holland versteckt und überlebt den Holocaust. Ihre Eltern werden in Sobibor ermordet.<br>
             <strong>//</strong> &emsp; Nach dem Krieg lernt sie ihren Mann kennen und wandert mit ihm in Israel ein.<br>
             <strong>//</strong> &emsp; Avishay Golz lebt heute in Haifa.<br>
+            </div>
           <div class="ie-year en">
             <strong>//</strong> &emsp; Born on 9.9.1949 in Haifa. <br>
             <strong>//</strong> &emsp; The mother of Avishay Golz was born as Edith Gutter in Leipzig. <br>

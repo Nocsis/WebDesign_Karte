@@ -10,7 +10,7 @@
 
   <body>
       
-    <?php include ("../header.php"); ?>
+    <?php include ("../header-Ie.php"); ?>
 
       <!--Name-->
       <div class="flex-container2">
