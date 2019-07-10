@@ -1199,3 +1199,17 @@ display: flex;
 #ie-name4{
   margin-bottom: 22vh;
 }
+
+.portrait-avishay-ie1{
+  position: relative;
+  border:1px solid blue;
+  height: 41vh;
+}
+
+.portrait-avishay-ie2{
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: -2;
+}

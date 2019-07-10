@@ -61,7 +61,7 @@ function checkKeyPress(keyEvent) {
 
 //Scroll Buttons
 function checkScroll() {
-  if (document.body.scrollTop > (document.body.scrollHeight / 3) || document.documentElement.scrollTop > (document.documentElement.scrollHeight / 4)) {
+  if (document.body.scrollTop > (document.body.scrollHeight / 3) || document.documentElement.scrollTop > (document.documentElement.scrollHeight / 3)) {
     document.getElementById("up-button").style.display = "block";
     document.getElementById("down-button").style.display = "none";
   }
