@@ -6,32 +6,34 @@
     <title>Avishay Golz</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/stylesheet.css">
+    <script>
+      if(detectIE()){
+        window.location = "avishai-Ie.php";
+      }
+
+      function detectIE() {
+      var ua = window.navigator.userAgent;
+      
+      var msie = ua.indexOf('MSIE ');
+      if (msie > 0) {
+        return true;
+      }
+
+      // other browser
+      return false;
+      }
+    </script>
   </head>
 
   <body>
 
-  <script>
-  if(detectIE()){
-    self.location = "avishai-Ie.php";
-  } else {
-    self.location = "avishai.php";
-  } 
-
-  function detectIE() {
-  var ua = window.navigator.userAgent;
-  
-  var msie = ua.indexOf('MSIE ');
-  if (msie > 0) {
-    return true;
-  }
-
-  // other browser
-  return false;
-}
-  </script>
-
-
     <?php include ("../header.php"); ?>
+
+    <div id="ie-redirect">
+    Diese Seite unterstützt Internet Explorer nicht. <br>
+    Bitte klicken Sie <a href="/html/stories/avishai-Ie.php">HIER</a>
+    um auf die korrekte Seite weitergeleitet zu werden.
+    </div>
 
     <div class="grid-container" >
 
