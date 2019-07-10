@@ -73,7 +73,7 @@ header {
 .flex-container {
   display: flex;
   position: absolute;
-  bottom: 50px;
+  bottom: 60px;
   width: 99vw;
   align-items: baseline;
 }
@@ -612,6 +612,18 @@ height: 100%;
   grid-column: 8 / 9;
   grid-row: 6 / 7;
   border-top: solid 1px #c6c6c6;
+}
+
+#film-purchase {
+  grid-column: 2 / 9;
+  grid-row: 8 / 9;
+  font-family: 'MuliRegular';
+  text-align: center;
+  font-size: 25px;
+}
+
+#film-purchase > a {
+  color: black;
 }
 
 .second-grid {
