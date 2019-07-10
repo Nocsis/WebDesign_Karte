@@ -23,7 +23,7 @@
          <!--Portrait und Text-->
          <div class="column2"></div>
          <div class="column3">
-         <img src="/material/bilder/portraits/portraitKarla.jpg" alt="Portrait Karla" height="100%" width="90.91%">
+         <img src="/material/bilder/portraits/portraitCarla.jpg" alt="Portrait Karla" height="100%" width="90.91%">
          </div>
           <div class="column4"></div>
           <div class="ie-text de"> „Ich sage immer, man muss sich um die Lebenden kümmern, nicht um die Toten.“</div>
@@ -82,7 +82,7 @@
 
         <!--Map und Video Zeug-->  
         <div id="section2">
-    <div class="map-background" id="carla-map">
+    <div class="map-background" id="karla-map">
         <div id="video-popup">
           <div id="video-container"></div>
           <button id="video-close"></button>
@@ -94,23 +94,23 @@
         <button class="map-button de karla-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla02_sd.mp4', this)"></button>
         <div class="map-popup de karla-station1-2">Karla beschreibt die Ereignisse in Berlin im Herbst 1938.</div>
 
-        <button class="map-button de karla-station1-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla03_sd.mp4', this)"></button>
-        <div class="map-popup de karla-station1-3">Karla berichtet vom Abschied von ihren Eltern und der Fahrt ins Kinderexil.</div>
+        <button class="map-button de karla-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla03_sd.mp4', this)"></button>
+        <div class="map-popup de karla-station2-1">Karla berichtet vom Abschied von ihren Eltern und der Fahrt ins Kinderexil.</div>
 
-        <button class="map-button de karla-station1-4" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla04_sd.mp4', this)"></button>
-        <div class="map-popup de karla-station1-4">Karla erzählt vom harten Leben in ihrer Pflegefamilie.</div>
-
-        <button class="map-button de karla-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla04_sd.mp4', this)"></button>
-        <div class="map-popup de karla-station2-1">Karla berichtet von den Umständen ihrer Einwanderung in Israel.</div>
+        <button class="map-button de karla-station2-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla04_sd.mp4', this)"></button>
+        <div class="map-popup de karla-station12-2">Karla erzählt vom harten Leben in ihrer Pflegefamilie.</div>
 
         <button class="map-button de karla-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla04_sd.mp4', this)"></button>
-        <div class="map-popup de karla-station3-1">Karla beschreibt das anfängliche Leben im Kibbutz.</div>
+        <div class="map-popup de karla-station3-1">Karla berichtet von den Umständen ihrer Einwanderung in Israel.</div>
 
         <button class="map-button de karla-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla04_sd.mp4', this)"></button>
-        <div class="map-popup de karla-station3-2">Karla verdeutlicht, wie wichtig es ist, über den Holocaust zu sprechen.</div>
+        <div class="map-popup de karla-station3-2">Karla beschreibt das anfängliche Leben im Kibbutz.</div>
 
         <button class="map-button de karla-station3-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla04_sd.mp4', this)"></button>
-        <div class="map-popup de karla-station3-3">Karla berichtet von den Auswirkungen des Holocaust in ihrem Leben.</div>
+        <div class="map-popup de karla-station3-3">Karla verdeutlicht, wie wichtig es ist, über den Holocaust zu sprechen.</div>
+
+        <button class="map-button de karla-station3-4" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla04_sd.mp4', this)"></button>
+        <div class="map-popup de karla-station3-4">Karla berichtet von den Auswirkungen des Holocaust in ihrem Leben.</div>
         
 
 
@@ -120,22 +120,22 @@
         <button class="map-button en karla-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla02_sd_en.mp4', this)"></button>
         <div class="map-popup en karla-station1-2">Karla describes the events in Berlin in autumn 1938.</div>
 
-        <button class="map-button en karla-station1-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla03_sd_en.mp4', this)"></button>
+        <button class="map-button en karla-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla03_sd_en.mp4', this)"></button>
         <div class="map-popup en karla-station1-3">Karla talks about her parting from her parents and her journey on the Kindertransport.</div>
 
-        <button class="map-button en karla-station1-4" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla04_sd_en.mp4', this)"></button>
+        <button class="map-button en karla-station2-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla04_sd_en.mp4', this)"></button>
         <div class="map-popup en karla-station1-4">Karla talks about her life in the foster family and the difficulties there. </div>
 
-        <button class="map-button en karla-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla04_sd_en.mp4', this)"></button>
+        <button class="map-button en karla-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla04_sd_en.mp4', this)"></button>
         <div class="map-popup en karla-station2-1">Karla talks about the circumstances of her immigration to Israel.</div>
 
-        <button class="map-button en karla-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla04_sd_en.mp4', this)"></button>
+        <button class="map-button en karla-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla04_sd_en.mp4', this)"></button>
         <div class="map-popup en karla-station3-1">Karla describes her first years in a Kibbutz.</div>
 
-        <button class="map-button en karla-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla04_sd_en.mp4', this)"></button>
+        <button class="map-button en karla-station3-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla04_sd_en.mp4', this)"></button>
         <div class="map-popup en karla-station3-2">Karla emphasizes how important it is to talk about the Holocaust.</div>
 
-        <button class="map-button en karla-station3-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla04_sd_en.mp4', this)"></button>
+        <button class="map-button en karla-station3-4" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla04_sd_en.mp4', this)"></button>
         <div class="map-popup en karla-station3-3">Karla talks about the impact of  the Holocaust on her own life.</div>
       </div>
     </div>
