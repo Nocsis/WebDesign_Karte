@@ -870,11 +870,17 @@ height: 100%;
 #contact-wrapper {
   grid-column: 4 / 7;
   grid-row: 1 / 7;
+  border: 1px solid red;
 }
 
 #contact-text {
   height: 20vh;
   width: 100%;
+}
+
+#contact-flex-spacer3 {
+  grid-column: 4 / 7;
+  grid-row: 7 / 8;
 }
 
 #contact-form {
@@ -892,7 +898,7 @@ height: 100%;
   justify-content: space-between;
 }
 
-#contact-flax-spacer2 {
+#contact-flex-spacer2 {
   width: 48%;
   height: 100%;
 }

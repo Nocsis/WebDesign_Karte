@@ -14,7 +14,7 @@
 
     <div class="grid-container">
 
-      <div id="cantact-wrapper">
+      <div id="contact-wrapper">
         <div id="contact-text">
           <h3>Kontaktaufnahme</h3>
           <p>Zur Kontaktaufnahme mit dem Verein „Tor nach Zion e.V.“ nutzen Sie bitte dieses Kontaktformular</p>
