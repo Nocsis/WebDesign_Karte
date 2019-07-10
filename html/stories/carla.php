@@ -23,7 +23,7 @@
       </div>
 
       <div id="portrait">
-        <img src="/material/bilder/portraits/portraitKarla.png" alt="Portrait Karla" height="100%" width="90.91%">
+        <img src="/material/bilder/portraits/portraitCarla.jpg" alt="Portrait Karla" height="100%" width="90.91%">
       </div>
 
       <div id="text" class="de">
@@ -40,15 +40,17 @@
       <div class="s4"></div>
 
       <div id="year" class="de">
-       <strong>// &nbsp; 1930er</strong> &nbsp; Kindheit in Leipzig <br>
-       <strong>// &nbsp; 1939</strong> &emsp; Flucht in die Niederlande bei Kriegsausbruch <br>
-       <strong>// &nbsp; 1945</strong> &emsp; Weg nach Israel <br>
+       <strong>// &nbsp; </strong> &nbsp; Geboren am 12.12.1931 in Berlin als Karla Rothstein. <br>
+       <strong>// &nbsp; </strong> &emsp; 1939 wird sie zusammen mit ihrer Schwester auf einen Kindertransport nach England geschickt; sie sieht ihre Eltern das letzte Mal. <br>
+       <strong>// &nbsp; </strong> &emsp; In England lebt sie in einem Kinderheim in Manchester. <br>
+       <strong>// &nbsp; </strong> &emsp; Karla wandert 1951 in Israel ein, gründet eine Familie und bekommt zwei Kinder. Sie arbeitet vorwiegend als Krankenschwester. <br>
       </div>
 
       <div id="year" class="en">
-       <strong>// &nbsp; 1930s</strong> &nbsp; childhood in Leipzig <br>
-       <strong>// &nbsp; 1939</strong> &emsp; escape to the Netherlands at start of war <br>
-       <strong>// &nbsp; 1945</strong> &emsp; path towards Israel <br>
+       <strong>// &nbsp; </strong> &nbsp; Born on 12.12.1931 in Berlin as Karla Rothstein<br>
+       <strong>// &nbsp; </strong> &emsp; In 1939 she is sent on a Kindertransport to England together with her sister; she sees her parents for the last time. <br>
+       <strong>// &nbsp; </strong> &emsp; In England she is sent to a Kinderheim in Manchester.  <br>
+       <strong>// &nbsp; </strong> &emsp; Karla emigrates to Israel in 1951 and marries Abraham Pilpel. They have two sons. Karla works as a nurse. She lives in Jerusalem today.<br>
       </div>
     </div>
 
@@ -69,7 +71,7 @@
         <div class="map-popup de karla-station2-1">Karla berichtet vom Abschied von ihren Eltern und der Fahrt ins Kinderexil.</div>
 
         <button class="map-button de karla-station2-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla04_sd.mp4', this)"></button>
-        <div class="map-popup de karla-station12-2">Karla erzählt vom harten Leben in ihrer Pflegefamilie.</div>
+        <div class="map-popup de karla-station2-2">Karla erzählt vom harten Leben in ihrer Pflegefamilie.</div>
 
         <button class="map-button de karla-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla04_sd.mp4', this)"></button>
         <div class="map-popup de karla-station3-1">Karla berichtet von den Umständen ihrer Einwanderung in Israel.</div>

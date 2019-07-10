@@ -10,7 +10,7 @@
 
   <body>
       
-    <?php include ("../html/header.php"); ?>
+    <?php include ("../header-Ie.php"); ?>
 
       <!--Name-->
       <div class="flex-container2">
@@ -27,11 +27,11 @@
          <!--Portrait und Text-->
          <div class="column2"></div>
          <div class="column3">
-           <img src="../material/bilder/portraits/portraitAvishay.jpg" alt="Portrait Avishay" height="100%" width="90.91%">
+           <img src="/material/Bilder/portraits/portraitAvishay.jpg" alt="Portrait Avishay">
          </div>
           <div class="column4"></div>
           <div class="ie-text de"> >>Wenn du deine Vergangenheit nicht kennst, hast du keine Gegenwart und deine Zukunft ist sehr unklar.<<</div>
-          <div class="ie-text en"> >>When you don't know your past, you do not have a present and your future is very unclear.<<</div>
+          <div class="ie-text en"> >>If you don’t know your past, you don’t have a present and your future is very vague.”<<</div>
           <div class="border-right"></div>
       </div>
 
@@ -53,13 +53,18 @@
           <div class="ie-statement"></div>
           <div class="column4"></div>
           <div class="ie-year de">
-            <strong>// &nbsp; 1930er</strong> &nbsp; Kindheit in Leipzig <br>
-            <strong>// &nbsp; 1939</strong> &emsp; Flucht in die Niederlande bei Kriegsausbruch <br>
-            <strong>// &nbsp; 1945</strong> &emsp; Weg nach Israel <br></div>
+            <strong>//</strong> &emsp; Geboren am 9.9.1949 in Haifa. <br>
+            <strong>//</strong> &emsp; Die Mutter von Avishay Golz, wird als Edith Gutter in Leipzig geboren. Sie wird als junges Mädchen von ihrer Familie in die Schweiz geschickt. Später trifft sich die Familie in Holland wieder. <br>
+            <strong>//</strong> &emsp; Edith Gutter wird von einer Bauernfamilie in Holland versteckt und überlebt den Holocaust. Ihre Eltern werden in Sobibor ermordet.<br>
+            <strong>//</strong> &emsp; Nach dem Krieg lernt sie ihren Mann kennen und wandert mit ihm in Israel ein.<br>
+            <strong>//</strong> &emsp; Avishay Golz lebt heute in Haifa.<br>
+            </div>
           <div class="ie-year en">
-            <strong>// &nbsp; 1930s</strong> &nbsp; childhood in Leipzig <br>
-            <strong>// &nbsp; 1939</strong> &emsp; escape to the Netherlands at start of war <br>
-            <strong>// &nbsp; 1945</strong> &emsp; path towards Israel <br>
+            <strong>//</strong> &emsp; Born on 9.9.1949 in Haifa. <br>
+            <strong>//</strong> &emsp; The mother of Avishay Golz was born as Edith Gutter in Leipzig. <br>
+            <strong>//</strong> &emsp; The grandfather sends Edith to Switzerland. Later she comes to Holland, is hidden by a farming family in rural Holland and survives the Holocaust. The parents of Edith are murdered in Sobibor.<br>
+            <strong>//</strong> &emsp; After the war she meets her husband. She follows him to Israel. <br>
+            <strong>//</strong> &emsp; Avishay today lives in Haifa. <br>
           </div>
           <div class="border-right"></div>
         </div>
@@ -74,6 +79,10 @@
           <div class="column4"> </div>
           <div class="line4"></div>
           <div class="border-right"></div>
+        </div>
+
+        <div class="flex-container8">
+            <div class="blank"></div>
         </div>
 
         <div class="flex-container8">
@@ -111,7 +120,7 @@
         <button class="scroll-button" id="down-button" onclick="scrollToBottom()"></button>
         <button class="scroll-button" id="up-button" onclick="scrollToTop()"></button>
     
-        <script src="../scripts.js"></script>
+        <script src="/scripts.js"></script>
       
   </body>
 

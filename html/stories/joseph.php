@@ -76,7 +76,7 @@
         <div class="map-popup de josef-station3-1">Josef erzählt von seinen schrecklichen Erlebnissen im Konzentrationslager.</div>
 
         <button class="map-button de josef-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef04_sd.mp4', this)"></button>
-        <div class="map-popup de bella-station3-2">Josef findet nach seinen traumatischen Erlebnissen langsam zurück ins Leben.</div>
+        <div class="map-popup de josef-station3-2">Josef findet nach seinen traumatischen Erlebnissen langsam zurück ins Leben.</div>
 
         <button class="map-button de josef-station4-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef04_sd.mp4', this)"></button>
         <div class="map-popup de bella-station4-1">Josef berichtet von den schweren Anfangsjahren in Israel.</div>
@@ -105,7 +105,7 @@
         <div class="map-popup en josef-station3-2">Josef finds his way back to life after his very traumatic experiences. </div>
 
         <button class="map-button en josef-station4-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef04_sd_en.mp4', this)"></button>
-        <div class="map-popup en josef-station-4-1">Josef talks about his first  years in Israel and his hardships.</div>
+        <div class="map-popup en josef-station4-1">Josef talks about his first  years in Israel and his hardships.</div>
 
         <button class="map-button en josef-station4-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef04_sd_en.mp4', this)"></button>
         <div class="map-popup en josef-station4-2">Josef talks about his life in in Jerusalem.</div>

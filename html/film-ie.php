@@ -24,15 +24,18 @@
    
         <br>
      <strong>//Buch und Regie <br> </strong>
-    Anna Schmidt <br>
+    Anna Schmidt <br> <br>
     <strong>//Kamera <br> </strong>
     Holger Berg/ Björn Kowaleski/ <br>
-    Anna Schmidt <br>
+    Anna Schmidt <br> <br>
     <strong>//Schnitt und Musik <br> </strong>
     Tom Chapmann <br> <br>
-    Eine Produktion von Tor nach Zion e.V. und SchmidtFilm <br>
+    Eine Produktion von Tor nach Zion e.V. und SchmidtFilm <br> <br> <br>
 
-    <strong><br> www.schmidt-film.com </strong>
+    <p id="schmidt-link">
+    <a href="www.schmidt-film.com"><strong>www.schmidt-film.com</strong></a>
+    <img src="/material/bilder/schmidtFilm.png" alt="Schmidt Film">
+    </p>
 
     </div>
       <div class="border-right" ></div>
@@ -67,13 +70,13 @@
         </div>
         <div class="column6" ></div>
         <div class="column5">
-        <img src="../material/bilder/Tm_3mV9j.jpeg" alt="" width="100%" height="50%"> <br>
-        <img src="../material/bilder/WSuEVlGc.jpeg" alt="" width="100%" height="49.4%">
+        <img src="/material/bilder/Set2.jpg" width="100%" height="50%"> <br>
+        <img src="/material/bilder/Set3.jpg" alt="" width="100%" height="49.4%">
 
         </div>
         <div class="column6" ></div>
         <div class="film-foto-ie">
-            <img src="../material/bilder/HcaxParX.jpeg" alt="" width="100%" height="100%">
+            <img src="/material/bilder/Set1.jpg" alt="" width="100%" height="100%">
         </div>
         <div class="border-right"></div>
     </div>
