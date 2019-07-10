@@ -20,7 +20,7 @@
     <nav class="sidenav">
       <a href="/html/film.php">FILM&nbsp;&nbsp;//</a>
       <a href="/html/association.php">&nbsp;&nbsp;VEREIN&nbsp;&nbsp;//</a>
-      <a href="">&nbsp;&nbsp;KONTAKT&nbsp;&nbsp;//</a>
+      <a href="/html/contact.php">&nbsp;&nbsp;KONTAKT&nbsp;&nbsp;//</a>
       <a href="/html/legal.php">&nbsp;&nbsp;IMPRESSUM&nbsp;&nbsp;// </a>
     </nav>
   </div>
