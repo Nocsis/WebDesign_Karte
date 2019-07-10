@@ -5,12 +5,12 @@
     <meta charset="utf-8" />
     <title>Tor nach Zion</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../stylesheet.css">
+    <link rel="stylesheet" href="/stylesheet.css">
   </head>
 
   <body>
       
-    <?php include ("../html/header.php"); ?>
+    <?php include ("../header.php"); ?>
 
       <!--Name-->
       <div class="flex-container2">
@@ -81,6 +81,10 @@
             <div class="blank"></div>
         </div>
 
+        <div class="flex-container8">
+            <div class="blank"></div>
+        </div>
+
         <!--Map und Video Zeug-->  
         <div id="section2">
       <div class="map-background" id="josef-map">
@@ -144,7 +148,7 @@
   <button class="scroll-button" id="down-button" onclick="scrollToBottom()"></button>
   <button class="scroll-button" id="up-button" onclick="scrollToTop()"></button>
 
-  <script src="../scripts.js"></script>
+  <script src="/scripts.js"></script>
       
   </body>
 
