@@ -660,6 +660,7 @@ height: 100%;
 .flex-container2{
   height: 41vh;
   display: flex;
+  border: 5px solid green;
 }
 
 .flex-container3{
