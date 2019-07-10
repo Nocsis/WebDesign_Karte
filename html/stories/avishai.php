@@ -9,6 +9,15 @@
   </head>
 
   <body>
+
+  <?php
+    if ( preg_match("/MSIE/",$_SERVER['HTTP_USER_AGENT']) )
+    header("Location: avishai-ie.php");
+    else
+    header("Location: avishai.php");
+    exit;
+    ?>
+    
     <?php include ("../header.php"); ?>
 
     <div class="grid-container" >
