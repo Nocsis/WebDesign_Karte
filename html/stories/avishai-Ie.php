@@ -10,7 +10,7 @@
 
   <body>
       
-    <?php include ("../html/header.php"); ?>
+    <?php include ("../header.php"); ?>
 
       <!--Name-->
       <div class="flex-container2">
@@ -27,7 +27,7 @@
          <!--Portrait und Text-->
          <div class="column2"></div>
          <div class="column3">
-           <img src="../material/bilder/portraits/portraitAvishay.jpg" alt="Portrait Avishay" height="100%" width="90.91%">
+           <img src=<img src="/material/bilder/portraits/portraitAvishay.jpg" alt="Portrait Avishay"> alt="Portrait Avishay" height="100%" width="90.91%">
          </div>
           <div class="column4"></div>
           <div class="ie-text de"> >>Wenn du deine Vergangenheit nicht kennst, hast du keine Gegenwart und deine Zukunft ist sehr unklar.<<</div>
@@ -119,7 +119,7 @@
         <button class="scroll-button" id="down-button" onclick="scrollToBottom()"></button>
         <button class="scroll-button" id="up-button" onclick="scrollToTop()"></button>
     
-        <script src="../scripts.js"></script>
+        <script src="/scripts.js"></script>
       
   </body>
 

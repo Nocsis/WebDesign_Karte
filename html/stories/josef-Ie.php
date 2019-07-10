@@ -106,10 +106,10 @@
         <div class="map-popup de josef-station3-1">Josef erzählt von seinen schrecklichen Erlebnissen im Konzentrationslager.</div>
 
         <button class="map-button de josef-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef04_sd.mp4', this)"></button>
-        <div class="map-popup de bella-station3-2">Josef findet nach seinen traumatischen Erlebnissen langsam zurück ins Leben.</div>
+        <div class="map-popup de josef-station3-2">Josef findet nach seinen traumatischen Erlebnissen langsam zurück ins Leben.</div>
 
         <button class="map-button de josef-station4-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef04_sd.mp4', this)"></button>
-        <div class="map-popup de bella-station4-1">Josef berichtet von den schweren Anfangsjahren in Israel.</div>
+        <div class="map-popup de josef-station4-1">Josef berichtet von den schweren Anfangsjahren in Israel.</div>
 
         <button class="map-button de josef-station4-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef04_sd.mp4', this)"></button>
         <div class="map-popup de josef-station4-2">Josef erzählt von seinem Leben in Jerusalem.</div>

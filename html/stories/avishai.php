@@ -59,7 +59,7 @@
       </div>
 
       <div id="portrait">
-        <img src="/material/bilder/portraits/portraitAvishay.jpg" alt="Portrait Avishay">
+        <img src="/material/Bilder/portraits/portraitAvishay.jpg" alt="Portrait Avishay">
       </div>
 
       <div id="text" class="de">

@@ -103,7 +103,7 @@
         <div class="map-popup de karla-station2-1">Karla berichtet vom Abschied von ihren Eltern und der Fahrt ins Kinderexil.</div>
 
         <button class="map-button de karla-station2-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla04_sd.mp4', this)"></button>
-        <div class="map-popup de karla-station12-2">Karla erzählt vom harten Leben in ihrer Pflegefamilie.</div>
+        <div class="map-popup de karla-station2-2">Karla erzählt vom harten Leben in ihrer Pflegefamilie.</div>
 
         <button class="map-button de karla-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla04_sd.mp4', this)"></button>
         <div class="map-popup de karla-station3-1">Karla berichtet von den Umständen ihrer Einwanderung in Israel.</div>
