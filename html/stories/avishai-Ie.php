@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title>Tor nach Zion</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../stylesheet.css">
+    <link rel="stylesheet" href="/stylesheet.css">
   </head>
 
   <body>
@@ -98,13 +98,13 @@
             <div class="map-popup de avishay-station3-2">Avishay beschreibt die gemeinsame Zukunft von Juden und Deutschen.</div>
             
             <button class="map-button en avishay-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd_en.mp4', this)"></button>
-            <div class="map-popup en avishay-station1-1">Avishay talks about stuff. It's interesting. Probably.</div>
+            <div class="map-popup en avishay-station1-1">Avishay talks about the life of his family and their flight from Germany.</div>
             <button class="map-button en avishay-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay02_sd_en.mp4', this)"></button>
-            <div class="map-popup en avishay-station2-1">Avishay talks about more stuff. It's probably still interesting.</div>
+            <div class="map-popup en avishay-station2-1">Avishay talks about how his mother and her siblings survived the Holocaust.</div>
             <button class="map-button en avishay-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay03_sd_en.mp4', this)"></button>
-            <div class="map-popup en avishay-station3-1">Avishay talks about even more stuff. Meh.</div>
+            <div class="map-popup en avishay-station3-1">Avishay describes how difficult it has been to talk about what happened during the Holocaust in his family.</div>
             <button class="map-button en avishay-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay04_sd_en.mp4', this)"></button>
-            <div class="map-popup en avishay-station3-2">Avishay is still talking... It's getting a little annoying.</div>
+            <div class="map-popup en avishay-station3-2">Avishay describes the  common future of Jews and Germans.</div>
           </div>
         </div>
     

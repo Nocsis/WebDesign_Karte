@@ -33,6 +33,22 @@ window.onscroll = function() {checkScroll()};
 window.onkeydown = function(ev) {checkKeyPress(ev)};
 videoClose.onclick = function() {hideVideo()};
 
+//TEMP
+if(detectIE()){
+  document.getElementById("ie-redirect").style.display = "block";
+}
+
+function detectIE() {
+var ua = window.navigator.userAgent;
+
+var msie = ua.indexOf('MSIE ');
+if (msie > 0) {
+  return true;
+  }
+
+return false;
+}
+//TEMP
 
 //----Funktionen----
 

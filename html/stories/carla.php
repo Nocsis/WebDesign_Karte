@@ -27,11 +27,11 @@
       </div>
 
       <div id="text" class="de">
-        >>Wenn du deine Vergangenheit nicht kennst, hast du keine Gegenwart und deine Zukunft ist sehr unklar.<<
+      „Ich sage immer, man muss sich um die Lebenden kümmern, nicht um die Toten.“
       </div>
 
       <div id="text" class="en">
-        >>When you don't know your past, you do not have a present and your future is very unclear.<<
+        >>„I always say that you have to focus to the living and not to the dead.“<<
       </div>
 
       <div class="s"></div>
