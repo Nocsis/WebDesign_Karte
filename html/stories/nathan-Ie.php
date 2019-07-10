@@ -82,6 +82,10 @@
             <div class="blank"></div>
         </div>
 
+        <div class="flex-container8">
+            <div class="blank"></div>
+        </div>
+
         <!--Map und Video Zeug-->  
         <div id="section2">
       <div class="map-background" id="nathan-map">
