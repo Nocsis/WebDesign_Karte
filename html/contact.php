@@ -20,24 +20,22 @@
           <p>Zur Kontaktaufnahme mit dem Verein „Tor nach Zion e.V.“ nutzen Sie bitte dieses Kontaktformular</p>
         </div>
 
-        <!--Falls das so nicht funtioniert, nimm placeholder in den Textboxen.--> 
-        <div id="contact-labels">
-          <p>&nbsp;Name</p>
-          <p>&nbsp;E-Mail</p>
-          <p>&nbsp;Betreff</p>
-          <p>&nbsp;Nachricht</p>
-        </div>
+        <form id="contact-form" action="sendmail.php" method='post'>
+          <div id="contact-flex-spacer1">
+            <div id="contact-flex-spacer2">
+              <input id="contact-name" name="name" type="text" tabindex="1" placeholder="Ihr Name..." required autofocus>
+              <input id="contact-email" name="email" type="email" tabindex="2" placeholder="Ihre Email-Adresse..." required>
+            </div>
 
-        <form class="contact-form" action="sendmail.php" method='post'>
-          <input id="contact-name" name="name" type="text" tabindex="1" required autofocus>
-          <input id="contact-email" name="email" type="email" tabindex="2" required>
+            <div id="contact-confirmation"><p>Nachricht gesendet!</p></div>
+          </div>
 
-          <div id="contact-confirmation">Nachricht gesendet!</div>
-
-          <input id="contact-subject" name="subject" type="text" tabindex="3" required>
-          <textarea id="contact-message" name="message" tabindex="4" required></textarea>
-          <label for="submit-button">// Senden</label>
-          <button name="submit" id="submit-button" type="submit" id="contact-submit" tabindex="5"></button>
+          <input id="contact-subject" name="subject" type="text" tabindex="3" placeholder="Betreff der Nachricht..." required>
+          <textarea id="contact-message" name="message" tabindex="4" placeholder="Ihre Nachricht..." required></textarea>
+          <div id="contact-flex-spacer3">
+            <label for="contact-submit">// Senden</label>
+            <button name="submit" id="contact-submit" type="submit" tabindex="5"></button>
+          </div>
         </form>
       </div>
     </div>
