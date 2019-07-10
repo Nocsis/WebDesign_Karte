@@ -121,7 +121,7 @@
         <button class="scroll-button" id="down-button" onclick="scrollToBottom()"></button>
         <button class="scroll-button" id="up-button" onclick="scrollToTop()"></button>
     
-        <script src="/scripts.js"></script>
+        <script src="/scripts-ie.js"></script>
       
   </body>
 
