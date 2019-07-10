@@ -6,23 +6,6 @@
     <title>Avishay Golz</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/stylesheet.css">
-    <script>
-      if(detectIE()){
-        window.location = "avishai-Ie.php";
-      }
-
-      function detectIE() {
-      var ua = window.navigator.userAgent;
-      
-      var msie = ua.indexOf('MSIE ');
-      if (msie > 0) {
-        return true;
-      }
-
-      // other browser
-      return false;
-      }
-    </script>
   </head>
 
   <body>
