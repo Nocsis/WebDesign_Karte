@@ -28,7 +28,7 @@
   </div>
 
   <div id="text" class="de">
-        >>Ich habe nie gesprochen über die Vergangenheit,nie. Ich könnte gar nicht weiterleben, wenn ich immer nur an die Vergangenheit denken würde.<<
+        >>Ich habe nie gesprochen über die Vergangenheit, nie. Ich könnte gar nicht weiterleben, wenn ich immer nur an die Vergangenheit denken würde.<<
   </div>
 
   <div id="text" class="en">

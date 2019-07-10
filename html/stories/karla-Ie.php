@@ -26,8 +26,8 @@
          <img src="/material/bilder/portraits/portraitCarla.jpg" alt="Portrait Karla" height="100%" width="90.91%">
          </div>
           <div class="column4"></div>
-          <div class="ie-text de"> „Ich sage immer, man muss sich um die Lebenden kümmern, nicht um die Toten.“</div>
-          <div class="ie-text en"> >>„I always say that you have to focus to the living and not to the dead.“<<</div>
+          <div class="ie-text de"> >>Ich sage immer, man muss sich um die Lebenden kümmern, nicht um die Toten.<<</div>
+          <div class="ie-text en"> >>I always say that you have to focus to the living and not to the dead.<<</div>
           <div class="border-right"></div>
       </div>
 

@@ -27,11 +27,11 @@
       </div>
 
       <div id="text" class="de">
-      „Ich erzähle meine Geschichte. Weiter und weiter und es ist, … es ist schwer. Und es tut weh. Aber ich freue mich heute, dass ich die Geschichte  erzählen und weitergeben kann.“
+      >>Ich erzähle meine Geschichte. Weiter und weiter und es ist, … es ist schwer. Und es tut weh. Aber ich freue mich heute, dass ich die Geschichte  erzählen und weitergeben kann.<<
       </div>
 
       <div id="text" class="en">
-      „I am going on telling my story. It is hard and it hurts. But I am happy that I can tell my story and share it with others.”
+    >>I am going on telling my story. It is hard and it hurts. But I am happy that I can tell my story and share it with others.<<
       </div>
 
       <div class="s"></div>
@@ -48,7 +48,7 @@
       </div>
 
       <div id="year" class="en">
-       <strong>//  </strong> &nbsp; Born on 5.5.1935 in Frankfurt am Main in a family of eleven children <br>
+       <strong>//  </strong> &nbsp; Born on 5.5.1935 in Frankfurt am Main in a family of eleven children. <br>
        <strong>//  </strong> &emsp;	In 1939 his mother sends him and two other siblings to France. There they are hidden in different places.  <br>
        <strong>// </strong> &emsp; In 1942 the SS finds them and they were brought to Bergen-Belsen. <br>
        <strong>// </strong> &emsp; After his liberation and lengthy rehabilitation he immigrates to Israel. He works as a waiter. <br>

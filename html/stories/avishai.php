@@ -67,7 +67,7 @@
       </div>
 
       <div id="text" class="en">
-        >>If you don’t know your past, you don’t have a present and your future is very vague.”<<
+        >>If you don’t know your past, you don’t have a present and your future is very vague.<<
       </div>
 
       <div class="s"></div>

@@ -26,8 +26,8 @@
            <img src="/material/bilder/portraits/portraitSteffi.png" alt="Portrait Steffi" height="100%" width="90.91%">
          </div>
           <div class="column4"></div>
-          <div class="ie-text de"> „Es fiel mir nie schwer, darüber zu reden. So ist das Leben - gut und schlecht. Man muss sich ich ihm stellen.“</div>
-          <div class="ie-text en"> „I never found it hard to talk about my life. That is life – good and bad. You need to deal with it.“</div>
+          <div class="ie-text de"> >>Es fiel mir nie schwer, darüber zu reden. So ist das Leben - gut und schlecht. Man muss sich ich ihm stellen.<<</div>
+          <div class="ie-text en"> >>I never found it hard to talk about my life. That is life – good and bad. You need to deal with it.<<</div>
           <div class="border-right"></div>
       </div>
 

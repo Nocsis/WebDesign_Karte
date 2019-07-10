@@ -27,11 +27,11 @@
       </div>
 
       <div id="text" class="de">
-      „Ich sage immer, man muss sich um die Lebenden kümmern, nicht um die Toten.“
+      >>Ich sage immer, man muss sich um die Lebenden kümmern, nicht um die Toten.<<
       </div>
 
       <div id="text" class="en">
-        >>„I always say that you have to focus to the living and not to the dead.“<<
+        >>I always say that you have to focus to the living and not to the dead.<<
       </div>
 
       <div class="s"></div>

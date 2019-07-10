@@ -26,7 +26,7 @@
          <img src="/material/bilder/portraits/portraitBella.jpeg" alt="Portrait Bella" height="100%" width="90.91%">
          </div>
           <div class="column4"></div>
-          <div class="ie-text de"> >>Ich habe nie gesprochen über die Vergangenheit,nie. Ich könnte gar nicht weiterleben, wenn ich immer nur an die Vergangenheit denken würde.<<</div>
+          <div class="ie-text de"> >>Ich habe nie gesprochen über die Vergangenheit, nie. Ich könnte gar nicht weiterleben, wenn ich immer nur an die Vergangenheit denken würde.<<</div>
           <div class="ie-text en"> >>I have never spoken about my past. I wouldn’t be able to live if I would always think about my past.<<</div>
           <div class="border-right"></div>
       </div>

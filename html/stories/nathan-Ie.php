@@ -27,7 +27,10 @@
          </div>
           <div class="column4"></div>
           <div class="ie-text de"> „Nachts träume ich oft. Immer bin ich an einem Ort und weiß nicht, wie ich 	dort weg komme. Ich laufe dahin und dorthin und komme nicht raus. Nach so	vielen Jahren, nach 70 Jahren. Das ist nicht einfach. Aber ich lebe! Ich habe	ein gutes Leben!“</div>
-          <div class="ie-text en"> „I am going on telling my story. It is hard and it hurts. But I am happy that I can tell my story and share it with others.”</div>
+          <div class="ie-text en"> >>At night I dream a lot. I always stuck in the same place and I don't know how to get away from there.
+            I try to walk in different directions but I can't get out of there. I'll keep dreaming after so many years.
+            This isn't easy. But I'll keep on living! I have a good life!<<
+          </div>
           <div class="border-right"></div>
       </div>
 

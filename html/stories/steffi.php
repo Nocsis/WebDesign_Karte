@@ -28,11 +28,11 @@
       </div>
 
       <div id="text" class="de">
-      „Es fiel mir nie schwer, darüber zu reden. So ist das Leben - gut und schlecht. Man muss sich ich ihm stellen.“
+      >>Es fiel mir nie schwer, darüber zu reden. So ist das Leben - gut und schlecht. Man muss sich ich ihm stellen.<<
       </div>
 
       <div id="text" class="en">
-      „I never found it hard to talk about my life. That is life – good and bad. You need to deal with it.“
+      >>I never found it hard to talk about my life. That is life – good and bad. You need to deal with it.<<
       </div>
 
       <div class="s"></div>
