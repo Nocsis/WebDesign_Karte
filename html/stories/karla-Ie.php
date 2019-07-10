@@ -49,13 +49,18 @@
           <div class="ie-statement"></div>
           <div class="column4"></div>
           <div class="ie-year de">
-            <strong>// &nbsp; 1930er</strong> &nbsp; Kindheit in Berlin <br>
-            <strong>// &nbsp; 1939-1945</strong> &emsp; Kinderexil in England <br>
-            <strong>// &nbsp; 1950</strong> &emsp; Weg nach Israel <br></div>
+          <strong>// &nbsp; </strong> &nbsp; Geboren am 12.12.1931 in Berlin als Karla Rothstein. <br>
+          <strong>// &nbsp; </strong> &emsp; 1939 wird sie zusammen mit ihrer Schwester auf einen Kindertransport nach England geschickt; sie sieht ihre Eltern das letzte Mal. <br>
+          <strong>// &nbsp; </strong> &emsp; In England lebt sie in einem Kinderheim in Manchester. <br>
+          <strong>// &nbsp; </strong> &emsp; Karla wandert 1951 in Israel ein, gründet eine Familie und bekommt zwei Kinder. Sie arbeitet vorwiegend als Krankenschwester. <br>
+          </div>
+            
+         
           <div class="ie-year en">
-            <strong>// &nbsp; 1930s</strong> &nbsp; childhood in Berlin <br>
-            <strong>// &nbsp; 1939-1945</strong> &emsp; children exile in England <br>
-            <strong>// &nbsp; 1950</strong> &emsp; path towards Israel <br>
+          <strong>// &nbsp; </strong> &nbsp; Born on 12.12.1931 in Berlin as Karla Rothstein<br>
+          <strong>// &nbsp; </strong> &emsp; In 1939 she is sent on a Kindertransport to England together with her sister; she sees her parents for the last time. <br>
+          <strong>// &nbsp; </strong> &emsp; In England she is sent to a Kinderheim in Manchester.  <br>
+          <strong>// &nbsp; </strong> &emsp; Karla emigrates to Israel in 1951 and marries Abraham Pilpel. They have two sons. Karla works as a nurse. She lives in Jerusalem today.<br>
           </div>
           <div class="border-right"></div>
         </div>
