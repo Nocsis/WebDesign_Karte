@@ -14,20 +14,20 @@
 
     <div class="grid-container">
 
-      <div id="contact-text">
-        <h3>Kontaktaufnahme</h3>
-        <p>Zur Kontaktaufnahme mit dem Verein „Tor nach Zion e.V.“ nutzen Sie bitte dieses Kontaktformular</p>
-      </div>
-
-      <!--Falls das so nicht funtioniert, nimm placeholder in den Textboxen.--> 
-      <div id="contact-labels">
-        <p>&nbsp;Name</p>
-        <p>&nbsp;E-Mail</p>
-        <p>&nbsp;Betreff</p>
-        <p>&nbsp;Nachricht</p>
-      </div>
-
       <div id="cantact-wrapper">
+        <div id="contact-text">
+          <h3>Kontaktaufnahme</h3>
+          <p>Zur Kontaktaufnahme mit dem Verein „Tor nach Zion e.V.“ nutzen Sie bitte dieses Kontaktformular</p>
+        </div>
+
+        <!--Falls das so nicht funtioniert, nimm placeholder in den Textboxen.--> 
+        <div id="contact-labels">
+          <p>&nbsp;Name</p>
+          <p>&nbsp;E-Mail</p>
+          <p>&nbsp;Betreff</p>
+          <p>&nbsp;Nachricht</p>
+        </div>
+
         <form class="contact-form" action="sendmail.php" method='post'>
           <input id="contact-name" name="name" type="text" tabindex="1" required autofocus>
           <input id="contact-email" name="email" type="email" tabindex="2" required>

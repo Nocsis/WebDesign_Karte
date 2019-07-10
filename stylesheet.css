@@ -867,7 +867,10 @@ height: 100%;
 
 /*Kontakt*/
 
-
+#contact-text {
+  grid-column: 4 / 7;
+  grid-row: 1 / 7;
+}
 
 /*IE stuff*/
 
