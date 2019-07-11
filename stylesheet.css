@@ -695,47 +695,53 @@ nav a:hover:not(.active) {
 
 /*Impressum*/
 
+.legal-flex-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.legal-information-wrapper {
+  width: 43.9vw;
+  display: flex;
+  flex-direction: row;
+}
+
 .legal{
-grid-area: bild;
 font-size: 30px !important;
 font-family: 'BebasNeueLight';
+font-weight: bold;
 border-bottom: solid 1px #c6c6c6;
-grid-column: 4/ span 3;
 text-align: left !important;
 height: 50px;
+width: 43.9vw;
+margin-bottom: 10px;
 }
 
-.legal-information{
-  grid-area: bild;
-  margin-top:75px;
-  text-align: left !important;
-  grid-column: 4/ span 2;
-  border-bottom: solid 1px #c6c6c6;
-  font-family: 'MuliRegular';
-  font-size: 0.9vw !important;
-  height: 155px;
-}
-
-.legal-information2{
-  grid-area: text;
-  grid-column: 6/ span 1;
-  margin-top:75px;
+.legal-information, .legal-information2 {
   text-align: left !important;
   border-bottom: solid 1px #c6c6c6;
   font-family: 'MuliRegular';
   font-size: 0.9vw !important;
-  height: 155px;
+  width: 43.9vw;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
-.data-protection{
-  grid-area: bild;
-  margin-top:260px;
+.legal-information3, .liability, .data-protection {
   text-align: left !important;
-  grid-column: 4/ span 3;
   border-bottom: solid 1px #c6c6c6;
   font-family: 'MuliRegular';
   font-size: 0.9vw !important;
-  height: 290px;
+  width: 43.9vw;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+#data-protection-header {
+  font-size: 1.2vw;
+  font-weight: bold;
 }
 
 /*Verein*/
