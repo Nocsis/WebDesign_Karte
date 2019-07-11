@@ -68,7 +68,7 @@
         </div>
         <!--Die Reihenfolge der Klassen ist wichtig! Immer "map-button sprache name-stationnr-nr" bzw "map-popup sprache name-stationnr-nr"!-->
         <button class="map-button de josef-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef01_sd.mp4', '/material/videos/josef01.mp4', this)"></button>
-        <div class="map-popup de josef-station1-1">Josef erzählt von seiner Familie in Frankfurt / Main </div>
+        <div class="map-popup de josef-station1-1">Josef erzählt von seiner Familie in Frankfurt / Main.</div>
 
         <button class="map-button de josef-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef02_sd.mp4', '/material/videos/josef02.mp4', this)"></button>
         <div class="map-popup de josef-station2-1">Josef berichtet von seiner Mutter und der Rettung dreier Kinder.</div>
@@ -89,12 +89,12 @@
         <div class="map-popup de josef-station4-2">Josef erzählt von seinem Leben in Jerusalem.</div>
 
         <button class="map-button de josef-station4-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef08_sd.mp4', '/material/videos/josef08.mp4', this)"></button>
-        <div class="map-popup de josef-station4-3">Josef erinnert sich an seine Mutter und ihr Vermächtnis in seinem Leben</div>
+        <div class="map-popup de josef-station4-3">Josef erinnert sich an seine Mutter und ihr Vermächtnis in seinem Leben.</div>
         
 
 
         <button class="map-button en josef-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef01_sd_en.mp4', '/material/videos/josef01_en.mp4', this)"></button>
-        <div class="map-popup en josef-station1-1">Josef talks about his family in Frankfurt/Main. </div>
+        <div class="map-popup en josef-station1-1">Josef talks about his family in Frankfurt/Main.</div>
 
         <button class="map-button en josef-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef02_sd_en.mp4', '/material/videos/josef02_en.mp4', this)"></button>
         <div class="map-popup en josef-station2-1">Josef talks about his mother and the rescue of him and his two siblings.</div>
@@ -106,7 +106,7 @@
         <div class="map-popup en josef-station3-1">Josef talks about the horrifying experiences in the concentration camp.</div>
 
         <button class="map-button en josef-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef05_sd_en.mp4', '/material/videos/josef05_en.mp4', this)"></button>
-        <div class="map-popup en josef-station3-2">Josef finds his way back to life after his very traumatic experiences. </div>
+        <div class="map-popup en josef-station3-2">Josef finds his way back to life after his very traumatic experiences.</div>
 
         <button class="map-button en josef-station4-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef06_sd_en.mp4', '/material/videos/josef06_en.mp4', this)"></button>
         <div class="map-popup en josef-station4-1">Josef talks about his first  years in Israel and his hardships.</div>
@@ -115,7 +115,7 @@
         <div class="map-popup en josef-station4-2">Josef talks about his life in in Jerusalem.</div>
 
         <button class="map-button en josef-station4-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/josef08_sd_en.mp4', '/material/videos/josef08_en.mp4', this)"></button>
-        <div class="map-popup en josef-station4-3">Josef remembers his mother and her legacy in his life</div>
+        <div class="map-popup en josef-station4-3">Josef remembers his mother and her legacy in his life.</div>
       </div>
     </div>
 

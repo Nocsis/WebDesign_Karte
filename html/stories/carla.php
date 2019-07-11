@@ -101,7 +101,7 @@
         <div class="map-popup en karla-station1-3">Karla talks about her parting from her parents and her journey on the Kindertransport.</div>
 
         <button class="map-button en karla-station2-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla04_sd_en.mp4', '/material/videos/karla04_en.mp4', this)"></button>
-        <div class="map-popup en karla-station1-4">Karla talks about her life in the foster family and the difficulties there. </div>
+        <div class="map-popup en karla-station1-4">Karla talks about her life in the foster family and the difficulties there.</div>
 
         <button class="map-button en karla-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/karla05_sd_en.mp4', '/material/videos/karla05_en.mp4', this)"></button>
         <div class="map-popup en karla-station2-1">Karla talks about the circumstances of her immigration to Israel.</div>
