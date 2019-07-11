@@ -12,52 +12,58 @@
       
     <?php include ("../html/header.php"); ?>
 
-      <!--Name-->
-      <div class="flex-container2">
-        <div class="border-left"></div>
-          <div id="ie-name"> 
-            <span id="ie-name1">&nbsp;Name</span>
-            <span id="ie-name2">&nbsp;E-Mail</span>
-            <span class="de"id="ie-name3">&nbsp;Betreff</span>
-            <span class="en" id="ie-name3">&nbsp;blubi</span>
-            <span class="de"id="ie-name4">&nbsp;Nachricht</span>
-            <span class="en" id="ie-name4">&nbsp;yay</span> 
-         </div> 
+      <div class="flex-container11" style="border:1px solid grey">
+      <div class="border-left" ></div>
+      <div id="ie-name"> </div>
+      <div class="column2"></div>
+      <div class="column3">
+      <h3>Kontaktaufnahme</h3>
+          <p>Zur Kontaktaufnahme mit dem Verein „Tor nach Zion e.V.“ nutzen Sie bitte dieses Kontaktformular</p>
+          </div>
 
-         <!--Portrait und Text-->
-         <div class="column2"></div>
-         <div class="column3">
-            <form  action='" . $_SERVER["SCRIPT_NAME"] . "' method='post'> 
-          
-       <p> 
-            <span class='pflichtfeld'> </span>
-            <input type='text' name='name' value='" . $name . "'> 
-        </p> 
-                          
-        <p> 
-            <span class='pflichtfeld'> </span>
-            <input type='email' name='email' value='" . $email . "'> 
-        </p> 
-                          
-        <p> 
-            <span class='pflichtfeld'> </span>
-            <input type='text' name='betreff' value='" . $betreff . "'> 
-        </p> 
-                          
-        <p> 
-            <span class='pflichtfeld'> </span>
-            <textarea name='nachricht' cols='40' rows='8'> </textarea> 
-        </p> 
-                          
-         <p> 
-           <br> 
-           <input type='submit' name='submit' value='Formular absenden'> 
-         </p> 
-                          
-          <p> 
-            <small>Bitte alle mit <span class='pflichtfeld'></span> 
-            markierten Felder ausfüllen.</small> 
-          </p> 
+      </div>
+      <!--Name-->
+    
+
+
+        <form  action="sendmail.php" method='post'>
+
+             <div class="flex-container12">
+             <div class="border-left"> </div>
+             <div class="column1"><span id="ie-name1">&nbsp;Name</span> </div>
+             <div class="column2">  </div>
+             <div class="column3">
+              <input  name="name" type="text" tabindex="1" placeholder="Ihr Name..." required autofocus> </div> </div>
+
+
+              <div class="flex-container12">
+             <div class="border-left"> </div>
+             <div class="column1"><span id="ie-name1">&nbsp;E-Mail</span> </div>
+             <div class="column2">  </div>
+             <div class="column3">
+              <input id="contact-email" name="email" type="email" tabindex="2" placeholder="Ihre Email-Adresse..." required> </div> </div>
+         
+              <div class="flex-container12">
+             <div class="border-left"> </div>
+             <div class="column1"><span id="ie-name1">&nbsp;Betreff</span> </div>
+             <div class="column2">  </div>
+             <div class="column3">
+          <input id="contact-subject" name="subject" type="text" tabindex="3" placeholder="Betreff der Nachricht..." required> </div> </div>
+
+          <div class="flex-container12">
+             <div class="border-left"> </div>
+             <div class="column1"><span id="ie-name1">&nbsp;Nachricht</span> </div>
+             <div class="column2">  </div>
+             <div class="column3">
+          <textarea id="contact-message" name="message" tabindex="4" placeholder="Ihre Nachricht..." required></textarea> </div> </div>
+
+          <div id="contact-flex-spacer3">
+            <label for="contact-submit">// Senden</label>
+            <button name="submit" id="contact-submit" type="submit" tabindex="5"></button>
+          </div>
+        </form>
+      </div>
+      
 
       
       
