@@ -71,48 +71,48 @@
           <button id="video-close"></button>
         </div>
         <!--Die Reihenfolge der Klassen ist wichtig! Immer "map-button sprache name-stationnr-nr" bzw "map-popup sprache name-stationnr-nr"!-->
-        <button class="map-button de nathan-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan01_sd.mp4', this)"></button>
+        <button class="map-button de nathan-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan01_sd.mp4', '/material/videos/nathan01.mp4', this)"></button>
         <div class="map-popup de nathan-station1-1">Nathan beschreibt seine Kindheit im Warschau der Vorkriegszeit.</div>
 
-        <button class="map-button de nathan-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan02_sd.mp4', this)"></button>
+        <button class="map-button de nathan-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan02_sd.mp4', '/material/videos/nathan02.mp4', this)"></button>
         <div class="map-popup de nathan-station1-2">Nathan erzählt vom Leben der Juden im Warschauer Ghetto</div>
 
-        <button class="map-button de nathan-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan03_sd.mp4', this)"></button>
+        <button class="map-button de nathan-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan03_sd.mp4', '/material/videos/nathan03.mp4', this)"></button>
         <div class="map-popup de nathan-station2-1">Nathan flieht aus dem Warschauer Ghetto und versteckt sich bis Kriegsende. </div>
 
-        <button class="map-button de nathan-station2-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan04_sd.mp4', this)"></button>
+        <button class="map-button de nathan-station2-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan04_sd.mp4', '/material/videos/nathan04.mp4', this)"></button>
         <div class="map-popup de nathan-station2-2">Nathan erlebt auch nach dem Krieg Verfolgung von Juden.</div>
 
-        <button class="map-button de nathan-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan04_sd.mp4', this)"></button>
+        <button class="map-button de nathan-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan05_sd.mp4', '/material/videos/nathan05.mp4', this)"></button>
         <div class="map-popup de nathan-station3-1">Nathan fährt mit dem Schiff „Exodus“ nach Israel und erlebt  große Schwierigkeiten bei der Einwanderung.</div>
 
-        <button class="map-button de nathan-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan04_sd.mp4', this)"></button>
+        <button class="map-button de nathan-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan06_sd.mp4', '/material/videos/nathan06.mp4', this)"></button>
         <div class="map-popup de nathan-station3-2">Nathan erzählt von seiner Familie, seiner Frau und seinem Studium in Israel.</div>
 
-        <button class="map-button de nathan-station3-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan04_sd.mp4', this)"></button>
+        <button class="map-button de nathan-station3-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan07_sd.mp4', '/material/videos/nathan07.mp4', this)"></button>
         <div class="map-popup de nathan-station3-3">Nathan denkt über seine eigene Kindheit und über seine Enkelkinder nach.</div>
         
 
 
-        <button class="map-button en nathan-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan01_sd_en.mp4', this)"></button>
+        <button class="map-button en nathan-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan01_sd_en.mp4', '/material/videos/nathan01_en.mp4', this)"></button>
         <div class="map-popup en nathan-station1-1">Nathan describes his childhood in Warsaw before the war.</div>
 
-        <button class="map-button en nathan-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan02_sd_en.mp4', this)"></button>
+        <button class="map-button en nathan-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan02_sd_en.mp4', '/material/videos/nathan02_en.mp4', this)"></button>
         <div class="map-popup en nathan-station1-2">Nathan talks about the life of the Jews in Warsaw Ghetto.</div>
 
-        <button class="map-button en nathan-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan03_sd_en.mp4', this)"></button>
+        <button class="map-button en nathan-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan03_sd_en.mp4', '/material/videos/nathan03_en.mp4', this)"></button>
         <div class="map-popup en nathan-station2-1">Nathan flees from the Warsaw Ghetto and hides until the end of the war. </div>
 
-        <button class="map-button en nathan-station2-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan04_sd_en.mp4', this)"></button>
+        <button class="map-button en nathan-station2-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan04_sd_en.mp4', '/material/videos/nathan04_en.mp4', this)"></button>
         <div class="map-popup en nathan-station2-2">Nathan speaks about is his experiences of persecution of Jews after the war.</div>
 
-        <button class="map-button en nathan-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan04_sd_en.mp4', this)"></button>
+        <button class="map-button en nathan-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan05_sd_en.mp4', '/material/videos/nathan05_en.mp4', this)"></button>
         <div class="map-popup en nathan-station3-1">Nathan boards  „Exodus“, the ship that will bring him to Israel and speaks of his difficulties to immigrate to Israel. </div>
 
-        <button class="map-button en nathan-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan04_sd_en.mp4', this)"></button>
+        <button class="map-button en nathan-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan06_sd_en.mp4', '/material/videos/nathan06_en.mp4', this)"></button>
         <div class="map-popup en nathan-station3-2">Nathan talks about his family, his wife and his studies in Israel.</div>
 
-        <button class="map-button en nathan-station3-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan04_sd_en.mp4', this)"></button>
+        <button class="map-button en nathan-station3-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/nathan07_sd_en.mp4', '/material/videos/nathan07_en.mp4', this)"></button>
         <div class="map-popup en nathan-station3-3">Nathan talks about his own childhood as well as the childhood of his grandchildren. </div>
       </div>
     </div>
