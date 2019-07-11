@@ -1159,6 +1159,13 @@ display: flex;
   flex: 0 0 20.8vw;
 }
 
+.column8{
+  flex: 0 0 67;
+  font-family: 'MuliRegular' !important;
+  text-align: center;
+  font-size: 25px !important;
+}
+
 .border-right{
   flex: 0 0 4.7vw;
   display: flex;

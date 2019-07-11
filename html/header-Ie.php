@@ -18,10 +18,15 @@
 
   <div id="navigation-right-ie">
     <nav class="sidenav-ie">
-      <a href="/html/film-ie.php">FILM&nbsp;&nbsp;//</a>
-      <a href="/html/association-ie.php">&nbsp;&nbsp;VEREIN&nbsp;&nbsp;//</a>
-      <a href="">&nbsp;&nbsp;KONTAKT&nbsp;&nbsp;//</a>
-      <a href="/html/legal-ie.php">&nbsp;&nbsp;IMPRESSUM&nbsp;&nbsp;// </a>
+      <a class="de" href="/html/film-ie.php">FILM&nbsp;&nbsp;//</a>
+      <a class="de" href="/html/association-ie.php">&nbsp;&nbsp;VEREIN&nbsp;&nbsp;//</a>
+      <a class="de" href="/html/contact-ie.php">&nbsp;&nbsp;KONTAKT&nbsp;&nbsp;//</a>
+      <a class="de" href="/html/legal-ie.php">&nbsp;&nbsp;IMPRESSUM&nbsp;&nbsp;// </a>
+
+      <a class="en" href="/html/film-ie.php">FILM&nbsp;&nbsp;//</a>
+      <a class="en" href="/html/association-ie.php">&nbsp;&nbsp;ASSOCIATION&nbsp;&nbsp;//</a>
+      <a class="en" href="/html/contact-ie.php">&nbsp;&nbsp;CONTAKT&nbsp;&nbsp;//</a>
+      <a class="en" href="/html/legal-ie.php">&nbsp;&nbsp;LEGAL&nbsp;&nbsp;// </a>
     </nav>
   </div>
 

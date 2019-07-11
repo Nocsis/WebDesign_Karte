@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    <?php include ("../html/header.php"); ?>
+    <?php include ("../html/header-ie.php"); ?>
 
     <div id="background-video-container">
       <video autoplay muted loop id="background-video">

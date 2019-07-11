@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset="utf-8" />
-    <title>Tor nach Zion</title>
+    <title>Kontakt</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../stylesheet.css">
+    <script src="../scripts.js"></script>
   </head>
 
   <body>
-      
+    
     <?php include ("../html/header.php"); ?>
 
-    <div class="border-left">
-    <div class="contact-wrapper de">
+    <div class="flex-container">
+      <div class="border-left" > </div>
+      <div class="column8 de">
         <div class="contact-text-wrapper">
           <div class="contact-text-spacer"> </div>
-          <div class="contact-text">
+          <div class="contact-text"> <br>
             <h3>Kontaktaufnahme</h3>
-            <p>Zur Kontaktaufnahme mit dem Verein „Tor nach Zion e.V.“ nutzen Sie bitte dieses Kontaktformular.</p>
+            <p>Zur Kontaktaufnahme mit dem Verein „Tor nach Zion e.V.“ nutzen Sie bitte dieses Kontaktformular.</p> <br>
           </div>
         </div>
-
+        <br>
         <form class="contact-form" action="sendmail.php" method='post'>
           <div class="contact-flex-wrapper">
             <div class="contact-confirmation-wrapper">
@@ -110,19 +111,8 @@
           </div>
         </form>
       </div>
-      
-    
+    </div>
 
-
-  
-
-      
-      
+    <script src="/scripts.js"></script>
   </body>
-
 </html>
-
-
-   
-        
-  

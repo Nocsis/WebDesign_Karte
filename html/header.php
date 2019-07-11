@@ -18,10 +18,15 @@
 
   <div id="navigation-right">
     <nav class="sidenav">
-      <a class="nav-element" href="/html/film.php">&nbsp;&nbsp;FILM&nbsp;&nbsp;//</a>
-      <a class="nav-element" href="/html/association.php">&nbsp;&nbsp;VEREIN&nbsp;&nbsp;//</a>
-      <a class="nav-element" href="/html/contact.php">&nbsp;&nbsp;KONTAKT&nbsp;&nbsp;//</a>
-      <a class="nav-element" href="/html/legal.php">&nbsp;&nbsp;IMPRESSUM&nbsp;&nbsp;// </a>
+      <a class="nav-element de" href="/html/film.php">&nbsp;&nbsp;FILM&nbsp;&nbsp;//</a>
+      <a class="nav-element de" href="/html/association.php">&nbsp;&nbsp;VEREIN&nbsp;&nbsp;//</a>
+      <a class="nav-element de" href="/html/contact.php">&nbsp;&nbsp;KONTAKT&nbsp;&nbsp;//</a>
+      <a class="nav-element de" href="/html/legal.php">&nbsp;&nbsp;IMPRESSUM&nbsp;&nbsp;// </a>
+
+      <a class="nav-element en" href="/html/film.php">&nbsp;&nbsp;FILM&nbsp;&nbsp;//</a>
+      <a class="nav-element en" href="/html/association.php">&nbsp;&nbsp;VEREIN&nbsp;&nbsp;//</a>
+      <a class="nav-element en" href="/html/contact.php">&nbsp;&nbsp;KONTAKT&nbsp;&nbsp;//</a>
+      <a class="nav-element en" href="/html/legal.php">&nbsp;&nbsp;IMPRESSUM&nbsp;&nbsp;// </a>
     </nav>
   </div>
 
