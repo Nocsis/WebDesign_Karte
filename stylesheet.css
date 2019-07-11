@@ -1297,12 +1297,11 @@ display: flex;
   text-align: center;
 }
 
-#navivagtion-ie2 a {
+#navigation-ie2 a {
   float: left;
   color: black;
   text-decoration: none;
-  font-size: 20px !important;
-  border:1px solid green;
+  font-size: 24px !important;
 }
 
 .active{
