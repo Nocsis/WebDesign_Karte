@@ -70,54 +70,54 @@
           <button id="video-close"></button>
         </div>
         <!--Die Reihenfolge der Klassen ist wichtig! Immer "map-button sprache name-stationnr-nr" bzw "map-popup sprache name-stationnr-nr"!-->
-        <button class="map-button de bella-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella01_sd.mp4', this)"></button>
+        <button class="map-button de bella-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella01_sd.mp4', '/material/videos/bella01.mp4', this)"></button>
         <div class="map-popup de bella-station1-1">Bella erzählt von ihrer Kindheit in der Vorkriegszeit</div>
 
-        <button class="map-button de bella-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella02_sd.mp4', this)"></button>
+        <button class="map-button de bella-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella02_sd.mp4', '/material/videos/bella02.mp4', this)"></button>
         <div class="map-popup de bella-station1-2">Bella versucht zu verstehen, was eigentlich geschieht.</div>
 
-        <button class="map-button de bella-station1-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella03_sd.mp4', this)"></button>
+        <button class="map-button de bella-station1-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella03_sd.mp4', '/material/videos/bella03.mp4', this)"></button>
         <div class="map-popup de bella-station1-3">Bella beschreibt die Umzüge der Nazis und das Verschwinden jüdischer Nachbarn</div>
 
-        <button class="map-button de bella-station1-4" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd.mp4', this)"></button>
+        <button class="map-button de bella-station1-4" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd.mp4', '/material/videos/bella04.mp4', this)"></button>
         <div class="map-popup de bella-station1-4">Bella erzählt von ihrer Jugendzeit im Exil.</div>
 
-        <button class="map-button de bella-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd.mp4', this)"></button>
+        <button class="map-button de bella-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella05_sd.mp4', '/material/videos/bella05.mp4', this)"></button>
         <div class="map-popup de bella-station2-1">Bella lernt nach Kriegsende ihren Mann kennen. Gemeinsam verlassen sie Deutschland.</div>
 
-        <button class="map-button de bella-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd.mp4', this)"></button>
+        <button class="map-button de bella-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella06_sd.mp4', '/material/videos/bella06.mp4', this)"></button>
         <div class="map-popup de bella-station3-1">Bella berichtet voller Humor von der Ankunft in Israel und dem Leben in einfachen Verhältnissen</div>
 
-        <button class="map-button de bella-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd.mp4', this)"></button>
+        <button class="map-button de bella-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella07_sd.mp4', '/material/videos/bella07.mp4', this)"></button>
         <div class="map-popup de bella-station3-2">Gemeinsam mit ihrem Enkel Ron Stern redet Bella über Vergangenheit und Zukunft.</div>
 
-        <button class="map-button de bella-station3-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd.mp4', this)"></button>
+        <button class="map-button de bella-station3-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella08_sd.mp4', '/material/videos/bella08.mp4', this)"></button>
         <div class="map-popup de bella-station3-3">Die Erinnerung an die Geschichte ist grundlegend für die Zukunft.</div>
         
 
 
-        <button class="map-button en bella-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella01_sd_en.mp4', this)"></button>
+        <button class="map-button en bella-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella01_sd_en.mp4', '/material/videos/bella01_en.mp4', this)"></button>
         <div class="map-popup en bella-station1-1">Childhood pre-war period</div>
 
-        <button class="map-button en bella-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella02_sd_en.mp4', this)"></button>
+        <button class="map-button en bella-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella02_sd_en.mp4', '/material/videos/bella02_en.mp4', this)"></button>
         <div class="map-popup en bella-station1-2">Bella understands what is actually happening</div>
 
-        <button class="map-button en bella-station1-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella03_sd_en.mp4', this)"></button>
+        <button class="map-button en bella-station1-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella03_sd_en.mp4', '/material/videos/bella03_en.mp4', this)"></button>
         <div class="map-popup en bella-station1-3">Bella describes the Nazi parades as well as the disappearing of Jews</div>
 
-        <button class="map-button en bella-station1-4" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd_en.mp4', this)"></button>
+        <button class="map-button en bella-station1-4" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd_en.mp4', '/material/videos/bella04_en.mp4', this)"></button>
         <div class="map-popup en bella-station1-4">Bella talks about her youth in exile in Yugoslavia</div>
 
-        <button class="map-button en bella-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd_en.mp4', this)"></button>
+        <button class="map-button en bella-station2-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella05_sd_en.mp4', '/material/videos/bella05_en.mp4', this)"></button>
         <div class="map-popup en bella-station2-1">Bella meets her husband, both flee to the western sector and emigrate to Israel </div>
 
-        <button class="map-button en bella-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd_en.mp4', this)"></button>
+        <button class="map-button en bella-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella06_sd_en.mp4', '/material/videos/bella06_en.mp4', this)"></button>
         <div class="map-popup en bella-station3-1">Bella talks humorously about her arrival in Israel and the very simple life there.</div>
 
-        <button class="map-button en bella-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd_en.mp4', this)"></button>
+        <button class="map-button en bella-station3-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella07_sd_en.mp4', '/material/videos/bella07_en.mp4', this)"></button>
         <div class="map-popup en bella-station3-2">Bella and her grandson Ron are speaking about the past and the future.</div>
 
-        <button class="map-button en bella-station3-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella04_sd_en.mp4', this)"></button>
+        <button class="map-button en bella-station3-3" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/bella08_sd_en.mp4', '/material/videos/bella08_en.mp4', this)"></button>
         <div class="map-popup en bella-station3-3">Remembering the past is essential for the future.</div>
       </div>
     </div>

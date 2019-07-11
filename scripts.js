@@ -26,6 +26,8 @@ nb_elements = navElements.length;
 var videoPopup = document.getElementById("video-popup"),
     videoContainer = document.getElementById("video-container"),
     videoClose = document.getElementById("video-close"),
+    videoSwitchSD = document.getElementById("video-switch-sd"),
+    videoSwitchHD = document.getElementById("video-switch-hd"),
     descriptionPopup = document.querySelectorAll(".map-popup"),
     nb_descriptions = descriptionPopup.length;
 
@@ -159,10 +161,26 @@ function hide(txt,nb){
 
 //Video Buttons
 /*onClick aller Video Buttons, Übergabe des Quellpfades und des Button elements*/
-function popupVideo(src, btn) {
+function popupVideo(srcSD, srcHD, btn) {
   btn.classList.add("clicked");
-  videoContainer.innerHTML = "<video controls autoplay id=\"video-player\"> <source src=\""+src+"\" type=\"video/mp4\"> </video>";
+  videoContainer.innerHTML = "<video controls autoplay id=\"video-player\"> <source src=\""+srcHD+"\" type=\"video/mp4\"> </video>";
+  videoSwitchSD.onclick = function() {switchVideo(srcSD, "SD")};
+  videoSwitchHD.onclick = function() {switchVideo(srcHD, "HD")};
+  videoSwitchSD.disabled = false;
+  videoSwitchHD.disabled = true;
   videoPopup.classList.toggle("show");
+}
+
+function switchVideo(src, btnType) {
+  videoContainer.innerHTML = "<video controls autoplay id=\"video-player\"> <source src=\""+src+"\" type=\"video/mp4\"> </video>";
+  if(btnType == "SD") {
+    videoSwitchSD.disabled = true;
+    videoSwitchHD.disabled = false;
+  }
+  else if(btnType == "HD") {
+    videoSwitchSD.disabled = false;
+    videoSwitchHD.disabled = true;
+  }
 }
 
 /*onClick des Close Buttons*/
@@ -170,6 +188,8 @@ function hideVideo() {
   if(videoPopup.classList.contains("show")) {
     videoPopup.classList.toggle(("show"));
     videoContainer.innerHTML = "";
+    videoSwitchSD.onclick = function() {};
+    videoSwitchHD.onclick = function() {};
   }
 }
 
