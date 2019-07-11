@@ -18,6 +18,10 @@ var deutsch = document.getElementById('de-click'),
 deutsch.addEventListener('click', function() {switchGerman();});
 english.addEventListener('click', function() {switchEnglish();});
 
+//avtive nav element
+var navElements = document.querySelectorAll(".nav-element"),
+nb_elements = navElements.length;
+
 //Video Buttons
 var videoPopup = document.getElementById("video-popup"),
     videoContainer = document.getElementById("video-container"),
@@ -27,6 +31,7 @@ var videoPopup = document.getElementById("video-popup"),
 
 //----Funktionsaufrufe----
 init();
+checkNav();
 
 window.onload = function() {checkScroll()};
 window.onscroll = function() {checkScroll()};
@@ -56,6 +61,21 @@ function checkKeyPress(keyEvent) {
   //27 = Escape
   if(keyEvent.keyCode == 27) {
     hideVideo();
+  }
+}
+
+//active nav element
+function checkNav() {
+  for(var i=0; i < nb_elements; i++){
+    if(navElements[i].getAttribute("href") == window.location.pathname || navElements[i].getAttribute("href") == window.location.href) {
+      if(!navElements[i].classList.contains("active")) {
+      navElements[i].classList.add("active");
+      }    
+    }
+    else {
+      navElements[i].classList.remove("active");
+    }
+
   }
 }
 

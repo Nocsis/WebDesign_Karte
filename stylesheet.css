@@ -138,6 +138,12 @@ header {
   color: black;
 }
 
+/*Nav*/
+.nav-element.active {
+  background-color:#375f79;
+  color: white;
+}
+
 /*Personen-nav*/
 #navigation{
   flex: 0 0 45.2vw;
