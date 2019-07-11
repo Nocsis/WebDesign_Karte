@@ -1113,12 +1113,6 @@ height: 100%;
   display: flex;
 }
 
-.flex-container8 p{
-  font-family: 'MuliRegular';
-  text-align: center;
-  font-size: 25px;
-}
-
 .flex-container9{
   height: 75.5vh;
   display:flex;
@@ -1140,8 +1134,14 @@ height: 100%;
 }
 
 .flex-container13{
-  height: 92.6vh;
+  height: 85vh;
   display: flex;
+}
+
+.flex-container14{
+  height: 15vh;
+  display: flex;
+  justify-content: center;
 }
 
 .border-left{
@@ -1195,6 +1195,12 @@ display: flex;
 
 .film-column-ie{
   flex: 0 0 64.7vw;
+}
+
+.film-survive-text-ie{
+  font-family: 'MuliRegular';
+  text-align: center;
+  font-size: 1.3vw;
 }
 
 .explanation-column-ie{
