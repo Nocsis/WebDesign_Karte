@@ -54,22 +54,22 @@
           <div class="column4"></div>
           <div class="ie-year de">
           <ul>
-            <li><strong>// </strong> &nbsp;Geboren ca. 1933 in Warschau. <br> </li>
-            <li><strong>// </strong> &nbsp;Er kommt mit seiner Familie im Jahr 1940 ins Warschauer Ghetto. Dort stirbt seine Mutter an Typhus und wird sein Vater verschleppt.<br> </li>
-            <li><strong>// </strong> &nbsp;Ihm selbst gelingt die Flucht. Er versteckt sich bis 1944 bei polnischen Familien.<br> </li>
-            <li><strong>// </strong> &nbsp;Nach einem gescheiterten Versuch (mit dem Schiff „Exodus“) wandert er 1948 in Israel ein. Dort heiratet er seine Frau und gründet eine Familie.<br> </li>
-            <li><strong>// </strong> &nbsp;Nathan starb im Oktober 2017.<br> </li>
+            <li><strong></strong> &nbsp;Geboren ca. 1933 in Warschau. <br> </li>
+            <li><strong></strong> &nbsp;Er kommt mit seiner Familie im Jahr 1940 ins Warschauer Ghetto. Dort stirbt seine Mutter an Typhus und wird sein Vater verschleppt.<br> </li>
+            <li><strong></strong> &nbsp;Ihm selbst gelingt die Flucht. Er versteckt sich bis 1944 bei polnischen Familien.<br> </li>
+            <li><strong></strong> &nbsp;Nach einem gescheiterten Versuch (mit dem Schiff „Exodus“) wandert er 1948 in Israel ein. Dort heiratet er seine Frau und gründet eine Familie.<br> </li>
+            <li><strong></strong> &nbsp;Nathan starb im Oktober 2017.<br> </li>
           </ul>
             </div>
 
           <div class="ie-year en">
           <ul>
-            <li><strong>// </strong> &nbsp;Born 1933 in Warsaw, Poland.<br> </li>
-            <li><strong>// </strong> &nbsp;He comes to the Warsaw Ghetto with his family in 1940. His mother dies 1941 from Typhus. His father disappears one day.<br> </li>
-            <li><strong>// </strong> &nbsp;His aunt smuggles him out of the ghetto. During the Holocaust, Nathan is hiding at different Polish people.<br> </li>
-            <li><strong>// </strong> &nbsp;Nathan goes to Palestine with the Exodus in 1947. The Exodus is sent back to Hamburg. On the 14th of May 1948 Nathan finally arrives in Israel.<br> </li>
-            <li><strong>// </strong> &nbsp;He gets married and has a family of his own.<br> </li>
-            <li><strong>// </strong> &nbsp;Nathan died in October 2017.<br> </li>
+            <li><strong></strong> &nbsp;Born 1933 in Warsaw, Poland.<br> </li>
+            <li><strong></strong> &nbsp;He comes to the Warsaw Ghetto with his family in 1940. His mother dies 1941 from Typhus. His father disappears one day.<br> </li>
+            <li><strong></strong> &nbsp;His aunt smuggles him out of the ghetto. During the Holocaust, Nathan is hiding at different Polish people.<br> </li>
+            <li><strong></strong> &nbsp;Nathan goes to Palestine with the Exodus in 1947. The Exodus is sent back to Hamburg. On the 14th of May 1948 Nathan finally arrives in Israel.<br> </li>
+            <li><strong></strong> &nbsp;He gets married and has a family of his own.<br> </li>
+            <li><strong></strong> &nbsp;Nathan died in October 2017.<br> </li>
           </ul>
           </div>
           <div class="border-right"></div>

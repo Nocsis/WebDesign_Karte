@@ -273,6 +273,7 @@ nav a:hover:not(.active) {
   text-indent: -1em;
 }
 
+
 /*Scroll Buttons*/
 .scroll-button {
   width: 3vw;
@@ -1271,6 +1272,13 @@ display: flex;
   font-size: 1.3vw;
   display: flex;
   overflow: auto;
+}
+
+.ie-year > ul {
+  
+  list-style-type: disc;
+  padding-left: 1em;
+  text-indent: -1em;
 }
 
 #ie-name{
