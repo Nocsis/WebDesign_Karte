@@ -2,11 +2,11 @@
 <div class="flex-container">
   <div id="border-left"></div>
   <div id="ueberleben">
-    <a href="/html/index.php">Über<strong>leben</strong></a> 
+    <a href="/html/index-ie.php">Über<strong>leben</strong></a> 
   </div>
 
-  <div id="navigation">
-    <nav>
+  <div id="navigation-ie">
+    <nav id="navigation-ie2">
       <a href="/html/stories/bella-Ie.php">BELLA&nbsp; //</a>
       <a href="/html/stories/josef-Ie.php">&nbsp;&nbsp;JOSEF &nbsp;//</a>
       <a href="/html/stories/nathan-Ie.php">&nbsp;&nbsp;NATHAN&nbsp; //</a>
@@ -16,8 +16,8 @@
     </nav>
   </div>
 
-  <div id="navigation-right">
-    <nav class="sidenav">
+  <div id="navigation-right-ie">
+    <nav class="sidenav-ie">
       <a href="/html/film-ie.php">FILM&nbsp;&nbsp;//</a>
       <a href="/html/association-ie.php">&nbsp;&nbsp;VEREIN&nbsp;&nbsp;//</a>
       <a href="">&nbsp;&nbsp;KONTAKT&nbsp;&nbsp;//</a>
