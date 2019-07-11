@@ -12,11 +12,12 @@
 
     <?php include ("../header.php"); ?>
 
+    <!-- Template, falls redirecting funktionieren sollte
     <div id="ie-redirect">
     Diese Seite unterstützt Internet Explorer nicht. <br>
     Bitte klicken Sie <a href="/html/stories/avishai-Ie.php">HIER</a>
     um auf die korrekte Seite weitergeleitet zu werden.
-    </div>
+    </div>-->
 
     <div class="grid-container" >
 
