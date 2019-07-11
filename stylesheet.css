@@ -358,7 +358,7 @@ nav a:hover:not(.active) {
   border: none;
   cursor: pointer;
   background-color: transparent;
-  background-image: url(material/bilder/closeButton.png);
+  background-image: url(material/bilder/X-Button.png);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -370,14 +370,18 @@ nav a:hover:not(.active) {
   height: 3vw;
   cursor: pointer;
   background-color: transparent;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 #video-switch-sd {
   left: 5vw;
+  background-image: url(material/bilder/SD-Button.png);
 }
 
 #video-switch-hd {
   left: 8vw;
+  background-image: url(material/bilder/HD-Button.png);
 }
 
 #video-container {
