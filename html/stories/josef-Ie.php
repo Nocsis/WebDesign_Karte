@@ -52,22 +52,22 @@
           <div class="ie-year de">
 
           <ul>
-            <li><strong>// </strong> &nbsp; Geboren am 5.5.1935 in Frankfurt am Main in einer Familie mit 11 Kindern. <br> </li>
-            <li><strong>// </strong> &nbsp; 1939 schickt ihn seine Mutter mit zwei Geschwistern nach Frankreich. Dort werden sie an verschiedenen Orten versteckt. <br> </li>
-            <li><strong>// </strong> &nbsp; 1942 findet sie die SS, die Kinder werden nach Bergen-Belsen gebracht.<br> </li>
-            <li><strong>// </strong> &nbsp; Nach seiner Befreiung wandert er in Israel ein. Er arbeitet lange Zeit als Kellner.<br> </li>
-            <li><strong>// </strong> &nbsp; Josef Aaron lebt heute in Jerusalem.<br> </li>
+            <li><strong>// </strong> &nbsp;Geboren am 5.5.1935 in Frankfurt am Main in einer Familie mit 11 Kindern. <br> </li>
+            <li><strong>// </strong> &nbsp;1939 schickt ihn seine Mutter mit zwei Geschwistern nach Frankreich. Dort werden sie an verschiedenen Orten versteckt. <br> </li>
+            <li><strong>// </strong> &nbsp;1942 findet sie die SS, die Kinder werden nach Bergen-Belsen gebracht.<br> </li>
+            <li><strong>// </strong> &nbsp;Nach seiner Befreiung wandert er in Israel ein. Er arbeitet lange Zeit als Kellner.<br> </li>
+            <li><strong>// </strong> &nbsp;Josef Aaron lebt heute in Jerusalem.<br> </li>
          </ul>
          </div>
 
           <div class="ie-year en">
 
           <ul>
-            <li><strong>//  </strong> &nbsp; Born on 5.5.1935 in Frankfurt am Main in a family of eleven children. <br> </li>
-            <li><strong>//  </strong> &nbsp;	In 1939 his mother sends him and two other siblings to France. There they are hidden in different places.  <br> </li>
-            <li><strong>// </strong> &nbsp; In 1942 the SS finds them and they were brought to Bergen-Belsen. <br> </li>
-            <li><strong>// </strong> &nbsp; After his liberation and lengthy rehabilitation he immigrates to Israel. He works as a waiter. <br> </li>
-            <li><strong>// </strong> &nbsp; Josef Aaron lives in Jerusalem today. <br> </li>
+            <li><strong>//  </strong> &nbsp;Born on 5.5.1935 in Frankfurt am Main in a family of eleven children. <br> </li>
+            <li><strong>//  </strong> &nbsp;In 1939 his mother sends him and two other siblings to France. There they are hidden in different places.  <br> </li>
+            <li><strong>// </strong> &nbsp;In 1942 the SS finds them and they were brought to Bergen-Belsen. <br> </li>
+            <li><strong>// </strong> &nbsp;After his liberation and lengthy rehabilitation he immigrates to Israel. He works as a waiter. <br> </li>
+            <li><strong>// </strong> &nbsp;Josef Aaron lives in Jerusalem today. <br> </li>
           </ul>
           </div>
           <div class="border-right"></div>

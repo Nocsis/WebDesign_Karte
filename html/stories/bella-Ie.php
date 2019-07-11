@@ -52,24 +52,24 @@
           <div class="ie-year de">
 
           <ul>
-            <li> <strong>// </strong> &nbsp; Bella (Zahava) Katz wird am 2.9.1924 in Leipzig als Beate Reichardt geboren. <br> </li>
-            <li><strong>// </strong> &nbsp; Mit 17 Jahren schicken ihre Eltern sie erst nach Wien, später nach Prag zum Studium und um sich bei Bekannten zu verstecken. Später flieht sie nach Jugoslawien, wo sie sich bei Bauersfamilien vor den Nazis versteckt. <br> </li>
-            <li><strong>// </strong> &nbsp; Nach dem Krieg lernt sie ihren Mann kennen und kehrt mit ihm nach Deutschland zurück. Sie helfen Juden bei der Einwanderung ins britische Mandatsgebiet Palästina. <br> </li>
-            <li><strong>// </strong> &nbsp; 1949 wandern sie selbst mit ihrer einjährigen Tochter in Israel ein. <br> </li>
-            <li><strong>// </strong> &nbsp; Ron Stern ist ihr Enkel.<br> </li>
+            <li> <strong>// </strong> &nbsp;Bella (Zahava) Katz wird am 2.9.1924 in Leipzig als Beate Reichardt geboren. <br> </li>
+            <li><strong>// </strong> &nbsp;Mit 17 Jahren schicken ihre Eltern sie erst nach Wien, später nach Prag zum Studium und um sich bei Bekannten zu verstecken. Später flieht sie nach Jugoslawien, wo sie sich bei Bauersfamilien vor den Nazis versteckt. <br> </li>
+            <li><strong>// </strong> &nbsp;Nach dem Krieg lernt sie ihren Mann kennen und kehrt mit ihm nach Deutschland zurück. Sie helfen Juden bei der Einwanderung ins britische Mandatsgebiet Palästina. <br> </li>
+            <li><strong>// </strong> &nbsp;1949 wandern sie selbst mit ihrer einjährigen Tochter in Israel ein. <br> </li>
+            <li><strong>// </strong> &nbsp;Ron Stern ist ihr Enkel.<br> </li>
           </ul>
           </div>
 
           <div class="ie-year en">
 
           <ul>
-            <li><strong>// </strong> &nbsp; Bella (Zahava) Katz was born on 2.9.1924 in Leipzig as Beate Reichardt.<br> </li>
-            <li><strong>// </strong> &emsp; At the age of 17 her parents send her first to Vienna and later on to Prague to study.<br> </li>
-            <li><strong>// </strong> &emsp; Later she flees to Yugoslavia where she hides with other young Jews at farmers families from the Nazis.<br> </li>
-            <li> <strong>// </strong> &emsp; After the war she hitchhikes back to Germany and meets her husband Mandel Katz.<br> </li>
-            <li><strong>// </strong> &emsp; Both flee to the western sector of Germany and help to smuggle Jews to Palestine that belonged at this time to the British Mandate.<br> </li>
-            <li> <strong>// </strong> &emsp; In 1949 she emigrates to Israel with her husband and her daughter Lea.<br> </li>
-            <li><strong>// </strong> &emsp; Ron Stern is her grandson.<br> </li>
+            <li><strong>// </strong> &nbsp;Bella (Zahava) Katz was born on 2.9.1924 in Leipzig as Beate Reichardt.<br> </li>
+            <li><strong>// </strong> &nbsp;At the age of 17 her parents send her first to Vienna and later on to Prague to study.<br> </li>
+            <li><strong>// </strong> &nbsp;Later she flees to Yugoslavia where she hides with other young Jews at farmers families from the Nazis.<br> </li>
+            <li><strong>// </strong> &nbsp;After the war she hitchhikes back to Germany and meets her husband Mandel Katz.<br> </li>
+            <li><strong>// </strong> &nbsp;Both flee to the western sector of Germany and help to smuggle Jews to Palestine that belonged at this time to the British Mandate.<br> </li>
+            <li><strong>// </strong> &nbsp;In 1949 she emigrates to Israel with her husband and her daughter Lea.<br> </li>
+            <li><strong>// </strong> &nbsp;Ron Stern is her grandson.<br> </li>
             </ul>
           </div> 
           <div class="border-right"></div>

@@ -41,18 +41,22 @@
       <div class="s4"></div>
 
       <div id="year" class="de">
-       <strong>// </strong> &nbsp; Stefanie (Steffi) wird am 10.04.1928 in Leipzig in einer Kaufmannsfamilie geboren.<br>
-       <strong>// </strong> &emsp; Sie wird mit dem Kindertransport nach England geschickt. Dort kommt sie bei einer liebevollen Familie unter.<br>
-       <strong>// </strong> &emsp; Ihr Vater wird im KZ Theresienstadt ermordet und ihre Mutter stirbt dort an Tuberkulose.<br>
-       <strong>// </strong> &emsp; 1949 wandert sie in Israel ein. Dort lebt sie im Kibbutz Kfar Blum, wo sie auch heute noch mit Kindern, Enkeln und Urenkeln lebt<br>
+      <ul>
+            <li><strong>// </strong> &nbsp;Stefanie (Steffi) wird am 10.04.1928 in Leipzig in einer Kaufmannsfamilie geboren.<br> </li>
+            <li><strong>// </strong> &nbsp;Sie wird mit dem Kindertransport nach England geschickt. Dort kommt sie bei einer liebevollen Familie unter.<br> </li>
+            <li><strong>// </strong> &nbsp;Ihr Vater wird im KZ Theresienstadt ermordet und ihre Mutter stirbt dort an Tuberkulose.<br> </li>
+            <li><strong>// </strong> &nbsp;1949 wandert sie in Israel ein. Dort lebt sie im Kibbutz Kfar Blum, wo sie auch heute noch mit Kindern, Enkeln und Urenkeln lebt<br> </li>
+        </ul>
       </div>
 
       <div id="year" class="en">
-       <strong>//  </strong> &nbsp; Stefanie (Steffi) was born on 10.04.1928 in Leipzig.<br>
-       <strong>//  </strong> &emsp;	Her father is the owner of “Bamberger & Hertz” in Leipzig. <br>
-       <strong>// </strong> &emsp; 	Steffi is sent on the Kindertransport to England. A lovely family takes care of Steffi. <br>
-       <strong>// </strong> &emsp;  Her father is murdered in Theresienstadt and her mother dies from tuberculosis.<br>
-       <strong>// </strong> &emsp; In 1949 she emigrates to Israel. There she goes to Kibbutz Kfar Blum, where she still lives happily with her large family today.<br>
+      <ul>
+            <li><strong>// </strong> &nbsp;Stefanie (Steffi) was born on 10.04.1928 in Leipzig.<br> </li>
+            <li><strong>// </strong> &nbsp;Her father is the owner of “Bamberger & Hertz” in Leipzig. <br>  </li>
+            <li><strong>// </strong> &nbsp;Steffi is sent on the Kindertransport to England. A lovely family takes care of Steffi. <br>  </li>
+            <li><strong>// </strong> &nbsp;Her father is murdered in Theresienstadt and her mother dies from tuberculosis.<br>  </li>
+            <li><strong>// </strong> &nbsp;In 1949 she emigrates to Israel. There she goes to Kibbutz Kfar Blum, where she still lives happily with her large family today.<br>  </li>
+      </ul>
       </div>
     </div>
 
