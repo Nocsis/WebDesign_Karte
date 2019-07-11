@@ -1301,8 +1301,6 @@ display: flex;
 .ie-year > ul {
   
   list-style-type: disc;
-  padding-left: 1em;
-  text-indent: -1em;
 }
 
 #ie-name{
