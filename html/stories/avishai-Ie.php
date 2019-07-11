@@ -27,8 +27,8 @@
          <!--Portrait und Text-->
          <div class="column2"></div>
          <div class="column3">
-            <div class="portrait-avishay-ie1">
-           <img class="portrait-avishay-ie2"src="/material/Bilder/portraits/portraitAvishay.jpg" alt="Portrait Avishay"> </div>
+            <div class="portrait-ie1">
+           <img class="portrait-ie2"src="/material/Bilder/portraits/portraitAvishay.jpg" alt="Portrait Avishay"> </div>
          </div>
           <div class="column4"></div>
           <div class="ie-text de"> >>Wenn du deine Vergangenheit nicht kennst, hast du keine Gegenwart und deine Zukunft ist sehr unklar.<<</div>

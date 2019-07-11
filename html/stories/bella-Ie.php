@@ -23,7 +23,8 @@
          <!--Portrait und Text-->
          <div class="column2"></div>
          <div class="column3">
-         <img src="/material/bilder/portraits/portraitBella.jpeg" alt="Portrait Bella" height="100%" width="90.91%">
+         <div class="portrait-ie1">
+         <img class="portrait-ie2"src="/material/bilder/portraits/portraitBella.jpeg" alt="Portrait Bella"> </div>
          </div>
           <div class="column4"></div>
           <div class="ie-text de"> >>Ich habe nie gesprochen über die Vergangenheit, nie. Ich könnte gar nicht weiterleben, wenn ich immer nur an die Vergangenheit denken würde.<<</div>

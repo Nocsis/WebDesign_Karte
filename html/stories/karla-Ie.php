@@ -23,7 +23,8 @@
          <!--Portrait und Text-->
          <div class="column2"></div>
          <div class="column3">
-         <img src="/material/bilder/portraits/portraitCarla.jpg" alt="Portrait Karla" height="100%" width="90.91%">
+         <div class="portrait-ie1">
+         <img class="portrait-ie2"src="/material/bilder/portraits/portraitCarla.jpg" alt="Portrait Karla"> </div>
          </div>
           <div class="column4"></div>
           <div class="ie-text de"> >>Ich sage immer, man muss sich um die Lebenden kümmern, nicht um die Toten.<<</div>

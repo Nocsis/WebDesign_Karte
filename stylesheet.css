@@ -157,7 +157,12 @@ nav a {
   font-size: 33px;
 }
 
-nav a:hover {
+.active{
+  background-color:#375f79;
+  color: white;
+}
+
+nav a:hover:not(.active) {
   background-color:#375f79;
   color: white;
 }
@@ -1272,16 +1277,56 @@ display: flex;
   margin-bottom: 22vh;
 }
 
-.portrait-avishay-ie1{
+.portrait-ie1{
   position: relative;
-  border:1px solid blue;
   height: 41vh;
 }
 
-.portrait-avishay-ie2{
+.portrait-ie2{
   width: 100%;
   position: absolute;
   bottom: 0px;
   left: 0px;
   z-index: -2;
 }
+
+/*header-ie*/
+/*Personen-nav*/
+#navigation-ie{
+  flex: 0 0 45.2vw;
+  text-align: center;
+}
+
+#navivagtion-ie2 a {
+  float: left;
+  color: black;
+  text-decoration: none;
+  font-size: 20px !important;
+  border:1px solid green;
+}
+
+.active{
+  background-color:#375f79;
+  color: white;
+}
+
+nav a:hover:not(.active) {
+  background-color:#375f79;
+  color: white;
+}
+
+/*mini-Nav rechts*/
+#navigation-right-ie{
+  flex: 0 0 20.8vw;
+}
+
+.sidenav-ie {
+  position: relative;
+  right: 0;
+}
+
+.sidenav-ie a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  float: right;
