@@ -34,7 +34,7 @@
       <div id="text" class="en">
       >>At night I dream a lot. I always stuck in the same place and I don't know how to get away from there.
             I try to walk in different directions but I can't get out of there. I'll keep dreaming after so many years.
-            This isn't easy. But I'll keep on living! I have a good liefe!<<
+            This isn't easy. But I'll keep on living! I have a good life!<<
       </div>
 
       <div class="s"></div>
