@@ -10,7 +10,7 @@
   </head>
 
   <body>
-    <?php include ("../html/header.php"); ?>
+    <?php include ("../html/header-Ie.php"); ?>
 
     <div class="legal-flex-container"> 
       <div class="legal">Impressum</div>
