@@ -368,6 +368,7 @@ nav a:hover:not(.active) {
   top: 4vh;
   width: 3vw;
   height: 3vw;
+  border: none;
   cursor: pointer;
   background-color: transparent;
   background-size: 100%;
@@ -377,6 +378,7 @@ nav a:hover:not(.active) {
 #video-switch-sd {
   left: 5vw;
   background-image: url(material/bilder/SD-Button.png);
+  border-right: 2px solid #c6c6c6;
 }
 
 #video-switch-hd {

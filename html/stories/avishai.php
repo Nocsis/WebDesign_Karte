@@ -85,8 +85,8 @@
         <div id="video-popup">
           <div id="video-container"></div>
           <button id="video-close"></button>
-          <button class="video-switch" id="video-switch-sd">SD</button>
-          <button class="video-switch" id="video-switch-hd">HD</button>
+          <button class="video-switch" id="video-switch-sd"></button>
+          <button class="video-switch" id="video-switch-hd"></button>
         </div>
         <!--Die Reihenfolge der Klassen ist wichtig! Immer "map-button sprache name-stationnr-nr" bzw "map-popup sprache name-stationnr-nr"!-->
         <button class="map-button de avishay-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/avishay01_sd.mp4', '/material/videos/avishay01_sd_en.mp4', this)"></button>
