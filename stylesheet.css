@@ -350,15 +350,33 @@ nav a:hover:not(.active) {
 
 #video-close {
   position: fixed;
-  top: 3vh;
-  right: 3vw;
-  width: 4vw;
-  height: 4vw;
+  top: 4vh;
+  right: 5vw;
+  width: 3vw;
+  height: 3vw;
   border: none;
   cursor: pointer;
+  background-color: transparent;
   background-image: url(material/bilder/closeButton.png);
   background-size: 100%;
   background-repeat: no-repeat;
+}
+
+.video-switch {
+  position: fixed;
+  top: 4vh;
+  width: 3vw;
+  height: 3vw;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+#video-switch-sd {
+  left: 5vw;
+}
+
+#video-switch-hd {
+  left: 8vw;
 }
 
 #video-container {
