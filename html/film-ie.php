@@ -56,7 +56,7 @@
 
     <div class="flex-container8" ></div>
 
-    <div class="flex-container8" >
+    <div class="flex-container8" style="height:9vh !important">
       <p class="de">Der komplette Film "Überleben - Drei jüdische Generationen" ist erhältlich zum Mieten für 72 h
         und zum Kauf als Download unter
         <a href="https://vimeo.com/ondemand/ueberleben">https://vimeo.com/ondemand/ueberleben</a> </p>
