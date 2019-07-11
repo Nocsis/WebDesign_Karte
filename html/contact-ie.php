@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <title>Kontakt</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../stylesheet.css">
-    <script src="../scripts.js"></script>
+    <link rel="stylesheet" href="/stylesheet.css">
+    <script src="/scripts.js"></script>
   </head>
 
   <body>
@@ -17,7 +17,7 @@
       <div class="column8 de">
         <div class="contact-text-wrapper">
           <div class="contact-text-spacer"> </div>
-          <div class="contact-text"> <br>
+          <div class="contact-text-ie"> <br>
             <h3>Kontaktaufnahme</h3>
             <p>Zur Kontaktaufnahme mit dem Verein „Tor nach Zion e.V.“ nutzen Sie bitte dieses Kontaktformular.</p> <br>
           </div>
@@ -66,7 +66,7 @@
       <div class="contact-wrapper en">
         <div class="contact-text-wrapper">
           <div class="contact-text-spacer"> </div>
-          <div class="contact-text">
+          <div class="contact-text-ie">
             <h3>Contact</h3>
             <p>To contact "Tor nach Zion e.V." please use this contact form.</p>
           </div>

@@ -1431,6 +1431,13 @@ display: flex;
   z-index: -2;
 }
 
+/*IE Kontakt*/
+
+.contact-text-ie {
+  width: 43.9vw;
+  height: 100%;
+}
+
 /*header-ie*/
 /*Personen-nav*/
 #navigation-ie{

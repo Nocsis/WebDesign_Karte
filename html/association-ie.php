@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title>Impressum</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../stylesheet.css">
+    <link rel="stylesheet" href="/stylesheet.css">
   </head>
   <body>
 
@@ -14,20 +14,20 @@
       <div class="flex-container2">
           <div class="border-left"></div>
           <div class="ie-tnz-logo de">
-            <img src="../Material/Bilder/TnZ-Logo.PNG" height="25%" width="35%"> <br> <br>
+            <img src="/material/bilder/TnZ-Logo.PNG" height="25%" width="35%"> <br> <br>
             >> Viele Völker werden hingehen und sagen: Kommt, laßt uns hinaufziehen zum Berg des HERRN... <br>
             Denn von Zion wird Weisung ausgehen und das Wort des HERRN von Jerusalem.<< Jesaja 2:3
           </div>
 
           <div class="ie-tnz-logo en">
-            <img src="../Material/Bilder/TnZ-Logo.PNG" height="25%" width="35%"> <br> <br>
+            <img src="/material/bilder/TnZ-Logo.PNG" height="25%" width="35%"> <br> <br>
             >> Many people will come and say, "Come, let us go up to the mountain of the LORD, 
             to the house of the God of Jacob. He will teach us his ways, so that we may walk in his paths." <br>
             The law will go out from Zion, the word of the LORD from Jerusalem."<< Jesaja 2:3
           </div>
 
           <div class="column4"></div>
-          <div class="ie-association-img"style="1px solid purple"><img src="../Material/Bilder/Verein.jpg" height="100%" width="100%"></div>   
+          <div class="ie-association-img"style="1px solid purple"><img src="/material/bilder/Verein.jpg" height="100%" width="100%"></div>   
           <div class="border-right"></div>
         </div>
         <div></div>
@@ -68,7 +68,7 @@
 
         <div class="container4">
             <div class="border-left"></div>
-            <div class="ie-fhd-logo"> <img src="../Material/Bilder/FHD-Logo.PNG" height= 120px; width="210px" ></div>
+            <div class="ie-fhd-logo"> <img src="/material/bilder/FHD-Logo.PNG" height= 120px; width="210px" ></div>
             <div class="column2"></div>
             <div class="ie-students de">
               Entworfen von Studierenden der Fachhochschule Dresden <br><br>
@@ -95,7 +95,7 @@
             <div class="border-right "></div>
         </div>
         
-          <script src="../scripts.js"></script>
+          <script src="/scripts.js"></script>
       
   </body>
 

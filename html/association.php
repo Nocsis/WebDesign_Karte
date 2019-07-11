@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <title>Impressum</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../stylesheet.css">
-    <script src="../scripts.js"></script>
+    <link rel="stylesheet" href="/stylesheet.css">
+    <script src="/scripts.js"></script>
   </head>
 
   <body>
@@ -16,20 +16,20 @@
       <!--Das &nbsp; vor den Zeilen ist wichtig
           um das Layout der schwarzen Boxen zu erhalten!-->
       <div class="association de">
-        <img src="../Material/Bilder/TnZ-Logo.PNG" height="25%" width="35%"> <br> <br>
+        <img src="/material/bilder/TnZ-Logo.PNG" height="25%" width="35%"> <br> <br>
         >> Viele Völker werden hingehen und sagen: Kommt, laßt uns hinaufziehen zum Berg des HERRN... <br>
         Denn von Zion wird Weisung ausgehen und das Wort des HERRN von Jerusalem.<< Jesaja 2:3
       </div>
 
       <div class="association en">
-        <img src="../Material/Bilder/TnZ-Logo.PNG" height="25%" width="35%"> <br> <br>
+        <img src="/material/bilder/TnZ-Logo.PNG" height="25%" width="35%"> <br> <br>
         >> Many people will come and say, "Come, let us go up to the mountain of the LORD, 
         to the house of the God of Jacob. He will teach us his ways, so that we may walk in his paths." <br>
         The law will go out from Zion, the word of the LORD from Jerusalem."<< Jesaja 2:3
       </div>
 
       <div id="association-img">
-        <img src="../Material/Bilder/Verein.jpg" height="100%" width="100%">
+        <img src="/material/bilder/Verein.jpg" height="100%" width="100%">
       </div>
 
       <div class="explanation de">
@@ -80,7 +80,7 @@
 
       <div class="fhd">
         <br><br><br>
-        <img src="../Material/Bilder/FHD-Logo.PNG" height= 120px; width="210px" >
+        <img src="/material/bilder/FHD-Logo.PNG" height= 120px; width="210px" >
       </div>
 
     </div>
