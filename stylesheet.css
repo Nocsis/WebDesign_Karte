@@ -1106,6 +1106,12 @@ height: 100%;
   display: flex;
 }
 
+.flex-container8 p{
+  font-family: 'MuliRegular';
+  text-align: center;
+  font-size: 25px;
+}
+
 .flex-container9{
   height: 75.5vh;
   display:flex;
@@ -1124,6 +1130,11 @@ height: 100%;
 .flex-container12{
   height:8vh;
   display:flex;
+}
+
+.flex-container13{
+  height: 92.6vh;
+  display: flex;
 }
 
 .border-left{
