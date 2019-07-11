@@ -25,8 +25,8 @@
     </nav>
   </div>
 
-  <div id="border-right">
-    <button id="de-click" class="button-lang current-lang">DE</button>
+  <div id="button-border">
+  <button id="de-click" class="button-lang current-lang">DE</button>
     <button id="en-click" class="button-lang">EN</button>
   </div>
 </div>

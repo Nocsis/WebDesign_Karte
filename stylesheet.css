@@ -111,15 +111,23 @@ header {
   width: 1.5vw;
   height: 1.5vw;
   margin-left: 0.3vw;
-  float: left;
+  float: right;
   color: black;
-  border-style: none;
+  border: 1px solid black;
   cursor: pointer;
   border-radius: 50%;
+  background-image: url("material/bilder/nav_bg_notext_small.png")
 }
 
-.button-lang:hover, .current-lang {
-  background-color: #777;
+ .current-lang {
+  /*background-color: #777;*/
+  background-color:#375f79;
+  color: white;
+}
+
+#button-border{
+  flex: 0 0 5.5vw;
+  height:75px;
 }
 
 /*Logo*/
@@ -1329,3 +1337,4 @@ nav a:hover:not(.active) {
   text-decoration: none;
   font-size: 15px;
   float: right;
+}
