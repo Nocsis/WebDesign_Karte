@@ -1029,6 +1029,11 @@ height: 100%;
   display:flex;
 }
 
+.flex-container12{
+  height:8vh;
+  display:flex;
+}
+
 .border-left{
 flex: 0 0 5.2vw;
 display: flex;
