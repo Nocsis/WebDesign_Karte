@@ -56,18 +56,20 @@
 
     <div class="flex-container8" ></div>
 
-    <div class="flex-container8" style="height:9vh !important">
-      <p class="de">Der komplette Film "Überleben - Drei jüdische Generationen" ist erhältlich zum Mieten für 72 h
+    <div class="flex-container14">
+      <p class="film-survive-text-ie de">Der komplette Film "Überleben - Drei jüdische Generationen" ist erhältlich zum Mieten für 72 h
         und zum Kauf als Download unter
-        <a href="https://vimeo.com/ondemand/ueberleben">https://vimeo.com/ondemand/ueberleben</a> </p>
+        <a href="https://vimeo.com/ondemand/ueberleben">https://vimeo.com/ondemand/ueberleben</a> 
+      </p>
 
-        <p class="en">
+        <p class="film-survive-text-ie en">
           Our film production "Survival - Three Jewish Generations" is available for rent for 72 hours 
-        and for sale as download. <br>
-        see <a href="https://vimeo.com/ondemand/stjg">https://vimeo.com/ondemand/stjg</a> </p>
+          and for sale as download. <br>
+          see <a href="https://vimeo.com/ondemand/stjg">https://vimeo.com/ondemand/stjg</a> 
+      </p>
     </div>
 
-    <div style="border:1px solid green"class="flex-container13" >
+    <div class="flex-container13" >
         <div class="border-left" ></div>
 
         
