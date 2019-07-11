@@ -94,7 +94,7 @@
 
 
         <button class="map-button en steffi-station1-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi01_sd_en.mp4', '/material/videos/steffi01_en.mp4', this)"></button>
-        <div class="map-popup en steffi-station1-1">Steffi talks about her happy and protected childhood.d</div>
+        <div class="map-popup en steffi-station1-1">Steffi talks about her happy and protected childhood.</div>
 
         <button class="map-button en steffi-station1-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi02_sd_en.mp4', '/material/videos/steffi02_en.mp4', this)"></button>
         <div class="map-popup en steffi-station1-2">Steffi talks about the destruction of the family business Bamberger & Hertz.</div>
@@ -106,7 +106,7 @@
         <div class="map-popup en steffi-station2-1">Steffi describes the fate of her parents.</div>
 
         <button class="map-button en steffi-station2-2" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi05_sd_en.mp4', '/material/videos/steffi05_en.mp4', this)"></button>
-        <div class="map-popup en steffi-station2-2">Steffi talks about the preparation to immigrate to Israel. </div>
+        <div class="map-popup en steffi-station2-2">Steffi talks about the preparation to immigrate to Israel.</div>
 
         <button class="map-button en steffi-station3-1" onmouseover="popupDescription(this)" onmouseout="hideDescription(this)" onclick="popupVideo('/material/videos/steffi06_sd_en.mp4', '/material/videos/steffi06_en.mp4', this)"></button>
         <div class="map-popup en steffi-station3-1">BSteffi describes her first years in the Kibbutz. She worked as a cook.</div>
