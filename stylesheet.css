@@ -264,10 +264,7 @@ nav a:hover:not(.active) {
   text-align: left;
   font-size: 1.3vw;
   overflow: auto;
-}
-
-#year strong {
-  margin-right: 3vw;
+  white-space: pre-wrap;
 }
 
 /*Scroll Buttons*/
