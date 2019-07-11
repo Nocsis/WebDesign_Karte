@@ -264,7 +264,13 @@ nav a:hover:not(.active) {
   text-align: left;
   font-size: 1.3vw;
   overflow: auto;
-  white-space: pre-wrap;
+}
+
+#year > ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
 }
 
 /*Scroll Buttons*/

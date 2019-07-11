@@ -60,11 +60,13 @@
       <div class="s4"></div>
 
       <div id="year" class="de">
-      <strong>//</strong>Geboren am 9.9.1949 in Haifa.
-      <strong>//</strong>Die Mutter von Avishay Golz, wird als Edith Gutter in Leipzig geboren. Sie wird als junges Mädchen von ihrer Familie in die Schweiz geschickt. Später trifft sich die Familie in Holland wieder.
-      <strong>//</strong>Edith Gutter wird von einer Bauernfamilie in Holland versteckt und überlebt den Holocaust. Ihre Eltern werden in Sobibor ermordet.
-      <strong>//</strong>Nach dem Krieg lernt sie ihren Mann kennen und wandert mit ihm in Israel ein.
-      <strong>//</strong>Avishay Golz lebt heute in Haifa.
+        <ul>
+          <li><strong>//</strong> &nbsp;Geboren am 9.9.1949 in Haifa.</li>
+          <li><strong>//</strong> &nbsp;Die Mutter von Avishay Golz, wird als Edith Gutter in Leipzig geboren. Sie wird als junges Mädchen von ihrer Familie in die Schweiz geschickt. Später trifft sich die Familie in Holland wieder.</li>
+          <li><strong>//</strong> &nbsp;Edith Gutter wird von einer Bauernfamilie in Holland versteckt und überlebt den Holocaust. Ihre Eltern werden in Sobibor ermordet.</li>
+          <li><strong>//</strong> &nbsp;Nach dem Krieg lernt sie ihren Mann kennen und wandert mit ihm in Israel ein.</li>
+          <li><strong>//</strong> &nbsp;Avishay Golz lebt heute in Haifa.</li>
+        </ul>
       </div>
 
       <div id="year" class="en">
