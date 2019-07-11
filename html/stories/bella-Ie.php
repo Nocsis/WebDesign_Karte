@@ -67,7 +67,7 @@
             <li><strong></strong> &nbsp;At the age of 17 her parents send her first to Vienna and later on to Prague to study.<br> </li>
             <li><strong></strong> &nbsp;Later she flees to Yugoslavia where she hides with other young Jews at farmers families from the Nazis.<br> </li>
             <li><strong></strong> &nbsp;After the war she hitchhikes back to Germany and meets her husband Mandel Katz.<br> </li>
-            <li><strong></strong> &nbsp;Both flee to the western sector of Germany and help to smuggle Jews to Palestine that belonged at this time to the British Mandate.<br> </li>
+            <li><strong></strong> &nbsp;Both flee to the western sector of Germany and help to smuggle Jews to Palestine that belonged to the British Mandate at this times.<br> </li>
             <li><strong></strong> &nbsp;In 1949 she emigrates to Israel with her husband and her daughter Lea.<br> </li>
             <li><strong></strong> &nbsp;Ron Stern is her grandson.<br> </li>
             </ul>
