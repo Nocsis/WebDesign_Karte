@@ -23,7 +23,7 @@
       </div>
 
       <div id="portrait">
-        <img src="/material/bilder/portraits/portraitCarla.jpg" alt="Portrait Karla" height="100%" width="90.91%">
+        <img src="/material/bilder/portraits/portraitCarla.jpg" alt="Portrait Karla">
       </div>
 
       <div id="text" class="de">

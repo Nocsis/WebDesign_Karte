@@ -23,7 +23,8 @@
          <!--Portrait und Text-->
          <div class="column2"></div>
          <div class="column3">
-         <img src="/material/bilder/portraits/portraitJosef.png" alt="Portrait Avishay" height="100%" width="90.91%">
+         <div class="portrait-ie1">
+         <img class="portrait-ie2"src="/material/bilder/portraits/portraitJosef.png" alt="Portrait Avishay"> </div>
          </div>
           <div class="column4"></div>
           <div class="ie-text de"> >>Ich erzähle meine Geschichte. Weiter und weiter und es ist, … es ist schwer. Und es tut weh. Aber ich freue mich heute, dass ich die Geschichte  erzählen und weitergeben kann.<<</div>

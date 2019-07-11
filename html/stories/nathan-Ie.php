@@ -23,7 +23,8 @@
          <!--Portrait und Text-->
          <div class="column2"></div>
          <div class="column3">
-           <img src="/material/bilder/portraits/portraitNathan.png" alt="Portrait Avishay" height="100%" width="90.91%">
+         <div class="portrait-ie1">
+           <img class="portrait-ie2"src="/material/bilder/portraits/portraitNathan.png" alt="Portrait Avishay"> </div>
          </div>
           <div class="column4"></div>
           <div class="ie-text de"> „Nachts träume ich oft. Immer bin ich an einem Ort und weiß nicht, wie ich 	dort weg komme. Ich laufe dahin und dorthin und komme nicht raus. Nach so	vielen Jahren, nach 70 Jahren. Das ist nicht einfach. Aber ich lebe! Ich habe	ein gutes Leben!“</div>
