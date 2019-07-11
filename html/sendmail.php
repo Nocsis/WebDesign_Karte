@@ -14,6 +14,5 @@ if(isset($_POST["submit"])) {
     $txt = $name." schreibt über das Überleben-Kontaktformular:\n\n".$message;
 
     mail($mailTo, $subject, $txt, implode("\r\n",$headers));
-    header("Location: contact.php?sent=1");
-    //TODO: Edit contact.php div(id="contact-confirmation"). https://css-tricks.com/snippets/javascript/get-url-variables/
+    header("Location: contact.php?sent");
 }

@@ -18,7 +18,7 @@ var deutsch = document.getElementById('de-click'),
 deutsch.addEventListener('click', function() {switchGerman();});
 english.addEventListener('click', function() {switchEnglish();});
 
-//avtive nav element
+//active nav element
 var navElements = document.querySelectorAll(".nav-element"),
 nb_elements = navElements.length;
 
@@ -29,9 +29,18 @@ var videoPopup = document.getElementById("video-popup"),
     descriptionPopup = document.querySelectorAll(".map-popup"),
     nb_descriptions = descriptionPopup.length;
 
+//URL Variablen
+var query = window.location.search.substring(1),
+    vars = query.split("&"),
+    nb_vars = vars.length,
+    /*contact.php sent confirmation*/
+    sentConfirmation = document.querySelector(".contact-confirmation");
+
+
 //----Funktionsaufrufe----
 init();
 checkNav();
+checkVars();
 
 window.onload = function() {checkScroll()};
 window.onscroll = function() {checkScroll()};
@@ -180,6 +189,16 @@ function hideDescription(element) {
     if(descriptionPopup[i].classList.item(1) == element.classList.item(1)
     && descriptionPopup[i].classList.item(2) == element.classList.item(2)) {
       descriptionPopup[i].classList.toggle("show");
+    }
+  }
+}
+
+function checkVars() {
+  for(var i = 0; i < nb_vars; i++) {
+
+    //Check for contact.php -> Email sent
+    if(vars[0] == "sent") {
+      sentConfirmation.style.display = "block";
     }
   }
 }
